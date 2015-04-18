@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dFZ-86-zeu">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -15,10 +16,57 @@
                     <view key="view" contentMode="scaleToFill" id="iQ4-Jw-Wj2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ulw-76-g9i">
+                                <rect key="frame" x="0.0" y="87" width="600" height="513"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Lja-ut-kGm">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lja-ut-kGm" id="bU7-lY-hpc">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2Xy-MY-TWe" id="YtB-OW-gSh"/>
+                                    <outlet property="delegate" destination="2Xy-MY-TWe" id="tES-CZ-kY5"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search For A Food" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j0A-W3-Evl">
+                                <rect key="frame" x="26" y="33" width="514" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j79-hi-81o">
+                                <rect key="frame" x="556" y="37" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="D7Y-F8-LPo"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ulw-76-g9i" firstAttribute="top" secondItem="j0A-W3-Evl" secondAttribute="bottom" constant="24" id="6ZL-EP-dQo"/>
+                            <constraint firstItem="Ulw-76-g9i" firstAttribute="bottom" secondItem="Oyj-DU-fzY" secondAttribute="top" id="HW8-QO-f19"/>
+                            <constraint firstItem="j0A-W3-Evl" firstAttribute="leading" secondItem="iQ4-Jw-Wj2" secondAttribute="leadingMargin" constant="10" id="HsN-7Q-rDS"/>
+                            <constraint firstItem="j79-hi-81o" firstAttribute="leading" secondItem="j0A-W3-Evl" secondAttribute="trailing" constant="16" id="VYP-o9-Y3x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j79-hi-81o" secondAttribute="trailing" constant="6" id="Xg0-qf-Ly5"/>
+                            <constraint firstItem="j0A-W3-Evl" firstAttribute="top" secondItem="7Qt-Yg-UBe" secondAttribute="bottom" constant="13" id="ioR-Zl-Fp1"/>
+                            <constraint firstItem="j0A-W3-Evl" firstAttribute="centerY" secondItem="j79-hi-81o" secondAttribute="centerY" id="jHz-Wr-9pU"/>
+                            <constraint firstAttribute="trailing" secondItem="Ulw-76-g9i" secondAttribute="trailing" id="kLA-Gk-etw"/>
+                            <constraint firstItem="Ulw-76-g9i" firstAttribute="leading" secondItem="iQ4-Jw-Wj2" secondAttribute="leading" id="uUt-EI-yD1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qsG-Wr-uKg"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mainTable" destination="Ulw-76-g9i" id="7Rz-1Q-oUP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIP-u0-xn9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -27,7 +75,7 @@
         <!--Navigation Controller-->
         <scene sceneID="aif-eZ-Pw1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dFZ-86-zeu" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="dFZ-86-zeu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AnZ-Wd-GHC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
