@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		492AD8831AE2E0C800789082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8821AE2E0C800789082 /* AppDelegate.swift */; };
-		492AD8851AE2E0C800789082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8841AE2E0C800789082 /* ViewController.swift */; };
+		492AD8851AE2E0C800789082 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8841AE2E0C800789082 /* MainViewController.swift */; };
 		492AD8881AE2E0C800789082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8861AE2E0C800789082 /* Main.storyboard */; };
 		492AD88A1AE2E0C800789082 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8891AE2E0C800789082 /* Images.xcassets */; };
 		492AD88D1AE2E0C800789082 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AD88B1AE2E0C800789082 /* LaunchScreen.xib */; };
 		492AD8991AE2E0C800789082 /* FlavorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8981AE2E0C800789082 /* FlavorsTests.swift */; };
+		492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8A81AE2EA3500789082 /* FoodModel.swift */; };
+		492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8AA1AE2EA4E00789082 /* MenuModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,7 @@
 		492AD87D1AE2E0C800789082 /* Flavors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flavors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492AD8811AE2E0C800789082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492AD8821AE2E0C800789082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		492AD8841AE2E0C800789082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492AD8841AE2E0C800789082 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		492AD8871AE2E0C800789082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492AD8891AE2E0C800789082 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		492AD88C1AE2E0C800789082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		492AD8971AE2E0C800789082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492AD8981AE2E0C800789082 /* FlavorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorsTests.swift; sourceTree = "<group>"; };
 		492AD8A21AE2E22D00789082 /* SkunkWorks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SkunkWorks.playground; sourceTree = "<group>"; };
+		492AD8A81AE2EA3500789082 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodModel.swift; path = Flavors/Models/FoodModel.swift; sourceTree = SOURCE_ROOT; };
+		492AD8AA1AE2EA4E00789082 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuModel.swift; path = Flavors/Models/MenuModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		492AD8741AE2E0C800789082 = {
 			isa = PBXGroup;
 			children = (
+				492AD8A51AE2EA1700789082 /* Models */,
 				492AD87F1AE2E0C800789082 /* Flavors */,
 				492AD8951AE2E0C800789082 /* FlavorsTests */,
 				492AD87E1AE2E0C800789082 /* Products */,
@@ -79,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				492AD8821AE2E0C800789082 /* AppDelegate.swift */,
-				492AD8841AE2E0C800789082 /* ViewController.swift */,
+				492AD8841AE2E0C800789082 /* MainViewController.swift */,
 				492AD8861AE2E0C800789082 /* Main.storyboard */,
 				492AD8A21AE2E22D00789082 /* SkunkWorks.playground */,
 				492AD8891AE2E0C800789082 /* Images.xcassets */,
@@ -112,6 +117,16 @@
 				492AD8971AE2E0C800789082 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		492AD8A51AE2EA1700789082 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				492AD8A81AE2EA3500789082 /* FoodModel.swift */,
+				492AD8AA1AE2EA4E00789082 /* MenuModel.swift */,
+			);
+			name = Models;
+			path = Flavors.xcodeproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492AD8851AE2E0C800789082 /* ViewController.swift in Sources */,
+				492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */,
+				492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */,
+				492AD8851AE2E0C800789082 /* MainViewController.swift in Sources */,
 				492AD8831AE2E0C800789082 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
