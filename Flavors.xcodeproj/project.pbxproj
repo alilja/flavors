@@ -36,6 +36,7 @@
 		492AD8921AE2E0C800789082 /* FlavorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492AD8971AE2E0C800789082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492AD8981AE2E0C800789082 /* FlavorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorsTests.swift; sourceTree = "<group>"; };
+		492AD8A21AE2E22D00789082 /* SkunkWorks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SkunkWorks.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				492AD8821AE2E0C800789082 /* AppDelegate.swift */,
 				492AD8841AE2E0C800789082 /* ViewController.swift */,
 				492AD8861AE2E0C800789082 /* Main.storyboard */,
+				492AD8A21AE2E22D00789082 /* SkunkWorks.playground */,
 				492AD8891AE2E0C800789082 /* Images.xcassets */,
 				492AD88B1AE2E0C800789082 /* LaunchScreen.xib */,
 				492AD8801AE2E0C800789082 /* Supporting Files */,
