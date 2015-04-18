@@ -1,17 +1,55 @@
-//: Playground - noun: a place where people can play
-
-import UIKit
-
-//
-//  MenuModel.swift
-//  Flavors
-//
-//  Created by Andrew on 4/18/15.
-//  Copyright (c) 2015 Andrew Lilja. All rights reserved.
-//
-
 import Foundation
 
+class FoodModel {
+    let name: String
+    let flavors: Array<String>
+    let technique: Array<String>
+    let seasons: Array<String>
+    var menu: MenuModel?
+    
+    init(name: String, flavors: Array<String>, technique: Array<String>, seasons: Array<String>){
+        self.name = name.lowercaseString
+        self.flavors = flavors
+        self.technique = technique
+        self.seasons = seasons
+    }
+    
+    func getFit() -> Float{
+        var shared_flavors = self.getSharedFlavors(1).keys.array
+        var fit: Int = 0
+        for flavor in shared_flavors{
+            if contains(self.flavors, flavor){
+                fit += 1
+            }
+        }
+        return Float(fit) / Float(shared_flavors.count)
+    }
+    
+    func getSharedFlavors(minShared: Int) -> [String: Int]{
+        // get all flavors in menu
+        var flavors = Set<String>()
+        for food in self.menu!.foods{
+            for flavor in food.flavors{
+                flavors.insert(flavor)
+            }
+        }
+        
+        // count them
+        var counted_flavors = [String: Int]()
+        for flavor in flavors{
+            counted_flavors[flavor] = (counted_flavors[flavor] ?? 0) + 1
+        }
+        
+        // return them if there are > minShared
+        var output = [String: Int]()
+        for (flavor, count) in counted_flavors{
+            if count >= minShared{
+                output[flavor] = count
+            }
+        }
+        return output
+    }
+}
 class MenuModel{
     private var _foods: Array<FoodModel>
     var foods: Array<FoodModel> {
@@ -42,72 +80,25 @@ class MenuModel{
     }
 }
 
-//
-//  FoodModel.swift
-//  Flavors
-//
-//  Created by Andrew on 4/18/15.
-//  Copyright (c) 2015 Andrew Lilja. All rights reserved.
-//
+var foods = [FoodModel]()
 
-import Foundation
+let path = NSBundle.mainBundle().pathForResource("foods", ofType: "plist")
+var food_data = NSDictionary(contentsOfFile: path!)
 
-class FoodModel {
-    let name: String
-    let flavors: Set<String>
-    let technique: String
-    let seasons: Set<String>
-    var menu: MenuModel?
-    
-    init(name: String, flavors: Set<String>, technique: String, seasons: Set<String>){
-        self.name = name.lowercaseString
-        self.flavors = flavors
-        self.technique = technique
-        self.seasons = seasons
+for (food, data) in food_data!{
+    var techniques = Array<String>()
+    var flavors = Array<String>()
+    var seasons = Array<String>()
+    for (key, value) in data as! NSDictionary{
+        if key as! String == "Flavors"{
+            flavors = value as! Array<String>
+        }
+        if key as! String == "Technique"{
+            techniques = value as! Array<String>
+        }
+        if key as! String == "Seasons"{
+            seasons = value as! Array<String>
+        }
     }
-    
-    func getFit() -> Float{
-        var shared_flavors = self.getSharedFlavors(1).keys.array
-        var fit: Int = 0
-        for flavor in shared_flavors{
-            if contains(self.flavors, flavor){
-                fit += 1
-            }
-        }
-        return Float(fit) / Float(shared_flavors.count)
-    }
-    
-    func getSharedFlavors(minShared: Int) -> [String: Int]{
-        // get all flavors in menu
-        var flavors = [String]()
-        for food in self.menu!.foods{
-            flavors.extend(food.flavors)
-        }
-        
-        // count them
-        var counted_flavors = [String: Int]()
-        for flavor in flavors{
-            counted_flavors[flavor] = (counted_flavors[flavor] ?? 0) + 1
-        }
-        
-        // return them if there are > minShared
-        var output = [String: Int]()
-        for (flavor, count) in counted_flavors{
-            if count >= minShared{
-                output[flavor] = count
-            }
-        }
-        return output
-    }
+    foods.append(FoodModel(name: food as! String, flavors: flavors, technique: techniques, seasons: seasons))
 }
-
-
-
-let test_a = FoodModel(name: "A", flavors: ["a","b"], technique: "alpha", seasons: ["beta"])
-let test_b = FoodModel(name: "B", flavors: ["b","c","d"], technique: "alpha", seasons: ["beta"])
-
-
-var menu = MenuModel(foods: [test_a, test_b])
-
-let fit = test_a.getFit()
-let shared = test_a.getSharedFlavors(1)

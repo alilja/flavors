@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="mCY-F7-TAN">
             <objects>
-                <tableViewController id="5Se-dq-fIr" sceneMemberID="viewController">
+                <tableViewController id="5Se-dq-fIr" customClass="MainViewController" customModule="Flavors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="DqP-Ov-9mv">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

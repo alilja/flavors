@@ -16,6 +16,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        var foods = [FoodModel]()
+        
+        let path = NSBundle.mainBundle().pathForResource("foods", ofType: "plist")
+        var food_data = NSDictionary(contentsOfFile: path!)
+        
+        for (food, data) in food_data!{
+            var techniques = Array<String>()
+            var flavors = Array<String>()
+            var seasons = Array<String>()
+            for (key, value) in data as! NSDictionary{
+                if key as! String == "Flavors"{
+                    flavors = value as! Array<String>
+                }
+                if key as! String == "Technique"{
+                    techniques = value as! Array<String>
+                }
+                if key as! String == "Seasons"{
+                    seasons = value as! Array<String>
+                }
+            }
+            foods.append(FoodModel(name: food as! String, flavors: flavors, technique: techniques, seasons: seasons))
+        }
+        let root_viewcontroller = self.window?.rootViewController as! MainViewController
+        root_viewcontroller.food_db = foods
         return true
     }
 

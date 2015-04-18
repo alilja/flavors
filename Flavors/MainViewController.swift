@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController{
-
+class MainViewController: UITableViewController{
+    
+    var food_db: Array<FoodModel>!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        println(food_db)
     }
 
     override func didReceiveMemoryWarning() {

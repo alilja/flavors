@@ -15,6 +15,7 @@
 		492AD8991AE2E0C800789082 /* FlavorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8981AE2E0C800789082 /* FlavorsTests.swift */; };
 		492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8A81AE2EA3500789082 /* FoodModel.swift */; };
 		492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8AA1AE2EA4E00789082 /* MenuModel.swift */; };
+		492AD8AD1AE2F0CB00789082 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8AC1AE2F0CB00789082 /* foods.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		492AD8A21AE2E22D00789082 /* SkunkWorks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SkunkWorks.playground; sourceTree = "<group>"; };
 		492AD8A81AE2EA3500789082 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodModel.swift; path = Flavors/Models/FoodModel.swift; sourceTree = SOURCE_ROOT; };
 		492AD8AA1AE2EA4E00789082 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuModel.swift; path = Flavors/Models/MenuModel.swift; sourceTree = SOURCE_ROOT; };
+		492AD8AC1AE2F0CB00789082 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				492AD8821AE2E0C800789082 /* AppDelegate.swift */,
 				492AD8841AE2E0C800789082 /* MainViewController.swift */,
+				492AD8AC1AE2F0CB00789082 /* foods.plist */,
 				492AD8861AE2E0C800789082 /* Main.storyboard */,
 				492AD8A21AE2E22D00789082 /* SkunkWorks.playground */,
 				492AD8891AE2E0C800789082 /* Images.xcassets */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492AD8AD1AE2F0CB00789082 /* foods.plist in Resources */,
 				492AD8881AE2E0C800789082 /* Main.storyboard in Resources */,
 				492AD88D1AE2E0C800789082 /* LaunchScreen.xib in Resources */,
 				492AD88A1AE2E0C800789082 /* Images.xcassets in Resources */,

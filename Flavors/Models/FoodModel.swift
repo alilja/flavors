@@ -10,12 +10,12 @@ import Foundation
 
 class FoodModel {
     let name: String
-    let flavors: Set<String>
-    let technique: String
-    let seasons: Set<String>
+    let flavors: Array<String>
+    let technique: Array<String>
+    let seasons: Array<String>
     var menu: MenuModel?
     
-    init(name: String, flavors: Set<String>, technique: String, seasons: Set<String>){
+    init(name: String, flavors: Array<String>, technique: Array<String>, seasons: Array<String>){
         self.name = name.lowercaseString
         self.flavors = flavors
         self.technique = technique
@@ -35,9 +35,11 @@ class FoodModel {
     
     func getSharedFlavors(minShared: Int) -> [String: Int]{
         // get all flavors in menu
-        var flavors = [String]()
+        var flavors = Set<String>()
         for food in self.menu!.foods{
-            flavors.extend(food.flavors)
+            for flavor in food.flavors{
+                flavors.insert(flavor)
+            }
         }
         
         // count them
