@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UITableViewController{
+class MainViewController: UIViewController{
     
     var food_db: Array<FoodModel>!
     

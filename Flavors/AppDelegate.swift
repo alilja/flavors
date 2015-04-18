@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // load data from foods.plist
         var foods = [FoodModel]()
         
         let path = NSBundle.mainBundle().pathForResource("foods", ofType: "plist")
@@ -38,8 +40,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             foods.append(FoodModel(name: food as! String, flavors: flavors, technique: techniques, seasons: seasons))
         }
-        let root_viewcontroller = self.window?.rootViewController as! MainViewController
-        root_viewcontroller.food_db = foods
+        
+        // pass data to the root view controller
+        let root_viewcontroller = self.window?.rootViewController as! UINavigationController
+        let main_viewcontroller = root_viewcontroller.viewControllers.last as! MainViewController // get first viewcontroller
+        main_viewcontroller.food_db = foods
+        
         return true
     }
 
