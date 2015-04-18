@@ -26,4 +26,14 @@ class MenuModel{
         self._foods = Array<FoodModel>()
         self.foods = foods
     }
+    
+    func add(newFoods: Array<FoodModel>){
+        for food in newFoods{
+            self.foods.append(food)
+        }
+    }
+    
+    func add(newFood: FoodModel){
+        self.add([newFood])
+    }
 }
