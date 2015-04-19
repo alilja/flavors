@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // load data from foods.plist
-        var foods = [FoodModel]()
+        var foods = [String: FoodModel]()
         
         let path = NSBundle.mainBundle().pathForResource("foods", ofType: "plist")
         var food_data = NSDictionary(contentsOfFile: path!)
@@ -38,8 +38,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     seasons = value as! Array<String>
                 }
             }
-            foods.append(FoodModel(name: food as! String, flavors: flavors, technique: techniques, seasons: seasons))
+            foods[food as! String] = FoodModel(name: food as! String, flavors: flavors, technique: techniques, seasons: seasons)
         }
+        
         
         // pass data to the root view controller
         let root_viewcontroller = self.window?.rootViewController as! UINavigationController

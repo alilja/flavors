@@ -47,17 +47,25 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Y8U-iJ-kBO">
+                                <rect key="frame" x="26" y="71" width="514" height="509"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ulw-76-g9i" firstAttribute="top" secondItem="j0A-W3-Evl" secondAttribute="bottom" constant="24" id="6ZL-EP-dQo"/>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="trailing" secondItem="j0A-W3-Evl" secondAttribute="trailing" id="Ed0-nZ-xt2"/>
                             <constraint firstItem="Ulw-76-g9i" firstAttribute="bottom" secondItem="Oyj-DU-fzY" secondAttribute="top" id="HW8-QO-f19"/>
                             <constraint firstItem="j0A-W3-Evl" firstAttribute="leading" secondItem="iQ4-Jw-Wj2" secondAttribute="leadingMargin" constant="10" id="HsN-7Q-rDS"/>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="leading" secondItem="j0A-W3-Evl" secondAttribute="leading" id="JdR-rU-DPw"/>
                             <constraint firstItem="j79-hi-81o" firstAttribute="leading" secondItem="j0A-W3-Evl" secondAttribute="trailing" constant="16" id="VYP-o9-Y3x"/>
                             <constraint firstAttribute="trailingMargin" secondItem="j79-hi-81o" secondAttribute="trailing" constant="6" id="Xg0-qf-Ly5"/>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="top" secondItem="j0A-W3-Evl" secondAttribute="bottom" constant="8" symbolic="YES" id="i82-Hk-hKE"/>
                             <constraint firstItem="j0A-W3-Evl" firstAttribute="top" secondItem="7Qt-Yg-UBe" secondAttribute="bottom" constant="13" id="ioR-Zl-Fp1"/>
                             <constraint firstItem="j0A-W3-Evl" firstAttribute="centerY" secondItem="j79-hi-81o" secondAttribute="centerY" id="jHz-Wr-9pU"/>
                             <constraint firstAttribute="trailing" secondItem="Ulw-76-g9i" secondAttribute="trailing" id="kLA-Gk-etw"/>
+                            <constraint firstAttribute="bottom" secondItem="Y8U-iJ-kBO" secondAttribute="bottom" constant="20" symbolic="YES" id="oki-Ng-Z7T"/>
                             <constraint firstItem="Ulw-76-g9i" firstAttribute="leading" secondItem="iQ4-Jw-Wj2" secondAttribute="leading" id="uUt-EI-yD1"/>
                         </constraints>
                     </view>
@@ -65,7 +73,9 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="autocompleteTableView" destination="Y8U-iJ-kBO" id="6W1-mT-w5C"/>
                         <outlet property="mainTable" destination="Ulw-76-g9i" id="7Rz-1Q-oUP"/>
+                        <outlet property="searchBox" destination="j0A-W3-Evl" id="Zk7-7c-M7d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIP-u0-xn9" userLabel="First Responder" sceneMemberID="firstResponder"/>
