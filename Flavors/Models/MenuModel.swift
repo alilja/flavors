@@ -36,4 +36,12 @@ class MenuModel{
     func add(newFood: FoodModel){
         self.add([newFood])
     }
+    
+    func names() -> Array<String>{
+        var output = [String]()
+        for food in self.foods{
+            output.append(food.name)
+        }
+        return output
+    }
 }

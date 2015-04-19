@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Flavors
 //
 //  Created by Andrew on 4/18/15.
@@ -26,10 +26,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         searchBox.delegate = self
         
-        autocompleteTableView!.delegate = self
-        autocompleteTableView!.dataSource = self
-        autocompleteTableView!.scrollEnabled = true
-        autocompleteTableView!.hidden = true
+        autocompleteTableView.delegate = self
+        autocompleteTableView.dataSource = self
+        autocompleteTableView.scrollEnabled = true
+        autocompleteTableView.hidden = true
         
     }
 
@@ -66,10 +66,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             let selectedCell : UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
             searchBox.text = selectedCell.textLabel!.text
             autocompleteTableView.hidden = true
+            addItemToMenu()
         }
     }
     
-    // AUTOCOMPLETE //
+    // SEARCH & AUTOCOMPLETE //
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         autocompleteTableView!.hidden = false
         var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
@@ -88,8 +89,30 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 autocompleteText.append(curString)
             }
         }
+        // have to reload the data first so the size is correct
+        autocompleteTableView.reloadData()
         
-        autocompleteTableView!.reloadData()
+        var frame = autocompleteTableView.frame
+        frame.size.height = autocompleteTableView.contentSize.height
+        
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        if frame.size.height + frame.origin.y > screenSize.height {
+            frame.size.height = screenSize.height - frame.origin.y
+        }
+        autocompleteTableView.frame = frame
     }
+    
+    func addItemToMenu(){
+        if searchBox.text != "" && contains(food_db.keys.array, searchBox.text){
+            menu.add(food_db[searchBox.text]!)
+            searchBox.text = ""
+            println(menu.names())
+        }
+    }
+    
+    @IBAction func addFood(sender: AnyObject) {
+        addItemToMenu()
+    }
+    
 }
 
