@@ -23,7 +23,7 @@ class FoodModel {
     }
     
     func getFit() -> Float{
-        var shared_flavors = self.getSharedFlavors(1).keys.array
+        var shared_flavors = self.menu!.getSharedFlavors(1).keys.array
         var fit: Int = 0
         for flavor in shared_flavors{
             if contains(self.flavors, flavor){
@@ -31,30 +31,5 @@ class FoodModel {
             }
         }
         return Float(fit) / Float(shared_flavors.count)
-    }
-    
-    func getSharedFlavors(minShared: Int) -> [String: Int]{
-        // get all flavors in menu
-        var flavors = Set<String>()
-        for food in self.menu!.foods{
-            for flavor in food.flavors{
-                flavors.insert(flavor)
-            }
-        }
-        
-        // count them
-        var counted_flavors = [String: Int]()
-        for flavor in flavors{
-            counted_flavors[flavor] = (counted_flavors[flavor] ?? 0) + 1
-        }
-        
-        // return them if there are > minShared
-        var output = [String: Int]()
-        for (flavor, count) in counted_flavors{
-            if count >= minShared{
-                output[flavor] = count
-            }
-        }
-        return output
     }
 }

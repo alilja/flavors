@@ -44,4 +44,30 @@ class MenuModel{
         }
         return output
     }
+    
+    func getSharedFlavors(minShared: Int) -> [String: Int]{
+        // get all flavors in menu
+        var flavors = Array<String>()
+        for food in self.foods{
+            for flavor in food.flavors{
+                flavors.append(flavor)
+            }
+        }
+        
+        // count them
+        var counted_flavors = [String: Int]()
+        for flavor in flavors{
+            
+            counted_flavors[flavor] = (counted_flavors[flavor] ?? 0) + 1
+        }
+        
+        // return them if there are > minShared
+        var output = [String: Int]()
+        for (flavor, count) in counted_flavors{
+            if count >= minShared{
+                output[flavor] = count
+            }
+        }
+        return output
+    }
 }

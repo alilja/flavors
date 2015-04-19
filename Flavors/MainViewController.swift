@@ -42,6 +42,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         if tableView == autocompleteTableView{
             return autocompleteText.count
         }
+        if tableView == mainTable{
+            return menu.foods.count
+        }
         return 0
     }
     
@@ -53,6 +56,20 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             if let tempo1 = cell{
                 let index = indexPath.row as Int
                 cell!.textLabel!.text = autocompleteText[index]
+            } else {
+                cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: autoCompleteRowIdentifier)
+            }
+            return cell!
+        }
+        
+        if tableView == mainTable {
+            println("main")
+            let autoCompleteRowIdentifier = "Food"
+            var cell = tableView.dequeueReusableCellWithIdentifier(autoCompleteRowIdentifier) as? UITableViewCell
+            
+            if let tempo1 = cell{
+                let index = indexPath.row as Int
+                cell!.textLabel!.text = menu.foods[index].name
             } else {
                 cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: autoCompleteRowIdentifier)
             }
@@ -71,6 +88,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     // SEARCH & AUTOCOMPLETE //
+    // add in-line completion; probably will need a second layer
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         autocompleteTableView!.hidden = false
         var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
@@ -106,7 +124,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         if searchBox.text != "" && contains(food_db.keys.array, searchBox.text){
             menu.add(food_db[searchBox.text]!)
             searchBox.text = ""
-            println(menu.names())
+            mainTable.reloadData()
+            println(menu.getSharedFlavors(1))
+            println()
         }
     }
     
