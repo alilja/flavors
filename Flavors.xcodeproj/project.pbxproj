@@ -16,6 +16,11 @@
 		492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8A81AE2EA3500789082 /* FoodModel.swift */; };
 		492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8AA1AE2EA4E00789082 /* MenuModel.swift */; };
 		492AD8AD1AE2F0CB00789082 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8AC1AE2F0CB00789082 /* foods.plist */; };
+		492AD8B11AE45AE400789082 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8B01AE45AE400789082 /* FoodCell.xib */; };
+		492AD8B31AE45B7500789082 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8B21AE45B7500789082 /* FoodCell.swift */; };
+		492AD8B81AE4605200789082 /* FlavorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8B61AE4605200789082 /* FlavorCell.swift */; };
+		492AD8B91AE4605200789082 /* FlavorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8B71AE4605200789082 /* FlavorCell.xib */; };
+		492AD8BC1AE4B33800789082 /* FlavorCellCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8BB1AE4B33800789082 /* FlavorCellCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,11 @@
 		492AD8A81AE2EA3500789082 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodModel.swift; path = Flavors/Models/FoodModel.swift; sourceTree = SOURCE_ROOT; };
 		492AD8AA1AE2EA4E00789082 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuModel.swift; path = Flavors/Models/MenuModel.swift; sourceTree = SOURCE_ROOT; };
 		492AD8AC1AE2F0CB00789082 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+		492AD8B01AE45AE400789082 /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoodCell.xib; path = Views/FoodCell.xib; sourceTree = "<group>"; };
+		492AD8B21AE45B7500789082 /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodCell.swift; path = Views/FoodCell.swift; sourceTree = "<group>"; };
+		492AD8B61AE4605200789082 /* FlavorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlavorCell.swift; path = Views/FlavorCell.swift; sourceTree = "<group>"; };
+		492AD8B71AE4605200789082 /* FlavorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlavorCell.xib; path = Views/FlavorCell.xib; sourceTree = "<group>"; };
+		492AD8BB1AE4B33800789082 /* FlavorCellCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlavorCellCollectionViewController.swift; path = Views/FlavorCellCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +76,6 @@
 		492AD8741AE2E0C800789082 = {
 			isa = PBXGroup;
 			children = (
-				492AD8A51AE2EA1700789082 /* Models */,
 				492AD87F1AE2E0C800789082 /* Flavors */,
 				492AD8951AE2E0C800789082 /* FlavorsTests */,
 				492AD87E1AE2E0C800789082 /* Products */,
@@ -85,10 +94,11 @@
 		492AD87F1AE2E0C800789082 /* Flavors */ = {
 			isa = PBXGroup;
 			children = (
+				492AD8A51AE2EA1700789082 /* Models */,
+				492AD8B41AE45B7A00789082 /* Views */,
+				492AD8B51AE45B9700789082 /* Controllers */,
 				492AD8821AE2E0C800789082 /* AppDelegate.swift */,
-				492AD8841AE2E0C800789082 /* MainViewController.swift */,
 				492AD8AC1AE2F0CB00789082 /* foods.plist */,
-				492AD8861AE2E0C800789082 /* Main.storyboard */,
 				492AD8A21AE2E22D00789082 /* SkunkWorks.playground */,
 				492AD8891AE2E0C800789082 /* Images.xcassets */,
 				492AD88B1AE2E0C800789082 /* LaunchScreen.xib */,
@@ -130,6 +140,35 @@
 			);
 			name = Models;
 			path = Flavors.xcodeproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		492AD8B41AE45B7A00789082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				492AD8861AE2E0C800789082 /* Main.storyboard */,
+				492AD8B01AE45AE400789082 /* FoodCell.xib */,
+				492AD8B21AE45B7500789082 /* FoodCell.swift */,
+				492AD8BA1AE4B32100789082 /* FlavorCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		492AD8B51AE45B9700789082 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				492AD8841AE2E0C800789082 /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		492AD8BA1AE4B32100789082 /* FlavorCell */ = {
+			isa = PBXGroup;
+			children = (
+				492AD8B71AE4605200789082 /* FlavorCell.xib */,
+				492AD8B61AE4605200789082 /* FlavorCell.swift */,
+				492AD8BB1AE4B33800789082 /* FlavorCellCollectionViewController.swift */,
+			);
+			name = FlavorCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +253,10 @@
 			files = (
 				492AD8AD1AE2F0CB00789082 /* foods.plist in Resources */,
 				492AD8881AE2E0C800789082 /* Main.storyboard in Resources */,
+				492AD8B11AE45AE400789082 /* FoodCell.xib in Resources */,
 				492AD88D1AE2E0C800789082 /* LaunchScreen.xib in Resources */,
 				492AD88A1AE2E0C800789082 /* Images.xcassets in Resources */,
+				492AD8B91AE4605200789082 /* FlavorCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */,
+				492AD8BC1AE4B33800789082 /* FlavorCellCollectionViewController.swift in Sources */,
 				492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */,
+				492AD8B31AE45B7500789082 /* FoodCell.swift in Sources */,
+				492AD8B81AE4605200789082 /* FlavorCell.swift in Sources */,
 				492AD8851AE2E0C800789082 /* MainViewController.swift in Sources */,
 				492AD8831AE2E0C800789082 /* AppDelegate.swift in Sources */,
 			);

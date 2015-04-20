@@ -8,7 +8,7 @@
 
 import Foundation
 
-class FoodModel {
+class FoodModel: NSObject {
     let name: String
     let flavors: Array<String>
     let technique: Array<String>
