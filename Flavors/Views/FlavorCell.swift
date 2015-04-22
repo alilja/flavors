@@ -10,15 +10,28 @@ import UIKit
 
 class FlavorCell: UITableViewCell {
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    var collectionView: UICollectionView!
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        
+        self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
+        self.collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "CollectionViewCell" as String)
+        self.collectionView.backgroundColor = UIColor.lightGrayColor()
+        self.collectionView.showsHorizontalScrollIndicator = false
+        self.contentView.addSubview(self.collectionView)
+        self.layoutMargins = UIEdgeInsetsMake(10, 0, 10, 0)
     }
     
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        let frame = self.contentView.bounds
+        self.collectionView.frame = CGRectMake(0, 0.5, frame.size.width, frame.size.height - 1)
+    }
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate{
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, UICollectionViewDataSource, UICollectionViewDelegate{
     
     var food_db = [String: FoodModel]()
     var menu = MenuModel(foods: [FoodModel]())
@@ -25,7 +25,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         autocompleteTableView.hidden = true
         
         mainTable.registerNib(UINib(nibName: "FoodCell", bundle: nil), forCellReuseIdentifier: "Food")
-        mainTable.registerNib(UINib(nibName: "FlavorCell", bundle: nil), forCellReuseIdentifier: "Flavors")
+        mainTable.registerClass(FlavorCell.self, forCellReuseIdentifier: "Flavors")
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -71,8 +72,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 cell.fitLabel?.text = String(format: "%.0f", menu.foods[indexPath.row].getFit() * 100)
                 return cell
             } else {
-                let cell:FlavorCell = tableView.dequeueReusableCellWithIdentifier("Flavors") as! FlavorCell
-                cell.sizeToFit()
+                let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell
+                cell.collectionView.delegate = self
+                cell.collectionView.dataSource = self
+                cell.collectionView.tag = indexPath.row
+                
                 return cell
             }
         }
@@ -102,6 +106,16 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 addItemToMenu()
             }
         }
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return food_db.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell: UICollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionViewCell", forIndexPath: indexPath) as! UICollectionViewCell
+        cell.backgroundColor = UIColor(red: 255, green: 0, blue: 0, alpha: 1)
+        return cell
     }
     
     // MARK: Autocomplete List
