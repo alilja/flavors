@@ -19,6 +19,9 @@
 		492AD8B11AE45AE400789082 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8B01AE45AE400789082 /* FoodCell.xib */; };
 		492AD8B31AE45B7500789082 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8B21AE45B7500789082 /* FoodCell.swift */; };
 		492AD8B81AE4605200789082 /* FlavorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8B61AE4605200789082 /* FlavorCell.swift */; };
+		492AD8BE1AE83CEC00789082 /* LabelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8BD1AE83CEC00789082 /* LabelCollectionViewController.swift */; };
+		492AD8C01AE83D4D00789082 /* LabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8BF1AE83D4D00789082 /* LabelCell.xib */; };
+		492AD8C21AE83E7900789082 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8C11AE83E7900789082 /* LabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		492AD8B01AE45AE400789082 /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoodCell.xib; path = Views/FoodCell.xib; sourceTree = "<group>"; };
 		492AD8B21AE45B7500789082 /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodCell.swift; path = Views/FoodCell.swift; sourceTree = "<group>"; };
 		492AD8B61AE4605200789082 /* FlavorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlavorCell.swift; path = Views/FlavorCell.swift; sourceTree = "<group>"; };
+		492AD8BD1AE83CEC00789082 /* LabelCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelCollectionViewController.swift; path = Controllers/LabelCollectionViewController.swift; sourceTree = "<group>"; };
+		492AD8BF1AE83D4D00789082 /* LabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabelCell.xib; path = Views/LabelCell.xib; sourceTree = "<group>"; };
+		492AD8C11AE83E7900789082 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelCell.swift; path = Views/LabelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				492AD8841AE2E0C800789082 /* MainViewController.swift */,
+				492AD8BD1AE83CEC00789082 /* LabelCollectionViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				492AD8B61AE4605200789082 /* FlavorCell.swift */,
+				492AD8BF1AE83D4D00789082 /* LabelCell.xib */,
+				492AD8C11AE83E7900789082 /* LabelCell.swift */,
 			);
 			name = FlavorCell;
 			sourceTree = "<group>";
@@ -245,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492AD8C01AE83D4D00789082 /* LabelCell.xib in Resources */,
 				492AD8AD1AE2F0CB00789082 /* foods.plist in Resources */,
 				492AD8881AE2E0C800789082 /* Main.storyboard in Resources */,
 				492AD8B11AE45AE400789082 /* FoodCell.xib in Resources */,
@@ -269,9 +279,11 @@
 			files = (
 				492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */,
 				492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */,
+				492AD8C21AE83E7900789082 /* LabelCell.swift in Sources */,
 				492AD8B31AE45B7500789082 /* FoodCell.swift in Sources */,
 				492AD8B81AE4605200789082 /* FlavorCell.swift in Sources */,
 				492AD8851AE2E0C800789082 /* MainViewController.swift in Sources */,
+				492AD8BE1AE83CEC00789082 /* LabelCollectionViewController.swift in Sources */,
 				492AD8831AE2E0C800789082 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

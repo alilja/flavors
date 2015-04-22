@@ -18,9 +18,9 @@ class FlavorCell: UITableViewCell {
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         
         self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
-        self.collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "CollectionViewCell" as String)
+        self.collectionView.registerNib(UINib(nibName: "LabelCell", bundle: nil), forCellWithReuseIdentifier: "FlavorTag")
         self.collectionView.backgroundColor = UIColor.lightGrayColor()
-        self.collectionView.showsHorizontalScrollIndicator = false
+        
         self.contentView.addSubview(self.collectionView)
         self.layoutMargins = UIEdgeInsetsMake(10, 0, 10, 0)
     }

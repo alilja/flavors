@@ -8,11 +8,12 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, UICollectionViewDataSource, UICollectionViewDelegate{
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate{
     
     var food_db = [String: FoodModel]()
     var menu = MenuModel(foods: [FoodModel]())
     
+    var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         mainTable.registerNib(UINib(nibName: "FoodCell", bundle: nil), forCellReuseIdentifier: "Food")
         mainTable.registerClass(FlavorCell.self, forCellReuseIdentifier: "Flavors")
-
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -76,7 +77,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 cell.collectionView.delegate = self
                 cell.collectionView.dataSource = self
                 cell.collectionView.tag = indexPath.row
-                
                 return cell
             }
         }
@@ -108,16 +108,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return food_db.count
-    }
-    
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell: UICollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionViewCell", forIndexPath: indexPath) as! UICollectionViewCell
-        cell.backgroundColor = UIColor(red: 255, green: 0, blue: 0, alpha: 1)
-        return cell
-    }
-    
     // MARK: Autocomplete List
     // add in-line completion; probably will need a second layer
 
@@ -129,7 +119,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         autocompleteTableView!.hidden = false
         var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
         
-        searchAutocompleteEntriesWithSubstring(substring)
+        self.searchAutocompleteEntriesWithSubstring(substring)
         return true
     }
     
@@ -163,6 +153,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 menu.add(foodToAdd)
                 searchBox.text = ""
                 mainTable.reloadData()
+                let collectionCell = mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell
+                collectionCell.collectionView.reloadData()
             }
         }
     }
@@ -172,4 +164,5 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
 }
+
 
