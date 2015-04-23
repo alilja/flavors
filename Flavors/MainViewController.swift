@@ -34,7 +34,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.didReceiveMemoryWarning()
     }
     
-    // MARK: All TableViews
+    // MARK: TableViews
     
     @IBOutlet weak var mainTable: UITableView!
     

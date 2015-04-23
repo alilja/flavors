@@ -23,6 +23,8 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         return sortedKeys
     }
     
+    // MARK: CollectionView
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return getFlavorArray().count
     }
