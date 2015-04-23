@@ -10,27 +10,33 @@ import UIKit
 
 extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func getFlavorArray() -> Array<AnyObject> {
         if menu.foods.count == 0{
-            return food_db.count
+            return food_db.keys.array
         } else if menu.foods.count == 1{
-            return menu.foods[0].flavors.count
+            return menu.foods[0].flavors
         }
-        return menu.getSharedFlavors(2).keys.array.count
+        let flavor_dict = menu.getSharedFlavors(2)
+        var sortedKeys = flavor_dict.keys.array.sorted {
+            return flavor_dict[$0] > flavor_dict[$1]
+        }
+        return sortedKeys
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return getFlavorArray().count
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell: LabelCell = collectionView.dequeueReusableCellWithReuseIdentifier("FlavorTag", forIndexPath: indexPath) as! LabelCell
-        var labelText:String
         
-        if menu.foods.count == 0{
-            labelText = self.food_db.keys.array[indexPath.row]
-        } else if menu.foods.count == 1 {
-            labelText = menu.foods[0].flavors[indexPath.row]
-        } else {
-             labelText = menu.getSharedFlavors(2).keys.array[indexPath.row]
+        let flavor = getFlavorArray()[indexPath.row] as! String
+        var count = menu.getSharedFlavors(2)[flavor]
+        if count == nil{
+            count = 0
         }
-        cell.countLabel!.text = labelText
+        cell.countLabel!.text = "\(count!)"
+        cell.nameLabel!.text = flavor
         return cell
     }
 }

@@ -57,17 +57,17 @@ class MenuModel{
         // count them
         var counted_flavors = [String: Int]()
         for flavor in flavors{
-            
             counted_flavors[flavor] = (counted_flavors[flavor] ?? 0) + 1
         }
         
         // return them if there are > minShared
-        var output = [String: Int]()
+        var shared = [String: Int]()
         for (flavor, count) in counted_flavors{
             if count >= minShared{
-                output[flavor] = count
+                shared[flavor] = count
             }
         }
-        return output
+        
+        return shared
     }
 }

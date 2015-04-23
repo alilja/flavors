@@ -480,6 +480,7 @@
 				492AD89E1AE2E0C800789082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492AD89F1AE2E0C800789082 /* Build configuration list for PBXNativeTarget "FlavorsTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +489,7 @@
 				492AD8A11AE2E0C800789082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
