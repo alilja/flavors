@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func getFlavorArray() -> Array<AnyObject> {
         if menu.foods.count == 0{
@@ -29,16 +29,31 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         return getFlavorArray().count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell: LabelCell = collectionView.dequeueReusableCellWithReuseIdentifier("FlavorTag", forIndexPath: indexPath) as! LabelCell
-        
+    func getCellLabel(indexPath: NSIndexPath) -> String {
         let flavor = getFlavorArray()[indexPath.row] as! String
         var count = menu.getSharedFlavors(2)[flavor]
         if count == nil{
             count = 0
         }
-        cell.countLabel!.text = "\(count!)"
-        cell.nameLabel!.text = flavor
-        return cell
+        return "\(count!) \(flavor)"
     }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell: LabelCell = collectionView.dequeueReusableCellWithReuseIdentifier("FlavorTag", forIndexPath: indexPath) as! LabelCell
+        cell.nameLabel!.text = getCellLabel(indexPath)
+        return cell
+        
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        self.sizingCell.nameLabel.text = getCellLabel(indexPath)
+
+        var size = self.sizingCell.nameLabel.intrinsicContentSize()
+        size.height *= 2
+        size.width *= 1.2
+        println(self.sizingCell.nameLabel.text)
+        println(size)
+        return size
+    }
+    
 }

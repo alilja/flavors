@@ -12,17 +12,16 @@ class FlavorCell: UITableViewCell {
     
     var collectionView: UICollectionView!
     
+    var owner: MainViewController!
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
-        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        
-        self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
-        self.collectionView.registerNib(UINib(nibName: "LabelCell", bundle: nil), forCellWithReuseIdentifier: "FlavorTag")
-        self.collectionView.backgroundColor = UIColor.lightGrayColor()
-        
+                
+        self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: UICollectionViewFlowLayout())
+        let cellNib = UINib(nibName: "LabelCell", bundle: nil)
+        self.collectionView.registerNib(cellNib, forCellWithReuseIdentifier: "FlavorTag")
+        self.collectionView.backgroundColor = UIColor.whiteColor()
         self.contentView.addSubview(self.collectionView)
-        self.layoutMargins = UIEdgeInsetsMake(10, 0, 10, 0)
     }
     
     required init(coder aDecoder: NSCoder) {

@@ -10,6 +10,6 @@ import UIKit
 
 class LabelCell: UICollectionViewCell {
     
-    @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+        
 }

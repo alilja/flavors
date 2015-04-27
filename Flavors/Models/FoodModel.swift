@@ -23,7 +23,7 @@ class FoodModel: NSObject {
     }
     
     func getFit() -> Float{
-        var shared_flavors = self.menu!.getSharedFlavors(2).keys.array
+        var shared_flavors = self.menu!.getSharedFlavors(self.menu!.foods.count).keys.array
         var fit: Int = 0
         for flavor in shared_flavors{
             if contains(self.flavors, flavor){

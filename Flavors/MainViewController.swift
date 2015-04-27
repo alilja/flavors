@@ -8,12 +8,13 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate{
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
     var food_db = [String: FoodModel]()
     var menu = MenuModel(foods: [FoodModel]())
     
     var collectionView: UICollectionView!
+    var sizingCell: LabelCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         mainTable.registerNib(UINib(nibName: "FoodCell", bundle: nil), forCellReuseIdentifier: "Food")
         mainTable.registerClass(FlavorCell.self, forCellReuseIdentifier: "Flavors")
+        
+        // Get a LabelCell that we can use as a size prototype
+        let cellNib = UINib(nibName: "LabelCell", bundle: nil)
+        self.sizingCell = (cellNib.instantiateWithOwner(nil, options: nil) as Array)[0] as! LabelCell
         
     }
 
@@ -57,7 +62,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             let autoCompleteRowIdentifier = "AutoCompleteRowIdentifier"
             var cell = tableView.dequeueReusableCellWithIdentifier(autoCompleteRowIdentifier) as? UITableViewCell
             
-            if let tempo1 = cell{
+            if let _ = cell{
                 let index = indexPath.row as Int
                 cell!.textLabel!.text = autocompleteText[index]
             } else {
@@ -69,14 +74,15 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         if tableView == mainTable {
             if indexPath.section == 0 {
                 let cell:FoodCell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
-                cell.foodLabel?.text = menu.foods[indexPath.row].name
-                cell.fitLabel?.text = String(format: "%.0f", menu.foods[indexPath.row].getFit() * 100)
+                cell.foodLabel!.text = menu.foods[indexPath.row].name
+                cell.fitLabel!.text = String(format: "%.0f", menu.foods[indexPath.row].getFit() * 100)
                 return cell
             } else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell
                 cell.collectionView.delegate = self
                 cell.collectionView.dataSource = self
                 cell.collectionView.tag = indexPath.row
+                cell.collectionView.collectionViewLayout.collectionView?.delegate = self
                 return cell
             }
         }
@@ -97,23 +103,22 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         return 44
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if tableView == autocompleteTableView{
-            if indexPath.section == 0 {
-                let selectedCell : UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
-                searchBox.text = selectedCell.textLabel!.text
-                autocompleteTableView.hidden = true
-                addItemToMenu()
-            }
-        }
-    }
-    
     // MARK: Autocomplete List
     // add in-line completion; probably will need a second layer
 
     @IBOutlet weak var searchBox: UITextField!
     @IBOutlet weak var autocompleteTableView: UITableView!
     var autocompleteText = [String]()
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if tableView == autocompleteTableView{
+            if indexPath.section == 0 {
+                let selectedCell : UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
+                searchBox.text = selectedCell.textLabel!.text
+                addItemToMenu()
+            }
+        }
+    }
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         autocompleteTableView!.hidden = false
@@ -147,15 +152,16 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func addItemToMenu(){
+        autocompleteTableView.hidden = true
         if searchBox.text != "" && contains(food_db.keys.array, searchBox.text){
             let foodToAdd:FoodModel = food_db[searchBox.text]!
             if !contains(menu.foods, foodToAdd){
                 menu.add(foodToAdd)
-                searchBox.text = ""
                 mainTable.reloadData()
                 let collectionCell = mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell
                 collectionCell.collectionView.reloadData()
             }
+            searchBox.text = ""
         }
     }
     
