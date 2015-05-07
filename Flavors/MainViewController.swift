@@ -205,6 +205,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         self.searchBox.resignFirstResponder()
+        self.addItemToMenu()
         super.touchesBegan(touches, withEvent: event)
     }
     
