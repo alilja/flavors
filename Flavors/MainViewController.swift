@@ -41,6 +41,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewWillAppear(animated: Bool) {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
+        
+        self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
         super.viewWillAppear(animated)
     }
 
@@ -197,15 +199,18 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         return true
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
+    func hideKeyboard(){
+        self.searchBox.resignFirstResponder()
         self.addItemToMenu()
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.hideKeyboard()
         return true
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        self.searchBox.resignFirstResponder()
-        self.addItemToMenu()
+        self.hideKeyboard()
         super.touchesBegan(touches, withEvent: event)
     }
     
