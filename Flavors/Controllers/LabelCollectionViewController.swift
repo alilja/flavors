@@ -11,6 +11,7 @@ import UIKit
 extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func getFlavorArray() -> Array<AnyObject> {
+        println(menu.foods.count)
         if menu.foods.count == 0{
             return food_db.keys.array
         } else if menu.foods.count == 1{
@@ -23,19 +24,26 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         return sortedKeys
     }
     
-    // MARK: CollectionView
-    
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return getFlavorArray().count
-    }
-    
     func getCellLabel(indexPath: NSIndexPath) -> String {
+        if menu.foods.count == 0 {
+            let food = food_db.keys.array[indexPath.row]
+            return "\(food)"
+        } else if menu.foods.count == 1 {
+            let flavor = menu.foods[0].flavors[indexPath.row]
+            return "\(flavor)"
+        }
         let flavor = getFlavorArray()[indexPath.row] as! String
         var count = menu.getSharedFlavors(2)[flavor]
         if count == nil{
             count = 0
         }
         return "\(count!) \(flavor)"
+    }
+    
+    // MARK: CollectionView
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return getFlavorArray().count
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -51,8 +59,6 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         var size = self.sizingCell.nameLabel.intrinsicContentSize()
         size.height *= 2
         size.width *= 1.2
-        println(self.sizingCell.nameLabel.text)
-        println(size)
         return size
     }
     

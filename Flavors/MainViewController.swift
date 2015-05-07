@@ -89,6 +89,16 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         return UITableViewCell()
     }
     
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
+        if editingStyle == UITableViewCellEditingStyle.Delete{
+            self.menu.foods.removeAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+            tableView.reloadData()
+            let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
+            collection.reloadData()
+        }
+    }
+    
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         if tableView == mainTable{
             return 2
@@ -158,8 +168,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             if !contains(menu.foods, foodToAdd){
                 menu.add(foodToAdd)
                 mainTable.reloadData()
-                let collectionCell = mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell
-                collectionCell.collectionView.reloadData()
+                
+                let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
+                collection.frame.size.height = collection.contentSize.height
+                collection.reloadData()
             }
             searchBox.text = ""
         }

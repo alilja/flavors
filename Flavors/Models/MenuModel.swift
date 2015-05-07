@@ -46,6 +46,8 @@ class MenuModel{
     }
     
     func getSharedFlavors(minShared: Int) -> [String: Int]{
+        
+        // TO DO: combine this and the next step
         // get all flavors in menu
         var flavors = Array<String>()
         for food in self.foods{
