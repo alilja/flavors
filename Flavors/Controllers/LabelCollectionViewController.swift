@@ -58,7 +58,7 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
 
         var size = self.sizingCell.nameLabel.intrinsicContentSize()
         size.height *= 2
-        size.width *= 1.2
+        size.width = size.width * 1.2 + 5
         return size
     }
     

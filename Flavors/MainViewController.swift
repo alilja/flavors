@@ -16,6 +16,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     var collectionView: UICollectionView!
     var sizingCell: LabelCell!
     
+    var keyboardSize: CGSize!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,6 +35,13 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cellNib = UINib(nibName: "LabelCell", bundle: nil)
         self.sizingCell = (cellNib.instantiateWithOwner(nil, options: nil) as Array)[0] as! LabelCell
         
+        self.keyboardSize = CGSize(width: 0, height: 0)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
+        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
@@ -130,14 +139,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        autocompleteTableView!.hidden = false
-        var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
-        
-        self.searchAutocompleteEntriesWithSubstring(substring)
-        return true
-    }
-    
     func searchAutocompleteEntriesWithSubstring(substring: String){
         autocompleteText.removeAll(keepCapacity: false)
         
@@ -155,8 +156,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         frame.size.height = autocompleteTableView.contentSize.height
         
         let screenSize: CGRect = UIScreen.mainScreen().bounds
-        if frame.size.height + frame.origin.y > screenSize.height {
-            frame.size.height = screenSize.height - frame.origin.y
+        if frame.size.height + frame.origin.y > screenSize.height - self.keyboardSize.height {
+            frame.size.height = screenSize.height - frame.origin.y - self.keyboardSize.height
         }
         autocompleteTableView.frame = frame
     }
@@ -179,6 +180,45 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBAction func addFood(sender: AnyObject) {
         addItemToMenu()
+    }
+
+    
+    // MARK: Text Field
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        autocompleteTableView!.hidden = false
+        var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
+        
+        self.searchAutocompleteEntriesWithSubstring(substring)
+        return true
+    }
+    
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+        return true
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        self.addItemToMenu()
+        return true
+    }
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        self.searchBox.resignFirstResponder()
+        super.touchesBegan(touches, withEvent: event)
+    }
+    
+    // MARK: Keyboard Stuff
+    
+    func keyboardWillAppear(notification: NSNotification) {
+        if let size = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.keyboardSize = CGSize(width: size.width, height: size.height)
+            println(self.keyboardSize)
+        }
+    }
+    
+    func keyboardWillHide() {
+        self.keyboardSize = CGSize(width: 0, height: 0)
     }
     
 }
