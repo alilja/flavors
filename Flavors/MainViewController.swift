@@ -6,6 +6,20 @@
 //  Copyright (c) 2015 Andrew Lilja. All rights reserved.
 //
 
+
+
+
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+// BUILD-A-MEAL
+
+
+
 import UIKit
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
@@ -31,6 +45,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         mainTable.registerNib(UINib(nibName: "FoodCell", bundle: nil), forCellReuseIdentifier: "Food")
         mainTable.registerClass(FlavorCell.self, forCellReuseIdentifier: "Flavors")
+        
+        mainTable.contentInset = UIEdgeInsetsMake(-36, 0, 0, 0);
         
         // Get a LabelCell that we can use as a size prototype
         let cellNib = UINib(nibName: "LabelCell", bundle: nil)
@@ -78,21 +94,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         if tableView == autocompleteTableView{
-            let autoCompleteRowIdentifier = "AutoCompleteRowIdentifier"
-            var cell = tableView.dequeueReusableCellWithIdentifier(autoCompleteRowIdentifier) as? UITableViewCell
-            
-            if let _ = cell{
-                let index = indexPath.row as Int
-                cell!.textLabel!.text = autocompleteText[index]
-            } else {
-                cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: autoCompleteRowIdentifier)
-            }
-            return cell!
+            let cell = tableView.dequeueReusableCellWithIdentifier("AutocompleteItem") as! UITableViewCell
+            cell.textLabel!.text = autocompleteText[indexPath.row]
+            return cell
         }
         
         if tableView == mainTable {
             if indexPath.section == 0 {
-                let cell:FoodCell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
+                let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
                 cell.foodLabel!.text = menu.foods[indexPath.row].name
                 cell.fitLabel!.text = String(format: "%.0f", menu.foods[indexPath.row].getFit() * 100)
                 return cell
@@ -101,16 +110,26 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 cell.collectionView.delegate = self
                 cell.collectionView.dataSource = self
                 cell.collectionView.tag = indexPath.row
-                cell.collectionView.collectionViewLayout.collectionView?.delegate = self
+                //cell.collectionView.collectionViewLayout.collectionView?.delegate = self
                 return cell
             }
         }
         return UITableViewCell()
     }
     
+    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        if indexPath.section == 0{
+            return true
+        }
+        return false
+    }
+    
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
         if editingStyle == UITableViewCellEditingStyle.Delete{
             self.menu.foods.removeAtIndex(indexPath.row)
+            tableView.beginUpdates()
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+            tableView.endUpdates()
             self.menuChanged()
         }
     }
@@ -124,7 +143,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if tableView == mainTable && indexPath.section == 1 {
-            return self.collectionSize
+            return self.collectionSize + 10
         }
         return 44
     }

@@ -37,14 +37,6 @@ class MenuModel{
         self.add([newFood])
     }
     
-    func names() -> Array<String>{
-        var output = [String]()
-        for food in self.foods{
-            output.append(food.name)
-        }
-        return output
-    }
-    
     func getSharedFlavors(minShared: Int) -> [String: Int]{
         
         // TO DO: combine this and the next step

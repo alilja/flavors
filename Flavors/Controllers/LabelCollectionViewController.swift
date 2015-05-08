@@ -32,7 +32,7 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
             return "\(flavor)"
         }
         let flavor = getFlavorArray()[indexPath.row] as! String
-        var count = menu.getSharedFlavors(2)[flavor]
+        var count = menu.getSharedFlavors(1)[flavor]
         if count == nil{
             count = 0
         }
