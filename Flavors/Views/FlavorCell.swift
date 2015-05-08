@@ -22,7 +22,7 @@ class FlavorCell: UITableViewCell {
         self.collectionView.registerNib(cellNib, forCellWithReuseIdentifier: "FlavorTag")
         self.collectionView.backgroundColor = UIColor.whiteColor()
         self.collectionView.contentInset = UIEdgeInsetsMake(5, 5, 0, 10)
-        self.collectionView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        self.collectionView.scrollEnabled = false
         
         self.contentView.addSubview(self.collectionView)
     }

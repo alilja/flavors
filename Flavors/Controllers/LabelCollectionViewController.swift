@@ -11,7 +11,6 @@ import UIKit
 extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func getFlavorArray() -> Array<AnyObject> {
-        println(menu.foods.count)
         if menu.foods.count == 0{
             return food_db.keys.array
         } else if menu.foods.count == 1{
@@ -60,6 +59,10 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         size.height *= 2
         size.width = size.width * 1.2 + 5
         return size
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 0
     }
     
 }

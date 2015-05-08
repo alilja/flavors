@@ -15,6 +15,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var collectionView: UICollectionView!
     var sizingCell: LabelCell!
+    var collectionSize: CGFloat!
     
     var keyboardSize: CGSize!
     
@@ -35,19 +36,26 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cellNib = UINib(nibName: "LabelCell", bundle: nil)
         self.sizingCell = (cellNib.instantiateWithOwner(nil, options: nil) as Array)[0] as! LabelCell
         
+        self.collectionSize = 0
+        
+        // For adjusting autocomplete list size
         self.keyboardSize = CGSize(width: 0, height: 0)
-    }
-    
-    override func viewWillAppear(animated: Bool) {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
         
         self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
-        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func menuChanged(){
+        let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
+        collection.reloadData()
+        //collection.collectionViewLayout.prepareLayout()
+        self.collectionSize = collection.collectionViewLayout.collectionViewContentSize().height
+        mainTable.reloadData()
     }
     
     // MARK: TableViews
@@ -103,10 +111,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
         if editingStyle == UITableViewCellEditingStyle.Delete{
             self.menu.foods.removeAtIndex(indexPath.row)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
-            tableView.reloadData()
-            let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
-            collection.reloadData()
+            self.menuChanged()
         }
     }
     
@@ -119,11 +124,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if tableView == mainTable && indexPath.section == 1 {
-            return 320
+            return self.collectionSize
         }
         return 44
     }
-    
+
+        
     // MARK: Autocomplete List
     // add in-line completion; probably will need a second layer
 
@@ -170,11 +176,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             let foodToAdd:FoodModel = food_db[searchBox.text]!
             if !contains(menu.foods, foodToAdd){
                 menu.add(foodToAdd)
-                mainTable.reloadData()
-                
-                let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
-                collection.frame.size.height = collection.contentSize.height
-                collection.reloadData()
+                self.menuChanged()
             }
             searchBox.text = ""
         }
@@ -219,7 +221,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     func keyboardWillAppear(notification: NSNotification) {
         if let size = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
             self.keyboardSize = CGSize(width: size.width, height: size.height)
-            println(self.keyboardSize)
         }
     }
     
