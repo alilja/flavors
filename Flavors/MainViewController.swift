@@ -26,6 +26,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var food_db = [String: FoodModel]()
     var menu = MenuModel(foods: [FoodModel]())
+    var fits = [FoodModel: Float]()
     
     var collectionView: UICollectionView!
     var sizingCell: LabelCell!
@@ -67,6 +68,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func menuChanged(){
+        self.fits = menu.getFits()
         let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
         collection.reloadData()
         //collection.collectionViewLayout.prepareLayout()
@@ -102,8 +104,18 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         if tableView == mainTable {
             if indexPath.section == 0 {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
-                cell.foodLabel!.text = menu.foods[indexPath.row].name
-                cell.fitLabel!.text = String(format: "%.0f", menu.foods[indexPath.row].getFit() * 100)
+                let food = menu.foods[indexPath.row]
+                cell.foodLabel!.text = food.name
+                //menu.getFit(food)
+                let numMax = maxElement(self.fits.values.array)
+                let numMin = minElement(self.fits.values.array)
+                var normalized: Float
+                if numMax - numMin == 0{
+                    normalized = 1
+                } else {
+                    normalized = (self.fits[food]! - numMin) / (numMax - numMin)
+                }
+                cell.fitLabel!.text = String(format: "%.0f", normalized * 100)
                 return cell
             } else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell

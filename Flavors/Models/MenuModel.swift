@@ -64,4 +64,45 @@ class MenuModel{
         
         return shared
     }
+    
+    func getFits() -> [FoodModel: Float]{
+        var output = [FoodModel: Float]()
+        var shared_flavors = self.getSharedFlavors(2).keys.array
+        for food in self.foods{
+            var fit: Int = 0
+            for flavor in food.flavors{
+                if contains(shared_flavors, flavor){
+                    fit += 1
+                }
+            }
+            if shared_flavors.count > 0{
+                output[food] = Float(fit) / Float(shared_flavors.count)
+            } else {
+                output[food] = Float(fit)
+            }
+        }
+        return output
+    }
+    /*
+    func getNormalizedFits() -> [FoodModel: Float]{
+        var output = [FoodModel: Float]()
+        var max: Float = 99999.9
+        var min: Float = 0.0
+        for food in self.foods{
+            var fit = self.getFit(food)
+            if fit > max {
+                max = fit
+            }
+            if fit < min{
+                min = fit
+            }
+            output[food] = fit
+        }
+        
+        for (food, fit) in output {
+            output[food] = (fit - min) / (max - min)
+        }
+        
+        return output
+    }*/
 }

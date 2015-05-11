@@ -1,5 +1,7 @@
 import Foundation
 
-var x = "hello"
+var x: Float
 
-println(x[1..<2])
+if x != nil{
+    
+}

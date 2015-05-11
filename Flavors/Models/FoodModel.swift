@@ -21,18 +21,4 @@ class FoodModel: NSObject {
         self.technique = technique
         self.seasons = seasons
     }
-    
-    func getFit() -> Float{
-        var shared_flavors = self.menu!.getSharedFlavors(2).keys.array
-        if shared_flavors.count == 0{
-            return 0.0
-        }
-        var fit: Int = 0
-        for flavor in self.flavors{
-            if contains(shared_flavors, flavor){
-                fit += 1
-            }
-        }
-        return Float(fit) / Float(shared_flavors.count)
-    }
 }
