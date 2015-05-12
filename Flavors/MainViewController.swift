@@ -62,7 +62,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -159,11 +159,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         return 44
     }
-
-        
+    
+    
     // MARK: Autocomplete List
     // add in-line completion; probably will need a second layer
-
+    
     @IBOutlet weak var searchBox: UITextField!
     @IBOutlet weak var autocompleteTableView: UITableView!
     var autocompleteText = [String]()
@@ -173,7 +173,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             if indexPath.section == 0 {
                 let selectedCell : UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
                 searchBox.text = selectedCell.textLabel!.text
-                addItemToMenu()
+                updateAutocomplete()
             }
         }
     }
@@ -201,7 +201,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         autocompleteTableView.frame = frame
     }
     
-    func addItemToMenu(){
+    func updateAutocomplete(){
         autocompleteTableView.hidden = true
         if searchBox.text != "" && contains(food_db.keys.array, searchBox.text){
             let foodToAdd:FoodModel = food_db[searchBox.text]!
@@ -214,9 +214,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     @IBAction func addFood(sender: AnyObject) {
-        addItemToMenu()
+        updateAutocomplete()
     }
-
+    
     
     // MARK: Text Field
     
@@ -232,9 +232,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         return true
     }
     
+    func textFieldShouldClear(textField: UITextField) -> Bool{
+        self.updateAutocomplete()
+        return true
+    }
+    
     func hideKeyboard(){
         self.searchBox.resignFirstResponder()
-        self.addItemToMenu()
+        self.updateAutocomplete()
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

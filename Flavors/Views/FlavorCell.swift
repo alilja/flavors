@@ -17,7 +17,7 @@ class FlavorCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
                 
-        self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: UICollectionViewFlowLayout())
+        self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: UICollectionViewLeftAlignedLayout())
         let cellNib = UINib(nibName: "LabelCell", bundle: nil)
         self.collectionView.registerNib(cellNib, forCellWithReuseIdentifier: "FlavorTag")
         self.collectionView.backgroundColor = UIColor.whiteColor()

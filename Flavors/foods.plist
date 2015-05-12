@@ -26,6 +26,30 @@
 			<string>raisins</string>
 			<string>rice</string>
 			<string>strawberries</string>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>barley</string>
+			<string>bass</string>
+			<string>green beans</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>celery</string>
+			<string>cherries</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>currants</string>
+			<string>custards</string>
+			<string>dates</string>
+			<string>prunes</string>
+			<string>caramel</string>
+			<string>coconut</string>
+			<string>rice</string>
+			<string>plums</string>
 		</array>
 	</dict>
 	<key>anchovies</key>
@@ -47,6 +71,26 @@
 			<string>lemon</string>
 			<string>olives</string>
 			<string>onions</string>
+			<string>parsley</string>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>bass</string>
+			<string>green beans</string>
+			<string>beet greens</string>
+			<string>beets</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>cardoons</string>
+			<string>cauliflower</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>onions</string>
+			<string>hard-boiled eggs</string>
+			<string>garlic</string>
+			<string>olives</string>
 			<string>parsley</string>
 		</array>
 	</dict>
@@ -122,6 +166,47 @@
 			<string>walnuts</string>
 			<string>red wine</string>
 			<string>yogurt</string>
+			<string>almonds</string>
+			<string>beets</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, raw</string>
+			<string>cabbage, red</string>
+			<string>calves, liver</string>
+			<string>capon</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>chicory</string>
+			<string>cranberries</string>
+			<string>duck</string>
+			<string>endive</string>
+			<string>escarole</string>
+			<string>bacon</string>
+			<string>sauerkraut</string>
+			<string>vinegar</string>
+			<string>lemon madeira</string>
+			<string>cinnamon</string>
+			<string>pignoli</string>
+			<string>pears</string>
+			<string>honey</string>
+			<string>nuts</string>
+			<string>applejack</string>
+			<string>pecans</string>
+			<string>oranges</string>
+			<string>prunes</string>
+			<string>coriander</string>
+			<string>cider</string>
+			<string>cointreau</string>
+			<string>rosemary</string>
+			<string>pistachios</string>
+			<string>caramel</string>
+			<string>cloves</string>
+			<string>walnuts</string>
+			<string>cheese</string>
+			<string>cognac</string>
+			<string>praline</string>
 		</array>
 	</dict>
 	<key>apricots</key>
@@ -172,6 +257,33 @@
 			<string>sour cream</string>
 			<string>strawberries</string>
 			<string>tarragon,</string>
+			<string>almonds</string>
+			<string>bananas</string>
+			<string>blueberries</string>
+			<string>cherries</string>
+			<string>coconuts</string>
+			<string>dates</string>
+			<string>duck</string>
+			<string>lime lingo berries</string>
+			<string>raspberries</string>
+			<string>honey</string>
+			<string>lamb</string>
+			<string>tarragon,</string>
+			<string>sauternes</string>
+			<string>oranges</string>
+			<string>cointreau</string>
+			<string>pistachios</string>
+			<string>caramel</string>
+			<string>cognac</string>
+			<string>coconut</string>
+			<string>pineapple</string>
+			<string>peaches</string>
+			<string>rice</string>
+			<string>plums</string>
+			<string>sour cream</string>
+			<string>kirsch</string>
+			<string>ginger</string>
+			<string>sesame</string>
 		</array>
 	</dict>
 	<key>artichokes</key>
@@ -226,6 +338,26 @@
 			<string>truffle</string>
 			<string>vinaigrette</string>
 			<string>white wine</string>
+			<string>bass</string>
+			<string>duck</string>
+			<string>fennel</string>
+			<string>bacon</string>
+			<string>sausage</string>
+			<string>bay leaves</string>
+			<string>white wine</string>
+			<string>onions</string>
+			<string>thyme</string>
+			<string>parmesan cheese</string>
+			<string>aioli</string>
+			<string>garlic</string>
+			<string>remoulade sauce</string>
+			<string>hollandaise sauce</string>
+			<string>salt</string>
+			<string>mornay sauce</string>
+			<string>goat cheese</string>
+			<string>cumin</string>
+			<string>bread crumbs</string>
+			<string>olive oil</string>
 		</array>
 	</dict>
 	<key>arugula</key>
@@ -305,6 +437,9 @@
 			<string>soy</string>
 			<string>veloute sauce</string>
 			<string>vinaigrette</string>
+			<string>kasha</string>
+			<string>chicken</string>
+			<string>eggs</string>
 		</array>
 	</dict>
 	<key>avocados</key>
@@ -413,11 +548,51 @@
 			<string>pralines</string>
 			<string>raspberries</string>
 			<string>rum</string>
-			<string>sour cream strawberries</string>
+			<string>sour cream</string>
+			<string>strawberries</string>
 			<string>brown sugar</string>
 			<string>white sugar</string>
 			<string>vanilla</string>
 			<string>yogurt</string>
+			<string>apricots</string>
+			<string>blueberries</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>chocolate, white</string>
+			<string>coconuts</string>
+			<string>custards</string>
+			<string>eggs</string>
+			<string>passion fruit</string>
+			<string>bacon</string>
+			<string>raspberries</string>
+			<string>cinnamon</string>
+			<string>lime</string>
+			<string>malt</string>
+			<string>honey</string>
+			<string>nuts</string>
+			<string>cardamom</string>
+			<string>mango</string>
+			<string>pecans</string>
+			<string>oranges</string>
+			<string>coriander</string>
+			<string>ice cream</string>
+			<string>alcohol</string>
+			<string>caramel</string>
+			<string>pralines</string>
+			<string>cognac</string>
+			<string>fruits</string>
+			<string>coconut</string>
+			<string>pineapple</string>
+			<string>armagnac</string>
+			<string>sour cream</string>
+			<string>calvados</string>
+			<string>yogurt</string>
+			<string>kirsch</string>
+			<string>cream cheese</string>
+			<string>ginger</string>
+			<string>vanilla</string>
+			<string>papaya</string>
+			<string>butter</string>
 		</array>
 	</dict>
 	<key>barley</key>
@@ -544,7 +719,7 @@
 			<string>cheesee</string>
 			<string>goat cheese</string>
 			<string>chiles</string>
-			<string>especially serrano</string>
+			<string>serrano chiles</string>
 			<string>chives</string>
 			<string>cilantro</string>
 			<string>coriander</string>
@@ -564,7 +739,7 @@
 			<string>tequila,</string>
 		</array>
 	</dict>
-	<key>beans, fava</key>
+	<key>fava beans</key>
 	<dict>
 		<key>Technique</key>
 		<array>
@@ -599,7 +774,7 @@
 			<string>vinaigrette</string>
 		</array>
 	</dict>
-	<key>beans, green</key>
+	<key>green beans</key>
 	<dict>
 		<key>Technique</key>
 		<array>
@@ -643,10 +818,10 @@
 			<string>tomatoes</string>
 			<string>vinegar</string>
 			<string>white wine vinegar</string>
-			<string>walnuts,</string>
+			<string>walnuts</string>
 		</array>
 	</dict>
-	<key>beans, lima</key>
+	<key>lima beans</key>
 	<dict>
 		<key>Technique</key>
 		<array>
@@ -696,7 +871,8 @@
 			<string>olive oil</string>
 			<string>onions</string>
 			<string>parsley</string>
-			<string>pork and salt pork</string>
+			<string>pork</string>
+			<string>salt pork</string>
 			<string>rosemary</string>
 			<string>rum</string>
 			<string>sage</string>
@@ -753,6 +929,20 @@
 			<string>soy</string>
 			<string>balsamic vinegar</string>
 			<string>wine</string>
+			<string>red wine</string>
+			<string>avocados</string>
+			<string>carrots</string>
+			<string>burgundy</string>
+			<string>balsamic vinegar</string>
+			<string>onions</string>
+			<string>marrow</string>
+			<string>wine</string>
+			<string>orange</string>
+			<string>prunes</string>
+			<string>potatoes</string>
+			<string>chiles</string>
+			<string>shallots</string>
+			<string>madeira</string>
 			<string>red wine</string>
 		</array>
 	</dict>
@@ -879,6 +1069,29 @@
 			<string>walnuts</string>
 			<string>walnut oil</string>
 			<string>watercress</string>
+			<string>apples</string>
+			<string>cabbage, cooked</string>
+			<string>corned beef</string>
+			<string>eggs</string>
+			<string>endive</string>
+			<string>mache</string>
+			<string>bechamel sauce</string>
+			<string>salt pork</string>
+			<string>prosciutto</string>
+			<string>bacon</string>
+			<string>walnut oil</string>
+			<string>tarragon</string>
+			<string>balsamic vinegar</string>
+			<string>onions</string>
+			<string>oranges</string>
+			<string>potatoes</string>
+			<string>allspice</string>
+			<string>cloves</string>
+			<string>walnuts</string>
+			<string>cheese</string>
+			<string>crème fraiche</string>
+			<string>shallots</string>
+			<string>watercress</string>
 		</array>
 	</dict>
 	<key>berries</key>
@@ -898,6 +1111,14 @@
 			<string>maple syrup</string>
 			<string>sour cream</string>
 			<string>yogurt</string>
+			<string>chocolate, white</string>
+			<string>custards</string>
+			<string>sour cream</string>
+			<string>yogurt</string>
+			<string>maple syrup</string>
+			<string>framboise</string>
+			<string>brown sugar</string>
+			<string>cream</string>
 		</array>
 	</dict>
 	<key>blackberries</key>
@@ -922,6 +1143,13 @@
 			<string>rose geranium</string>
 			<string>strawberries</string>
 			<string>sugar</string>
+			<string>apples</string>
+			<string>chocolate, white</string>
+			<string>duck</string>
+			<string>rose geranium</string>
+			<string>raspberries</string>
+			<string>cinnamon</string>
+			<string>honey</string>
 		</array>
 	</dict>
 	<key>blueberries</key>
@@ -954,6 +1182,7 @@
 			<string>grand marnier</string>
 			<string>honey</string>
 			<string>lavender</string>
+			<string>bananas</string>
 		</array>
 	</dict>
 	<key>bluefish</key>
@@ -1144,9 +1373,12 @@
 			<string>veal gravy</string>
 			<string>vinegar</string>
 			<string>walnuts</string>
+			<string>chestnuts</string>
+			<string>pancetta</string>
+			<string>bacon</string>
 		</array>
 	</dict>
-	<key>buckwheat (kasha)</key>
+	<key>kasha</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -1211,8 +1443,14 @@
 			<string>caviar</string>
 			<string>chestnuts</string>
 			<string>coconut</string>
-			<string>cream,garlic,ham,horseradish,leeks,lemon,juniperberries,madeira</string>
-			<string>bake,boil,braise</string>
+			<string>cream</string>
+			<string>garlic</string>
+			<string>ham</string>
+			<string>horseradish</string>
+			<string>leeks</string>
+			<string>lemon</string>
+			<string>juniperberries</string>
+			<string>madeira</string>
 			<string>mustard</string>
 			<string>nutmeg</string>
 			<string>onions</string>
@@ -1362,7 +1600,7 @@
 			<string>apples</string>
 			<string>bacon</string>
 			<string>basil</string>
-			<string>béarnaise sauce</string>
+			<string>bearnaise sauce</string>
 			<string>bread crumbs</string>
 			<string>chervil</string>
 			<string>chives</string>
@@ -1379,8 +1617,8 @@
 			<string>onions</string>
 			<string>pancetta</string>
 			<string>parsley</string>
-			<string>pepper (black)</string>
-			<string>peppers (green)</string>
+			<string>pepper</string>
+			<string>green peppers</string>
 			<string>port</string>
 			<string>potatoes</string>
 			<string>raisins</string>
@@ -1441,7 +1679,7 @@
 			<string>olive oil</string>
 			<string>parmesan cheese</string>
 			<string>parley</string>
-			<string>truffles (white)</string>
+			<string>white truffles</string>
 			<string>vinaigrette</string>
 			<string>vinegar</string>
 		</array>
@@ -1516,6 +1754,30 @@
 			<string>sage</string>
 			<string>shallots</string>
 			<string>stock</string>
+			<string>bass</string>
+			<string>beef</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, raw</string>
+			<string>chestnuts</string>
+			<string>chick peas</string>
+			<string>corned beef</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>bacon</string>
+			<string>cinnamon</string>
+			<string>pignoli</string>
+			<string>honey</string>
+			<string>onions</string>
+			<string>nuts</string>
+			<string>stock</string>
+			<string>oranges</string>
+			<string>potatoes</string>
+			<string>rosemary</string>
+			<string>parmesan cheese</string>
+			<string>cloves</string>
+			<string>walnuts</string>
+			<string>garlic</string>
+			<string>cheese</string>
 		</array>
 	</dict>
 	<key>catfish</key>
@@ -1576,7 +1838,7 @@
 			<string>cheese</string>
 			<string>cheddar cheese</string>
 			<string>gruyere cheese</string>
-			<string>or parmesan cheese</string>
+			<string>parmesan cheese</string>
 			<string>chervil</string>
 			<string>chives</string>
 			<string>cracker crumbs</string>
@@ -1615,6 +1877,17 @@
 			<string>sour cream</string>
 			<string>toast</string>
 			<string>vodka</string>
+			<string>cabbage, cooked</string>
+			<string>eggs</string>
+			<string>vodka</string>
+			<string>bread</string>
+			<string>potatoes</string>
+			<string>blini</string>
+			<string>shallots</string>
+			<string>toast</string>
+			<string>smoked salmon</string>
+			<string>sour cream</string>
+			<string>parsley</string>
 		</array>
 	</dict>
 	<key>celery</key>
@@ -1647,6 +1920,15 @@
 			<string>nutmeg</string>
 			<string>parsley</string>
 			<string>walnuts</string>
+			<string>apples</string>
+			<string>carrots</string>
+			<string>chestnuts</string>
+			<string>crabs</string>
+			<string>fennel</string>
+			<string>celery seeds</string>
+			<string>bechamel sauce</string>
+			<string>walnuts</string>
+			<string>hollandaise sauce</string>
 		</array>
 	</dict>
 	<key>celery root</key>
@@ -1688,11 +1970,15 @@
 			<string>onions</string>
 			<string>parsley</string>
 			<string>potatoes</string>
-			<string>squash (butternut)</string>
+			<string>butternut squash</string>
 			<string>thyme</string>
 			<string>vinegar</string>
 			<string>white wine vinegar</string>
 			<string>walnuts</string>
+			<string>cabbage, raw</string>
+			<string>fennel</string>
+			<string>caraway seeds</string>
+			<string>bacon</string>
 		</array>
 	</dict>
 	<key>crepes</key>
@@ -1743,6 +2029,31 @@
 			<string>saffron</string>
 			<string>shallots</string>
 			<string>sour cream</string>
+			<string>brains</string>
+			<string>eggs</string>
+			<string>fennel</string>
+			<string>bacon</string>
+			<string>bay leaves</string>
+			<string>lemon thyme</string>
+			<string>foie gras</string>
+			<string>risotto</string>
+			<string>rosemary</string>
+			<string>parmesan cheese</string>
+			<string>fish</string>
+			<string>garlic</string>
+			<string>cheese</string>
+			<string>shallots</string>
+			<string>nutmeg</string>
+			<string>bread crumbs</string>
+			<string>sour cream</string>
+			<string>poultry fat</string>
+			<string>olive oil</string>
+			<string>olives</string>
+			<string>parsley</string>
+			<string>butter</string>
+			<string>gruyere cheese</string>
+			<string>pasta</string>
+			<string>paprika</string>
 		</array>
 	</dict>
 	<key>chanterelles</key>
@@ -1783,6 +2094,17 @@
 			<string>tarragon</string>
 			<string>veal</string>
 			<string>vinaigrette</string>
+			<string>chicken</string>
+			<string>corn</string>
+			<string>eggs</string>
+			<string>bechamel sauce</string>
+			<string>tarragon</string>
+			<string>rabbit</string>
+			<string>streak</string>
+			<string>fish</string>
+			<string>garlic</string>
+			<string>shallots</string>
+			<string>shellfish</string>
 		</array>
 	</dict>
 	<key>chard</key>
@@ -1847,6 +2169,31 @@
 			<string>vanilla</string>
 			<string>balsamic vinegar</string>
 			<string>zabaione</string>
+			<string>apricots</string>
+			<string>brains</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>chocolate, white</string>
+			<string>currants</string>
+			<string>custards</string>
+			<string>duck</string>
+			<string>verbena</string>
+			<string>port</string>
+			<string>balsamic vinegar</string>
+			<string>red currants</string>
+			<string>nuts</string>
+			<string>ice cream</string>
+			<string>caramel</string>
+			<string>cognac</string>
+			<string>zabaione</string>
+			<string>mint</string>
+			<string>armagnac</string>
+			<string>peaches</string>
+			<string>plums</string>
+			<string>goat cheese</string>
+			<string>sour cream</string>
+			<string>kirsch</string>
+			<string>vanilla</string>
 		</array>
 	</dict>
 	<key>chestnuts</key>
@@ -1890,6 +2237,23 @@
 			<string>onions</string>
 			<string>orange</string>
 			<string>parsley,</string>
+			<string>apples</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, red</string>
+			<string>carrots</string>
+			<string>celery</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>fennel</string>
+			<string>cinnamon</string>
+			<string>onions</string>
+			<string>orange</string>
+			<string>cloves</string>
+			<string>crème fraiche</string>
+			<string>cabbage</string>
+			<string>cognac</string>
+			<string>ginger</string>
 		</array>
 	</dict>
 	<key>chick peas</key>
@@ -1914,7 +2278,8 @@
 			<string>olive oil</string>
 			<string>onions</string>
 			<string>parsley</string>
-			<string>peppers (especially red)</string>
+			<string>peppers</string>
+			<string>red peppers</string>
 			<string>rosemary</string>
 			<string>spinach</string>
 			<string>tomatoes</string>
@@ -2029,6 +2394,43 @@
 			<string>vinegar</string>
 			<string>white wine vinegar</string>
 			<string>yogurt</string>
+			<string>apples</string>
+			<string>asparagus</string>
+			<string>bananas</string>
+			<string>chanterelles</string>
+			<string>escarole</string>
+			<string>fennel</string>
+			<string>sweet potatoes</string>
+			<string>bacon</string>
+			<string>tarragon</string>
+			<string>mussels</string>
+			<string>vinegar</string>
+			<string>five-spice powder</string>
+			<string>lime</string>
+			<string>onions</string>
+			<string>blood</string>
+			<string>oysters</string>
+			<string>pecans</string>
+			<string>oranges</string>
+			<string>prunes</string>
+			<string>foie gras</string>
+			<string>coriander</string>
+			<string>thyme</string>
+			<string>cider</string>
+			<string>rosemary</string>
+			<string>parmesan cheese</string>
+			<string>swiss cheese</string>
+			<string>grapes</string>
+			<string>garlic</string>
+			<string>cheese</string>
+			<string>cabbage</string>
+			<string>cognac</string>
+			<string>morels</string>
+			<string>coconut</string>
+			<string>star anise</string>
+			<string>mint</string>
+			<string>armagnac</string>
+			<string>madeira</string>
 		</array>
 	</dict>
 	<key>chicken livers</key>
@@ -2057,6 +2459,10 @@
 			<string>parsley</string>
 			<string>pepper salt</string>
 			<string>sour cream</string>
+			<string>eggs</string>
+			<string>bacon</string>
+			<string>pepper salt</string>
+			<string>onions</string>
 		</array>
 	</dict>
 	<key>chicory</key>
@@ -2073,7 +2479,8 @@
 		<array>
 			<string>apples</string>
 			<string>bacon</string>
-			<string>cheese (especially gruyere)</string>
+			<string>cheese</string>
+			<string>gruyere cheese</string>
 			<string>creme fraiche</string>
 			<string>figs</string>
 			<string>ham</string>
@@ -2104,13 +2511,15 @@
 			<string>citrus peel</string>
 			<string>coffee</string>
 			<string>coconut</string>
-			<string>cream (or milk)</string>
+			<string>cream</string>
+			<string>milk</string>
 			<string>ginger</string>
 			<string>lemon</string>
 			<string>liquors</string>
 			<string>malt maple mint</string>
 			<string>mocha</string>
-			<string>nuts (especially hazelnuts)</string>
+			<string>nuts</string>
+			<string>hazelnuts</string>
 			<string>orange</string>
 			<string>passion fruit</string>
 			<string>pecans</string>
@@ -2122,6 +2531,22 @@
 			<string>verbena</string>
 			<string>violet</string>
 			<string>walnuts</string>
+			<string>almonds</string>
+			<string>bananas</string>
+			<string>cherries</string>
+			<string>chestnuts</string>
+			<string>coconuts</string>
+			<string>custards</string>
+			<string>dates</string>
+			<string>duck</string>
+			<string>passion fruit</string>
+			<string>milk</string>
+			<string>verbena</string>
+			<string>malt maple mint</string>
+			<string>tea</string>
+			<string>liquors</string>
+			<string>raspberries</string>
+			<string>cinnamon</string>
 		</array>
 	</dict>
 	<key>chocolate, white</key>
@@ -2172,7 +2597,8 @@
 			<string>bacon</string>
 			<string>bread crumbs</string>
 			<string>butter</string>
-			<string>chiles (especially red)</string>
+			<string>chiles</string>
+			<string>red chiles</string>
 			<string>chives</string>
 			<string>cream</string>
 			<string>curry</string>
@@ -2189,7 +2615,8 @@
 			<string>sake</string>
 			<string>shallots</string>
 			<string>sour cream</string>
-			<string>tabasco sauce tarragon</string>
+			<string>tabasco sauce</string>
+			<string>tarragon</string>
 			<string>tartar sauce</string>
 			<string>thyme</string>
 			<string>toamtoes</string>
@@ -2220,6 +2647,16 @@
 			<string>nuts</string>
 			<string>brazil nuts</string>
 			<string>cashew</string>
+			<string>macadamia</string>
+			<string>apricots</string>
+			<string>chocolate</string>
+			<string>chocolate, white</string>
+			<string>lime</string>
+			<string>nuts</string>
+			<string>mango</string>
+			<string>passionfruit</string>
+			<string>banana</string>
+			<string>pineapple</string>
 			<string>macadamia</string>
 		</array>
 	</dict>
@@ -2305,6 +2742,9 @@
 			<string>hazelnut</string>
 			<string>lemon</string>
 			<string>vanilla</string>
+			<string>chocolate</string>
+			<string>custards</string>
+			<string>cinnamon</string>
 		</array>
 	</dict>
 	<key>corn</key>
@@ -2348,6 +2788,31 @@
 			<string>scallions</string>
 			<string>sweet pepper</string>
 			<string>worcestershire sauce</string>
+			<string>beef</string>
+			<string>chanterelles</string>
+			<string>chicken</string>
+			<string>crabs</string>
+			<string>duck</string>
+			<string>bacon</string>
+			<string>lime</string>
+			<string>onions</string>
+			<string>parmesan cheese</string>
+			<string>chiles</string>
+			<string>sweet pepper</string>
+			<string>garlic</string>
+			<string>cheese</string>
+			<string>salt</string>
+			<string>worcestershire sauce</string>
+			<string>feta cheese</string>
+			<string>marjoram</string>
+			<string>basil</string>
+			<string>parsley</string>
+			<string>butter</string>
+			<string>cilantro</string>
+			<string>cayenne</string>
+			<string>chives</string>
+			<string>lovage</string>
+			<string>pepper</string>
 		</array>
 	</dict>
 	<key>corned beef</key>
@@ -2505,6 +2970,15 @@
 			<string>pears</string>
 			<string>sugar</string>
 			<string>walnuts</string>
+			<string>apples</string>
+			<string>chicken</string>
+			<string>duck</string>
+			<string>cinnamon</string>
+			<string>pears</string>
+			<string>oranges</string>
+			<string>cloves</string>
+			<string>walnuts</string>
+			<string>sugar</string>
 		</array>
 	</dict>
 	<key>crayfish</key>
@@ -2555,6 +3029,29 @@
 			<string>truffles</string>
 			<string>vinegar</string>
 			<string>white wine</string>
+			<string>carrots</string>
+			<string>eels</string>
+			<string>tarragon</string>
+			<string>bay leaves</string>
+			<string>white wine</string>
+			<string>vinegar</string>
+			<string>onions</string>
+			<string>coriander</string>
+			<string>thyme</string>
+			<string>parmesan cheese</string>
+			<string>garlic</string>
+			<string>cheese</string>
+			<string>cream or milk</string>
+			<string>cognac</string>
+			<string>sherry</string>
+			<string>shallots</string>
+			<string>hollandaise sauce</string>
+			<string>nutmeg</string>
+			<string>bread crumbs</string>
+			<string>basil</string>
+			<string>parsley</string>
+			<string>tomatoes</string>
+			<string>butter</string>
 		</array>
 	</dict>
 	<key>cucumbers</key>
@@ -2604,7 +3101,8 @@
 			<string>strawberries</string>
 			<string>tomato sauce</string>
 			<string>tomatoes</string>
-			<string>vinegar (especially white wine)</string>
+			<string>vinegar</string>
+			<string>white wine vinegar</string>
 			<string>yogurt</string>
 		</array>
 	</dict>
@@ -2624,6 +3122,12 @@
 			<string>pears</string>
 			<string>prunes</string>
 			<string>raspberries</string>
+			<string>apples</string>
+			<string>duck</string>
+			<string>escarole</string>
+			<string>raspberries</string>
+			<string>pears</string>
+			<string>prunes</string>
 		</array>
 	</dict>
 	<key>custards</key>
@@ -2660,6 +3164,14 @@
 			<string>rum</string>
 			<string>strawberries</string>
 			<string>vanilla</string>
+			<string>cherries</string>
+			<string>chocolate</string>
+			<string>coffee</string>
+			<string>passion fruit</string>
+			<string>cinnamon</string>
+			<string>oranges</string>
+			<string>caramel</string>
+			<string>maple</string>
 		</array>
 	</dict>
 	<key>dandelion greens</key>
@@ -2709,6 +3221,15 @@
 			<string>rum</string>
 			<string>vanilla</string>
 			<string>walnuts</string>
+			<string>apples</string>
+			<string>chocolate</string>
+			<string>bacon</string>
+			<string>cinnamon</string>
+			<string>nuts</string>
+			<string>orange</string>
+			<string>pecans</string>
+			<string>caramel</string>
+			<string>walnuts</string>
 		</array>
 	</dict>
 	<key>duck</key>
@@ -2717,7 +3238,7 @@
 		<array>
 			<string>braise</string>
 			<string>roast</string>
-			<string>spit- roast</string>
+			<string>spit-roast</string>
 		</array>
 		<key>Seasons</key>
 		<array>
@@ -2808,6 +3329,5622 @@
 			<string>red wine</string>
 			<string>white wine</string>
 			<string>wine</string>
+		</array>
+	</dict>
+	<key>eels</key>
+	<dict>
+		<key>Technique</key>
+		<array>
+			<string>broil</string>
+			<string>grill</string>
+			<string>poach</string>
+			<string>saute stew</string>
+		</array>
+		<key>Seasons</key>
+		<array>
+			<string>fall</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>aioli</string>
+			<string>anchovies</string>
+			<string>bacon</string>
+			<string>bay leaves</string>
+			<string>brandy</string>
+			<string>crayfish</string>
+			<string>cream</string>
+			<string>dill</string>
+			<string>eel blood</string>
+			<string>garlic</string>
+			<string>leeks</string>
+			<string>lemon</string>
+			<string>mushrooms</string>
+			<string>nutmeg</string>
+			<string>olive oil</string>
+			<string>onions</string>
+			<string>parsley</string>
+			<string>pepper</string>
+			<string>prunes</string>
+			<string>raisins</string>
+			<string>shallots</string>
+			<string>soy sauce</string>
+			<string>tomato sauce</string>
+			<string>vinegar</string>
+			<string>balsamic vinegar</string>
+			<string>wine</string>
+			<string>burgundy</string>
+			<string>pinot noir</string>
+			<string>white wine</string>
+		</array>
+	</dict>
+	<key>eggplant</key>
+	<dict>
+		<key>Technique</key>
+		<array>
+			<string>bake</string>
+			<string>braise</string>
+			<string>broil</string>
+			<string>fry</string>
+			<string>grill</string>
+			<string>roast</string>
+			<string>saute</string>
+			<string>stew</string>
+		</array>
+		<key>Seasons</key>
+		<array>
+			<string>summer</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>aioli</string>
+			<string>anchovies</string>
+			<string>bacon</string>
+			<string>basil</string>
+			<string>bechamel sauce</string>
+			<string>bread crumbs</string>
+			<string>capers</string>
+			<string>cheese</string>
+			<string>goat cheese</string>
+			<string>gruyere cheese</string>
+			<string>mozzarella cheese</string>
+			<string>parmesan cheese</string>
+			<string>ricotta cheese</string>
+			<string>chervil</string>
+			<string>cream</string>
+			<string>cumin</string>
+			<string>garlic</string>
+			<string>ham</string>
+			<string>lamb</string>
+			<string>lemon</string>
+			<string>mint</string>
+			<string>mushrooms</string>
+			<string>olive oil</string>
+			<string>onions</string>
+			<string>oregano</string>
+			<string>paprika</string>
+			<string>parsley</string>
+			<string>peppers</string>
+			<string>green peppers</string>
+			<string>pesto</string>
+			<string>pignoli</string>
+			<string>rice</string>
+			<string>rosemary</string>
+			<string>salt</string>
+			<string>shallots</string>
+			<string>shrimp</string>
+			<string>soy</string>
+			<string>tarragon</string>
+			<string>thyme</string>
+			<string>tomatoes</string>
+			<string>vinegar</string>
+			<string>balsamic vinegar</string>
+			<string>walnuts</string>
+			<string>yogurt</string>
+			<string>zucchini</string>
+			<string>bass, striped</string>
+			<string>cod</string>
+			<string>mozzarella cheese</string>
+			<string>bechamel sauce</string>
+			<string>bacon</string>
+			<string>tarragon</string>
+			<string>vinegar</string>
+			<string>balsamic vinegar</string>
+			<string>pignoli</string>
+			<string>onions</string>
+			<string>lamb</string>
+			<string>pesto</string>
+			<string>thyme</string>
+			<string>rosemary</string>
+			<string>parmesan cheese</string>
+			<string>walnuts</string>
+			<string>aioli</string>
+			<string>garlic</string>
+			<string>cheese</string>
+			<string>mint</string>
+			<string>zucchini</string>
+			<string>shallots</string>
+			<string>salt</string>
+			<string>rice</string>
+			<string>goat cheese</string>
+			<string>cumin</string>
+			<string>bread crumbs</string>
+			<string>yogurt</string>
+		</array>
+	</dict>
+	<key>eggs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array>
+			<string>fall</string>
+			<string>winter</string>
+			<string>spring</string>
+			<string>summer</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>asparagus</string>
+			<string>bacon</string>
+			<string>bread</string>
+			<string>butter</string>
+			<string>capers</string>
+			<string>caviar</string>
+			<string>cheese</string>
+			<string>chicken livers</string>
+			<string>chives</string>
+			<string>crab</string>
+			<string>cream</string>
+			<string>croutons</string>
+			<string>fines herbs</string>
+			<string>ham</string>
+			<string>herbs</string>
+			<string>hollandaise sauce</string>
+			<string>morels</string>
+			<string>mushrooms</string>
+			<string>onions</string>
+			<string>parmesan cheese</string>
+			<string>parsley</string>
+			<string>pepper</string>
+			<string>green peppers</string>
+			<string>potatoes</string>
+			<string>ratatouille</string>
+			<string>salt</string>
+			<string>scallions</string>
+			<string>shallots</string>
+			<string>shrimp</string>
+			<string>smoked salmon</string>
+			<string>sorrel</string>
+			<string>spinach</string>
+			<string>tomato</string>
+			<string>truffles</string>
+			<string>watercress</string>
+			<string>anchovies</string>
+			<string>asparagus</string>
+			<string>bananas</string>
+			<string>beets</string>
+			<string>brains</string>
+			<string>kasha</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>chicken livers</string>
+			<string>escarole</string>
+			<string>bacon</string>
+			<string>croutons</string>
+			<string>crab</string>
+			<string>onions</string>
+			<string>tomato</string>
+			<string>bread</string>
+			<string>potatoes</string>
+			<string>parmesan cheese</string>
+			<string>cheese</string>
+			<string>spinach</string>
+			<string>morels</string>
+		</array>
+	</dict>
+	<key>endive</key>
+	<dict>
+		<key>Technique</key>
+		<array>
+			<string>braise</string>
+			<string>raw</string>
+			<string>saute</string>
+			<string>stew</string>
+		</array>
+		<key>Seasons</key>
+		<array>
+			<string>winter</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bacon</string>
+			<string>white beans</string>
+			<string>beets</string>
+			<string>blue cheese</string>
+			<string>bread crumbs</string>
+			<string>butter</string>
+			<string>cheese</string>
+			<string>gruyere cheese</string>
+			<string>parmesan cheese</string>
+			<string>cream</string>
+			<string>figs</string>
+			<string>ham</string>
+			<string>kumquats</string>
+			<string>lemon</string>
+			<string>mornay sauce</string>
+			<string>mushrooms</string>
+			<string>orange</string>
+			<string>pears</string>
+			<string>roquefort cheese</string>
+			<string>scallops</string>
+			<string>smoked fish</string>
+			<string>smoked salmon</string>
+			<string>smoked trout</string>
+			<string>sugar</string>
+			<string>tangerines</string>
+			<string>thyme vinaigrette</string>
+			<string>walnuts</string>
+			<string>watercress</string>
+			<string>apples</string>
+			<string>beets</string>
+			<string>chicken</string>
+			<string>figs</string>
+			<string>bacon</string>
+			<string>scallops</string>
+			<string>pears</string>
+			<string>kumquats</string>
+			<string>orange</string>
+			<string>parmesan cheese</string>
+			<string>smoked trout</string>
+			<string>walnuts</string>
+			<string>cheese</string>
+			<string>watercress</string>
+			<string>white beans</string>
+			<string>mornay sauce</string>
+			<string>sugar</string>
+			<string>smoked salmon</string>
+			<string>bread crumbs</string>
+			<string>butter</string>
+			<string>ham</string>
+		</array>
+	</dict>
+	<key>escarole</key>
+	<dict>
+		<key>Technique</key>
+		<array>
+			<string>braise</string>
+			<string>raw</string>
+			<string>saute</string>
+		</array>
+		<key>Seasons</key>
+		<array>
+			<string>winter</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bacon</string>
+			<string>capers</string>
+			<string>cheese</string>
+			<string>fontina cheese</string>
+			<string>mozzarella cheese</string>
+			<string>roquefort cheese</string>
+			<string>chiles</string>
+			<string>currants</string>
+			<string>eggs</string>
+			<string>garlic</string>
+			<string>olive oil</string>
+			<string>olives</string>
+			<string>onions</string>
+			<string>vinegar</string>
+			<string>walnuts</string>
+			<string>chicken</string>
+			<string>mozzarella cheese</string>
+			<string>bacon</string>
+			<string>vinegar</string>
+			<string>onions</string>
+		</array>
+	</dict>
+	<key>fennel</key>
+	<dict>
+		<key>Technique</key>
+		<array>
+			<string>braise</string>
+			<string>raw</string>
+			<string>saute</string>
+		</array>
+		<key>Seasons</key>
+		<array>
+			<string>fall</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>butter</string>
+			<string>celery root</string>
+			<string>cheese</string>
+			<string>goat cheese</string>
+			<string>gruyere cheese</string>
+			<string>parmesan cheese</string>
+			<string>chestnuts</string>
+			<string>coriander</string>
+			<string>cream</string>
+			<string>fruit</string>
+			<string>garlic</string>
+			<string>hearts of palm</string>
+			<string>lemon</string>
+			<string>mushroom</string>
+			<string>olive oil</string>
+			<string>olives</string>
+			<string>onions</string>
+			<string>oranges</string>
+			<string>pancetta parmesan cheese</string>
+			<string>peppers pernod</string>
+			<string>potatoes</string>
+			<string>sherry</string>
+			<string>thyme</string>
+			<string>tomatoes</string>
+			<string>truffle</string>
+			<string>vinaigrette</string>
+			<string>artichokes</string>
+			<string>bass</string>
+			<string>beets</string>
+			<string>carrots</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>cucumbers</string>
+			<string>pancetta parmesan cheese</string>
+			<string>hearts of palm</string>
+			<string>onions</string>
+			<string>oranges</string>
+			<string>coriander</string>
+			<string>thyme</string>
+			<string>potatoes</string>
+			<string>parmesan cheese</string>
+			<string>peppers pernod</string>
+			<string>garlic</string>
+			<string>cheese</string>
+			<string>sherry</string>
+		</array>
+	</dict>
+	<key>fiddlehead ferns</key>
+	<dict>
+		<key>Technique</key>
+		<array>
+			<string>deep-fry</string>
+			<string>steam</string>
+		</array>
+		<key>Seasons</key>
+		<array>
+			<string>spring</string>
+		</array>
+		<key>Flavors</key>
+		<array>
+			<string>bacon</string>
+			<string>butter</string>
+			<string>hollandaise sauce</string>
+			<string>leeks</string>
+			<string>lemons</string>
+			<string>nutmeg</string>
+			<string>olive oil</string>
+			<string>onions</string>
+			<string>shallots</string>
+			<string>vinaigrette</string>
+		</array>
+	</dict>
+	<key>red cabbage</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>lemons</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>sweet potatoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>passion fruit</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+			<string>chocolate</string>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>milk</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>lime lingo berries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+		</array>
+	</dict>
+	<key>celery seeds</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>celery</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>mache</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+		</array>
+	</dict>
+	<key>pancetta</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fava beans</string>
+			<string>brussels sprouts</string>
+			<string>calves, liver</string>
+			<string>crabs, soft-shell</string>
+		</array>
+	</dict>
+	<key>mozzarella cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggplant</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>couscous</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chick peas</string>
+		</array>
+	</dict>
+	<key>bechamel sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>green beans</string>
+			<string>beets</string>
+			<string>cabbage, cooked</string>
+			<string>cauliflower</string>
+			<string>celery</string>
+			<string>chanterelles</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>caraway seeds</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cabbage, cooked</string>
+			<string>celery root</string>
+		</array>
+	</dict>
+	<key>turnips</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>salt pork</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+			<string>lima beans</string>
+			<string>beans, white</string>
+			<string>beets</string>
+		</array>
+	</dict>
+	<key>verbena</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cherries</string>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>figs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicory</string>
+			<string>duck</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>malt maple mint</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>prosciutto</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+			<string>cabbage, red</string>
+		</array>
+	</dict>
+	<key>pancetta parmesan cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>black truffles</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>pork</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, white</string>
+		</array>
+	</dict>
+	<key>tea</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>bacon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>artichokes</string>
+			<string>bananas</string>
+			<string>beans, black</string>
+			<string>green beans</string>
+			<string>lima beans</string>
+			<string>beans, white</string>
+			<string>beef heart</string>
+			<string>beets</string>
+			<string>bluefish</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, red</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>catfish</string>
+			<string>cauliflower</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>chicory</string>
+			<string>clams</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>dandelion greens</string>
+			<string>dates</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>endive</string>
+			<string>escarole</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>lavender</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>blueberries</string>
+		</array>
+	</dict>
+	<key>port</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, liver</string>
+			<string>cherries</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>walnut oil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+		</array>
+	</dict>
+	<key>sausage</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+		</array>
+	</dict>
+	<key>sauerkraut</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>tarragon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+			<string>calves, brains</string>
+			<string>calves, liver</string>
+			<string>capon</string>
+			<string>chanterelles</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>bay leaves</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>cabbage, red</string>
+			<string>calves, head</string>
+			<string>crepes</string>
+			<string>cod</string>
+			<string>crayfish</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>burgundy</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>white wine</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>calves, liver</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>duck</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>rose geranium</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>blackberries</string>
+		</array>
+	</dict>
+	<key>cheesee</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>scallops</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>capers caraway seeds</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>croutons</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>mussels</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cauliflower</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>tabasco sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>liquors</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>raspberries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>chocolate</string>
+			<string>chocolate, white</string>
+			<string>currants</string>
+		</array>
+	</dict>
+	<key>vinegar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>avocados</string>
+			<string>bean sprouts</string>
+			<string>green beans</string>
+			<string>bluefish</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, raw</string>
+			<string>cabbage, red</string>
+			<string>calves, liver</string>
+			<string>cardoons</string>
+			<string>celery root</string>
+			<string>chicken</string>
+			<string>chicory</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>dandelion greens</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>sesame oil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bean sprouts</string>
+		</array>
+	</dict>
+	<key>tartar sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+			<string>crabs, soft-shell</string>
+		</array>
+	</dict>
+	<key>lemon madeira</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>cinnamon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>cabbage, red</string>
+			<string>carrots</string>
+			<string>chestnuts</string>
+			<string>chocolate</string>
+			<string>coffee</string>
+			<string>cranberries</string>
+			<string>custards</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>thousand island dressing</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>five-spice powder</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>balsamic vinegar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>beef</string>
+			<string>beets</string>
+			<string>cherries</string>
+			<string>eels</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>pignoli</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>arugula</string>
+			<string>brussels sprouts</string>
+			<string>kasha</string>
+			<string>carrots</string>
+			<string>crabs, soft-shell</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>red currants</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cherries</string>
+		</array>
+	</dict>
+	<key>lime</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>bananas</string>
+			<string>blueberries</string>
+			<string>bluefish</string>
+			<string>cabbage, raw</string>
+			<string>calves, liver</string>
+			<string>chicken</string>
+			<string>coconuts</string>
+			<string>corn</string>
+			<string>crabs, soft-shell</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>hearts of palm</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>sake</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>louis dressing</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>pears</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>arugula</string>
+			<string>cranberries</string>
+			<string>currants</string>
+			<string>duck</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>blood oranges</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>crab</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>whole wheat bread</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+		</array>
+	</dict>
+	<key>butternut squash</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>celery root</string>
+		</array>
+	</dict>
+	<key>tequila,</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>rabbit</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>pepper salt</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken livers</string>
+		</array>
+	</dict>
+	<key>grill</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bluefish</string>
+		</array>
+	</dict>
+	<key>malt</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>lemon thyme</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+		</array>
+	</dict>
+	<key>monterey jack</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>lima beans</string>
+		</array>
+	</dict>
+	<key>streak</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>vodka</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>caviar</string>
+		</array>
+	</dict>
+	<key>honey</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>carrots</string>
+			<string>crabs, soft-shell</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>cheese sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+		</array>
+	</dict>
+	<key>onions</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>artichokes</string>
+			<string>avocados</string>
+			<string>barley</string>
+			<string>beans, black</string>
+			<string>green beans</string>
+			<string>lima beans</string>
+			<string>beans, white</string>
+			<string>beef</string>
+			<string>beets</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>bulgar</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, red</string>
+			<string>calves, brains</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>celery root</string>
+			<string>chestnuts</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>cod</string>
+			<string>corn</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>dandelion greens</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>escarole</string>
+			<string>fennel</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>lamb</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>rhubarb</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>nuts</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>green beans</string>
+			<string>broccoli</string>
+			<string>carrots</string>
+			<string>cherries</string>
+			<string>chicory</string>
+			<string>chocolate</string>
+			<string>coconuts</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>tarragon,</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+		</array>
+	</dict>
+	<key>serrano chiles</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>stock</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>carrots</string>
+		</array>
+	</dict>
+	<key>cardamom</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>kumquats</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>red peppers</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chick peas</string>
+		</array>
+	</dict>
+	<key>blood</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>sauternes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+		</array>
+	</dict>
+	<key>marrow</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+		</array>
+	</dict>
+	<key>tomato</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bluefish</string>
+			<string>brains</string>
+			<string>calves, liver</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>yogurt bake</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bluefish</string>
+		</array>
+	</dict>
+	<key>mango</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>oysters</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>wine</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+			<string>bluefish</string>
+			<string>cabbage, red</string>
+			<string>duck</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>applejack</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>avocado</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>arugula</string>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>orange</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>beef</string>
+			<string>broccoli</string>
+			<string>chestnuts</string>
+			<string>chocolate</string>
+			<string>dates</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>pesto</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>pecans</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>arugula</string>
+			<string>bananas</string>
+			<string>catfish</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>citrus</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bass</string>
+		</array>
+	</dict>
+	<key>oranges</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>avocados</string>
+			<string>bananas</string>
+			<string>bass</string>
+			<string>beans, black</string>
+			<string>beets</string>
+			<string>capon</string>
+			<string>carrots</string>
+			<string>chicken</string>
+			<string>chocolate, white</string>
+			<string>crabs</string>
+			<string>cranberries</string>
+			<string>custards</string>
+			<string>duck</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>prunes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apples</string>
+			<string>beef</string>
+			<string>chicken</string>
+			<string>currants</string>
+			<string>duck</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>foie gras</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>ketchup</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>catfish</string>
+		</array>
+	</dict>
+	<key>custard ginger</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>blueberries</string>
+		</array>
+	</dict>
+	<key>bread</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>caviar</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>coriander</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>bass</string>
+			<string>beans, black</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>thyme</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>bass</string>
+			<string>fava beans</string>
+			<string>bluefish</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, red</string>
+			<string>calves, brains</string>
+			<string>capon</string>
+			<string>celery root</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>crayfish</string>
+			<string>duck</string>
+			<string>eggplant</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>risotto</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+		</array>
+	</dict>
+	<key>potatoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>arugula</string>
+			<string>bass</string>
+			<string>beef</string>
+			<string>beef ribs</string>
+			<string>beets</string>
+			<string>broccoli</string>
+			<string>cabbage, cooked</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>caviar</string>
+			<string>celery root</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>eggs</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>cider</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>chicken</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>cointreau</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>blueberries</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>rosemary</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>asparagus</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>beans, white</string>
+			<string>beef heart</string>
+			<string>brussels sprouts</string>
+			<string>capon</string>
+			<string>carrots</string>
+			<string>crepes</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>parmesan cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>arugula</string>
+			<string>asparagus</string>
+			<string>green beans</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>kasha</string>
+			<string>cardoons</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>corn</string>
+			<string>crayfish</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>endive</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>allspice</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+		</array>
+	</dict>
+	<key>fish</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>pistachios</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>avocados</string>
+			<string>chocolate</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>wine,</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, head</string>
+		</array>
+	</dict>
+	<key>ice cream</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+			<string>cherries</string>
+		</array>
+	</dict>
+	<key>lemongrass</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+		</array>
+	</dict>
+	<key>alcohol</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>nut oil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cabbage, raw</string>
+		</array>
+	</dict>
+	<key>peppers pernod</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>swiss cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>celery root</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>caramel</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>cherries</string>
+			<string>chocolate</string>
+			<string>custards</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>pomegranate</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>cloves</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>beets</string>
+			<string>cabbage, red</string>
+			<string>calves, head</string>
+			<string>carrots</string>
+			<string>chestnuts</string>
+			<string>cranberries</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>duck livers</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>smoked trout</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>chiles</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>beans, black</string>
+			<string>lima beans</string>
+			<string>beef</string>
+			<string>clams</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>hard-boiled eggs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>brussels sprouts</string>
+		</array>
+	</dict>
+	<key>walnuts</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>arugula</string>
+			<string>green beans</string>
+			<string>beets</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, red</string>
+			<string>carrots</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>chicory</string>
+			<string>chocolate</string>
+			<string>cranberries</string>
+			<string>dates</string>
+			<string>duck</string>
+			<string>eggplant</string>
+			<string>endive</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>aioli</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>cauliflower</string>
+			<string>cod</string>
+			<string>eels</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>sweet pepper</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>corn</string>
+		</array>
+	</dict>
+	<key>grapes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, liver</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>passionfruit</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>red chiles</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+		</array>
+	</dict>
+	<key>garlic</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>artichokes</string>
+			<string>arugula</string>
+			<string>asparagus</string>
+			<string>avocados</string>
+			<string>bass</string>
+			<string>beans, black</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>lima beans</string>
+			<string>beans, white</string>
+			<string>bluefish</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>broccoli rabe</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, red</string>
+			<string>calves, liver</string>
+			<string>capon</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>corn</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>dandelion greens</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>escarole</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>lima beans</string>
+			<string>beets</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, red</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>chicory</string>
+			<string>corn</string>
+			<string>crayfish</string>
+			<string>dandelion greens</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>endive</string>
+			<string>escarole</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>blini</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>caviar</string>
+		</array>
+	</dict>
+	<key>crème fraiche</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+			<string>beets</string>
+			<string>chestnuts</string>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>juniperberries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cabbage, cooked</string>
+		</array>
+	</dict>
+	<key>cream or milk</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crayfish</string>
+		</array>
+	</dict>
+	<key>cabbage</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>barley</string>
+			<string>bluefish</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>maple</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>spinach</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fava beans</string>
+			<string>brains</string>
+			<string>chick peas</string>
+			<string>crabs, soft-shell</string>
+			<string>duck</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>pralines</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>cognac</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>blueberries</string>
+			<string>calves, liver</string>
+			<string>cherries</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>coffee</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>cracker crumbs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cauliflower</string>
+		</array>
+	</dict>
+	<key>peppers rice</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>banana</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>poppy seeds</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cabbage, cooked</string>
+		</array>
+	</dict>
+	<key>pinot noir</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>morels</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>chicken</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>zabaione</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cherries</string>
+		</array>
+	</dict>
+	<key>boysenberries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate, white</string>
+		</array>
+	</dict>
+	<key>epazote</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>hazelnut</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>coffee</string>
+		</array>
+	</dict>
+	<key>praline</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>red pepper flakes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>broccoli rabe</string>
+		</array>
+	</dict>
+	<key>fruits</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>coconut</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>cabbage, cooked</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>crabs</string>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>star anise</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>violets</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate, white</string>
+		</array>
+	</dict>
+	<key>duck fat</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>brussels sprouts</string>
+		</array>
+	</dict>
+	<key>mint</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>bass</string>
+			<string>beans, black</string>
+			<string>green beans</string>
+			<string>bulgar</string>
+			<string>carrots</string>
+			<string>cherries</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>remoulade sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+		</array>
+	</dict>
+	<key>sherry</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>calves, head</string>
+			<string>calves, liver</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>duck</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>zucchini</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>shallots</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>bass</string>
+			<string>beans, white</string>
+			<string>beef</string>
+			<string>beets</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>caviar</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>crayfish</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>coriander leaves</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cod</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>hollandaise sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>calves, brains</string>
+			<string>cardoons</string>
+			<string>cauliflower</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>eggs</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>watercress</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+			<string>broccoli</string>
+			<string>eggs</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>juniper berries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bluefish</string>
+			<string>cod</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>jalapenos</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>white beans</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>pineapple</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>blueberries</string>
+			<string>coconuts</string>
+			<string>custards</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>red onions</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>salt</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>avocados</string>
+			<string>fava beans</string>
+			<string>beets</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, red</string>
+			<string>corn</string>
+			<string>cucumbers</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>armagnac</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+			<string>cherries</string>
+			<string>chicken</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>white truffles</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cardoons</string>
+		</array>
+	</dict>
+	<key>sage</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fava beans</string>
+			<string>beans, white</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>peaches</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>cherries</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>madeira</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+			<string>beef</string>
+			<string>cabbage, cooked</string>
+			<string>calves, head</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>panceta</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+		</array>
+	</dict>
+	<key>pernod</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+			<string>crabs, soft-shell</string>
+		</array>
+	</dict>
+	<key>mornay sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>cauliflower</string>
+			<string>crabs</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>toast</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>caviar</string>
+		</array>
+	</dict>
+	<key>shellfish</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>fruit</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>sugar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>avocados</string>
+			<string>blackberries</string>
+			<string>bluefish</string>
+			<string>cranberries</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>romano cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>broccoli</string>
+			<string>broccoli rabe</string>
+			<string>carrots</string>
+		</array>
+	</dict>
+	<key>bourbon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>blueberries</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>rice</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apricots</string>
+			<string>lima beans</string>
+			<string>crabs</string>
+			<string>custards</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>plums</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apricots</string>
+			<string>cherries</string>
+			<string>chicken</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>gruyere</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>brains</string>
+		</array>
+	</dict>
+	<key>goat cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>beans, black</string>
+			<string>cabbage, red</string>
+			<string>cherries</string>
+			<string>eggplant</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>molasses</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>beans, white</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>red wine</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bass</string>
+			<string>beans, white</string>
+			<string>beef</string>
+			<string>cabbage, red</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>smoked salmon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>caviar</string>
+			<string>eggs</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>cheddar cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>carrots</string>
+			<string>cauliflower</string>
+		</array>
+	</dict>
+	<key>eel blood</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>crabmeat</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+		</array>
+	</dict>
+	<key>cumin</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>beans, black</string>
+			<string>broccoli</string>
+			<string>carrots</string>
+			<string>chick peas</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>nutmeg</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>asparagus</string>
+			<string>green beans</string>
+			<string>beets</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>carrots</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>bread crumbs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>calves, liver</string>
+			<string>cauliflower</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>crayfish</string>
+			<string>eggplant</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>sour cream</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>beans, black</string>
+			<string>green beans</string>
+			<string>beet greens</string>
+			<string>beets</string>
+			<string>berries</string>
+			<string>blueberries</string>
+			<string>kasha</string>
+			<string>calves, liver</string>
+			<string>caviar</string>
+			<string>crepes</string>
+			<string>cherries</string>
+			<string>chicken livers</string>
+			<string>clams</string>
+			<string>crabs</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>poultry fat</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+		</array>
+	</dict>
+	<key>go chi berries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>violet</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>mangoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>chicken</string>
+			<string>crabs</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>worcestershire sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+			<string>corn</string>
+		</array>
+	</dict>
+	<key>taleggio cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>brussels sprouts</string>
+		</array>
+	</dict>
+	<key>calvados</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>chicken</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>yogurt</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>berries</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>cucumbers</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>champagne</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>white wine vinegar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>green beans</string>
+			<string>beets</string>
+			<string>cabbage, raw</string>
+			<string>cabbage, red</string>
+			<string>celery root</string>
+			<string>chicken</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>feta cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>corn</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>provolone cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>carrots</string>
+		</array>
+	</dict>
+	<key>broil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bluefish</string>
+		</array>
+	</dict>
+	<key>barbecue sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>fennel seeds</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>maltaise sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>broccoli</string>
+		</array>
+	</dict>
+	<key>olive oil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>arugula</string>
+			<string>asparagus</string>
+			<string>bass</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>beans, white</string>
+			<string>broccoli</string>
+			<string>broccoli rabe</string>
+			<string>bulgar</string>
+			<string>cabbage, raw</string>
+			<string>cabbage, red</string>
+			<string>cardoons</string>
+			<string>carrots</string>
+			<string>catfish</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>cucumbers</string>
+			<string>dandelion greens</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>escarole</string>
+			<string>fennel</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>kirsch</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>cherries</string>
+		</array>
+	</dict>
+	<key>marjoram</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef heart</string>
+			<string>carrots</string>
+			<string>chicken</string>
+			<string>corn</string>
+		</array>
+	</dict>
+	<key>bay leaf</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, white</string>
+		</array>
+	</dict>
+	<key>pimentos</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>green beans</string>
+		</array>
+	</dict>
+	<key>loganberries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate, white</string>
+		</array>
+	</dict>
+	<key>oregano</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>green beans</string>
+			<string>lima beans</string>
+			<string>chicken</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>olives</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>bass, striped</string>
+			<string>carrots</string>
+			<string>catfish</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>duck</string>
+			<string>escarole</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>parley</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cardoons</string>
+		</array>
+	</dict>
+	<key>beer</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>horseradish</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>asparagus</string>
+			<string>beef</string>
+			<string>beef heart</string>
+			<string>beef ribs</string>
+			<string>beet greens</string>
+			<string>beets</string>
+			<string>cabbage, cooked</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>corned beef</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>basil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>avocados</string>
+			<string>bass, striped</string>
+			<string>green beans</string>
+			<string>beef</string>
+			<string>bluefish</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>chicken</string>
+			<string>corn</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>ravioli</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>arugula</string>
+		</array>
+	</dict>
+	<key>hoisin sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>mushroom</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>cream cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+			<string>cucumbers</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>savory</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>black beans</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cod</string>
+			<string>crabs, soft-shell</string>
+		</array>
+	</dict>
+	<key>sausages</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>ginger</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>asparagus</string>
+			<string>bananas</string>
+			<string>bass</string>
+			<string>bean sprouts</string>
+			<string>beef ribs</string>
+			<string>beets</string>
+			<string>carrots</string>
+			<string>catfish</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>cucumbers</string>
+			<string>custards</string>
+			<string>dates</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>fermented beans</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>vanilla</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>cherries</string>
+			<string>chocolate</string>
+			<string>coffee</string>
+			<string>custards</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>sesame</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+		</array>
+	</dict>
+	<key>parsley</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>avocados</string>
+			<string>barley</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>beans, white</string>
+			<string>beef</string>
+			<string>beef heart</string>
+			<string>beets</string>
+			<string>brains</string>
+			<string>brussels sprouts</string>
+			<string>bulgar</string>
+			<string>cabbage, cooked</string>
+			<string>calves, brains</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>caviar</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>corn</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>herbs honey</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>stuffing</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>quinces</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>chervil</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>beans, white</string>
+			<string>cabbage, raw</string>
+			<string>calves, brains</string>
+			<string>calves, liver</string>
+			<string>cardoons</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>chanterelles</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>cucumbers</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>macadamia</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>brown butter</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>brains</string>
+			<string>calves, brains</string>
+			<string>cauliflower</string>
+		</array>
+	</dict>
+	<key>toamtoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>clams</string>
+		</array>
+	</dict>
+	<key>tomatoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>avocados</string>
+			<string>bass</string>
+			<string>green beans</string>
+			<string>lima beans</string>
+			<string>beef ribs</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eggplant</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>papaya</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>ricotta cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>cream currants</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>blueberries</string>
+		</array>
+	</dict>
+	<key>fines herbs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>riesling</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>cucumber</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>beets</string>
+		</array>
+	</dict>
+	<key>parsley,</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chestnuts</string>
+		</array>
+	</dict>
+	<key>butter</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>artichokes</string>
+			<string>arugula</string>
+			<string>asparagus</string>
+			<string>bananas</string>
+			<string>bass</string>
+			<string>green beans</string>
+			<string>lima beans</string>
+			<string>beet greens</string>
+			<string>beets</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>calves, brains</string>
+			<string>cardoons</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>chestnuts</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>eggs</string>
+			<string>endive</string>
+			<string>fennel</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>remoulade</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>veal</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>vinaigrette</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>avocados</string>
+			<string>fava beans</string>
+			<string>beets</string>
+			<string>broccoli</string>
+			<string>calves, head</string>
+			<string>cardoons</string>
+			<string>chanterelles</string>
+			<string>chicory</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>fennel</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>nutmeg,</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cauliflower</string>
+		</array>
+	</dict>
+	<key>cheddar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>lima beans</string>
+		</array>
+	</dict>
+	<key>avocadoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+			<string>crayfish</string>
+		</array>
+	</dict>
+	<key>bordelaise sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+		</array>
+	</dict>
+	<key>lettuce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>pimiento</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>broccoli</string>
+		</array>
+	</dict>
+	<key>cilantro</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>beans, black</string>
+			<string>fava beans</string>
+			<string>lima beans</string>
+			<string>carrots</string>
+			<string>chick peas</string>
+			<string>corn</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>ham</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>barley</string>
+			<string>fava beans</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cauliflower</string>
+			<string>chicory</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>cherry</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>cayenne</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>carrots</string>
+			<string>chestnuts</string>
+			<string>corn</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+		</array>
+	</dict>
+	<key>pecorino cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>fava beans</string>
+		</array>
+	</dict>
+	<key>chartreuse</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chestnuts</string>
+		</array>
+	</dict>
+	<key>nectarines</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apricots</string>
+			<string>cherries</string>
+		</array>
+	</dict>
+	<key>chives</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>avocados</string>
+			<string>bass</string>
+			<string>beans, black</string>
+			<string>green beans</string>
+			<string>beans, white</string>
+			<string>beef</string>
+			<string>beets</string>
+			<string>cabbage, raw</string>
+			<string>calves, brains</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>cucumbers</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>gruyere cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cauliflower</string>
+			<string>crepes</string>
+			<string>chicory</string>
+			<string>crayfish</string>
+			<string>eggplant</string>
+			<string>endive</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>lovage</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>corn</string>
+		</array>
+	</dict>
+	<key>new potatoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+		</array>
+	</dict>
+	<key>game</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>teriyaki sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>white sugar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+		</array>
+	</dict>
+	<key>maple syrup</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>beans, white</string>
+			<string>berries</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>carrots</string>
+		</array>
+	</dict>
+	<key>red wine vinegar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cabbage, red</string>
+			<string>dandelion greens</string>
+		</array>
+	</dict>
+	<key>green peppers</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, liver</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>onion</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>clams</string>
+		</array>
+	</dict>
+	<key>framboise</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>berries</string>
+		</array>
+	</dict>
+	<key>ratatouille</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>plum sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>offal</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>chanterelles</string>
+		</array>
+	</dict>
+	<key>butterscotch</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>lentils</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>ham hocks</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beans, black</string>
+		</array>
+	</dict>
+	<key>preserved lemon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chick peas</string>
+		</array>
+	</dict>
+	<key>grapefruit</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>brussels sprouts</string>
+			<string>crabs</string>
+		</array>
+	</dict>
+	<key>truffle</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>thyme vinaigrette</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>pepper</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>beef</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cabbage, raw</string>
+			<string>cabbage, red</string>
+			<string>calves, brains</string>
+			<string>calves, liver</string>
+			<string>chanterelles</string>
+			<string>cherries</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>rum</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>beans, white</string>
+			<string>chocolate</string>
+			<string>chocolate, white</string>
+			<string>custards</string>
+			<string>dates</string>
+		</array>
+	</dict>
+	<key>pasta</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>arugula</string>
+			<string>crepes</string>
+		</array>
+	</dict>
+	<key>grand marnier</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>blueberries</string>
+			<string>cherries</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>veloute sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+		</array>
+	</dict>
+	<key>sherry vinegar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+			<string>cabbage, raw</string>
+			<string>calves, liver</string>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>oatmeal</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>shrimp</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>smoked fish</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>beets</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>curry</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beets</string>
+			<string>cauliflower</string>
+			<string>celery</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>crabs</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>cognac cointreau</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>pineapples</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>bananas</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>mocha</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>mushrooms</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>barley</string>
+			<string>bass</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>beef</string>
+			<string>brains</string>
+			<string>brussels sprouts</string>
+			<string>kasha</string>
+			<string>calves, liver</string>
+			<string>capon</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>cucumbers</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>brown sugar</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>bananas</string>
+			<string>lima beans</string>
+			<string>beets</string>
+			<string>berries</string>
+			<string>blueberries</string>
+			<string>cabbage, red</string>
+			<string>chestnuts</string>
+		</array>
+	</dict>
+	<key>soy</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>beef</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>leeks</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+			<string>bass</string>
+			<string>fava beans</string>
+			<string>cabbage, cooked</string>
+			<string>calves, liver</string>
+			<string>chanterelles</string>
+			<string>cod</string>
+			<string>crabs</string>
+			<string>crayfish</string>
+			<string>eels</string>
+			<string>fiddlehead ferns</string>
+		</array>
+	</dict>
+	<key>custard</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>blackberries</string>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>marsala</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>chestnuts</string>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>blue cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>arugula</string>
+			<string>blueberries</string>
+			<string>celery</string>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>brazil nuts</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>gin</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bananas</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>sorrel</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crayfish</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>raisins</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apples</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>peppers</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bass</string>
+			<string>beef</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>catfish</string>
+			<string>chard</string>
+			<string>chick peas</string>
+			<string>corn</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>strawberries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>blackberries</string>
+			<string>bluefish</string>
+			<string>cucumbers</string>
+			<string>custards</string>
+		</array>
+	</dict>
+	<key>tomatillos</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>avocados</string>
+		</array>
+	</dict>
+	<key>citrus peel</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chocolate</string>
+		</array>
+	</dict>
+	<key>stuffings</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>paprika</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef heart</string>
+			<string>beets</string>
+			<string>brains</string>
+			<string>cabbage, cooked</string>
+			<string>carrots</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>clams</string>
+			<string>duck</string>
+			<string>eggplant</string>
+		</array>
+	</dict>
+	<key>carpaccio</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>arugula</string>
+		</array>
+	</dict>
+	<key>tangerines</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>endive</string>
+		</array>
+	</dict>
+	<key>black olives</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cod</string>
+		</array>
+	</dict>
+	<key>creme fraiche</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cauliflower</string>
+			<string>chanterelles</string>
+			<string>chicory</string>
+		</array>
+	</dict>
+	<key>veal gravy</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>brussels sprouts</string>
+		</array>
+	</dict>
+	<key>dill</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bass, striped</string>
+			<string>green beans</string>
+			<string>beets</string>
+			<string>carrots</string>
+			<string>celery</string>
+			<string>chicken</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>cassia</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>cream</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>almonds</string>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>bananas</string>
+			<string>bass, striped</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>beans, white</string>
+			<string>beets</string>
+			<string>berries</string>
+			<string>blackberries</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>cardoons</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>caviar</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>cherries</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>chocolate</string>
+			<string>clams</string>
+			<string>coffee</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>cucumbers</string>
+			<string>currants</string>
+			<string>dates</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>endive</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>lemon</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>anchovies</string>
+			<string>apricots</string>
+			<string>artichokes</string>
+			<string>arugula</string>
+			<string>asparagus</string>
+			<string>avocados</string>
+			<string>bananas</string>
+			<string>bass</string>
+			<string>fava beans</string>
+			<string>green beans</string>
+			<string>beets</string>
+			<string>blackberries</string>
+			<string>blueberries</string>
+			<string>bluefish</string>
+			<string>brains</string>
+			<string>broccoli</string>
+			<string>broccoli rabe</string>
+			<string>brussels sprouts</string>
+			<string>bulgar</string>
+			<string>cabbage, cooked</string>
+			<string>calves, brains</string>
+			<string>calves, head</string>
+			<string>calves, liver</string>
+			<string>cardoons</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
+			<string>caviar</string>
+			<string>celery</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chanterelles</string>
+			<string>chard</string>
+			<string>cherries</string>
+			<string>chestnuts</string>
+			<string>chick peas</string>
+			<string>chicken</string>
+			<string>chocolate</string>
+			<string>clams</string>
+			<string>cod</string>
+			<string>coffee</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+			<string>custards</string>
+			<string>dandelion greens</string>
+			<string>duck</string>
+			<string>eels</string>
+			<string>eggplant</string>
+			<string>endive</string>
+			<string>fennel</string>
+		</array>
+	</dict>
+	<key>hazelnuts</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>artichokes</string>
+			<string>green beans</string>
+			<string>beef</string>
+			<string>carrots</string>
+			<string>chocolate</string>
+			<string>chocolate, white</string>
+		</array>
+	</dict>
+	<key>cashew</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>coconuts</string>
+		</array>
+	</dict>
+	<key>saffron</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+			<string>chard</string>
+			<string>crayfish</string>
+		</array>
+	</dict>
+	<key>sweetbreads</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>brains</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>tomato sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, brains</string>
+			<string>calves, head</string>
+			<string>cucumbers</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>mayonnaise</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>carrots</string>
+			<string>celery root</string>
+			<string>crabs</string>
+			<string>crabs, soft-shell</string>
+			<string>crayfish</string>
+			<string>cucumbers</string>
+		</array>
+	</dict>
+	<key>vermouth</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+		</array>
+	</dict>
+	<key>truffles</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>calves, brains</string>
+			<string>capon</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>crayfish</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>achiote</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>mustard</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>asparagus</string>
+			<string>bass, striped</string>
+			<string>green beans</string>
+			<string>beef</string>
+			<string>beef ribs</string>
+			<string>beet greens</string>
+			<string>beets</string>
+			<string>bluefish</string>
+			<string>brains</string>
+			<string>brussels sprouts</string>
+			<string>cabbage, cooked</string>
+			<string>calves, liver</string>
+			<string>carrots</string>
+			<string>catfish</string>
+			<string>celery root</string>
+			<string>crepes</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>corned beef</string>
+			<string>crabs</string>
+			<string>dandelion greens</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>roquefort cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>endive</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>fontina cheese</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>pepper potatoes</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crepes</string>
+		</array>
+	</dict>
+	<key>peas</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>barley</string>
+			<string>carrots</string>
+			<string>chicken</string>
+			<string>duck</string>
+		</array>
+	</dict>
+	<key>herbs</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chanterelles</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>brandy</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>apples</string>
+			<string>apricots</string>
+			<string>bananas</string>
+			<string>carrots</string>
+			<string>cherries</string>
+			<string>chestnuts</string>
+			<string>chicken</string>
+			<string>chicken livers</string>
+			<string>crayfish</string>
+			<string>dates</string>
+			<string>duck</string>
+			<string>eels</string>
+		</array>
+	</dict>
+	<key>bearnaise sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+			<string>calves, liver</string>
+			<string>crepes</string>
+			<string>chicken</string>
+		</array>
+	</dict>
+	<key>capers</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bass</string>
+			<string>brains</string>
+			<string>calves, brains</string>
+			<string>catfish</string>
+			<string>crabs, soft-shell</string>
+			<string>eggplant</string>
+			<string>eggs</string>
+			<string>escarole</string>
+		</array>
+	</dict>
+	<key>scallions</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>beef</string>
+			<string>corn</string>
+			<string>crabs</string>
+			<string>duck</string>
+			<string>eggs</string>
+		</array>
+	</dict>
+	<key>mousseline sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>artichokes</string>
+			<string>asparagus</string>
+			<string>cauliflower</string>
+		</array>
+	</dict>
+	<key>soy sauce</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>bean sprouts</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>crabs, soft-shell</string>
+			<string>duck</string>
+			<string>eels</string>
 		</array>
 	</dict>
 </dict>
