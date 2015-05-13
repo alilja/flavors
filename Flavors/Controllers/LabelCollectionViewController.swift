@@ -11,30 +11,24 @@ import UIKit
 extension MainViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func getFlavorArray() -> Array<AnyObject> {
-        if menu.foods.count == 0{
-            return food_db.keys.array
-        } else if menu.foods.count == 1{
+        if menu.foods.count == 1{
             return menu.foods[0].flavors
         }
-        let flavor_dict = menu.getSharedFlavors(2)
-        var sortedKeys = flavor_dict.keys.array.sorted {
-            return flavor_dict[$0] > flavor_dict[$1]
+        var sortedKeys = self.sharedFlavors.keys.array.sorted {
+            return self.sharedFlavors[$0] > self.sharedFlavors[$1]
         }
         return sortedKeys
     }
     
     func getCellLabel(indexPath: NSIndexPath) -> String {
-        if menu.foods.count == 0 {
-            let food = food_db.keys.array[indexPath.row]
-            return "\(food)"
-        } else if menu.foods.count == 1 {
+        if menu.foods.count == 1 {
             let flavor = menu.foods[0].flavors[indexPath.row]
             return "\(flavor)"
         }
         let flavor = getFlavorArray()[indexPath.row] as! String
-        var count = menu.getSharedFlavors(1)[flavor]
+        var count = self.sharedFlavors[flavor]
         if count == nil{
-            count = 0
+            return ""
         }
         return "\(count!) \(flavor)"
     }

@@ -27,6 +27,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     var food_db = [String: FoodModel]()
     var menu = MenuModel(foods: [FoodModel]())
     var fits = [FoodModel: Float]()
+    var sharedFlavors = [String: Int]()
     
     var collectionView: UICollectionView!
     var sizingCell: LabelCell!
@@ -69,6 +70,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func menuChanged(){
         self.fits = menu.getFits()
+        self.sharedFlavors = menu.getSharedFlavors(2)
         let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
         collection.reloadData()
         //collection.collectionViewLayout.prepareLayout()
@@ -107,22 +109,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let food = menu.foods[indexPath.row]
                 cell.foodLabel!.text = food.name
                 //menu.getFit(food)
-                let numMax = maxElement(self.fits.values.array)
-                let numMin = minElement(self.fits.values.array)
-                var normalized: Float
-                if numMax - numMin == 0{
-                    normalized = 1
-                } else {
-                    normalized = (self.fits[food]! - numMin) / (numMax - numMin)
-                }
-                cell.fitLabel!.text = String(format: "%.0f", normalized * 100)
+                cell.fitLabel!.text = String(format: "%.0f", self.fits[food]! * 100)
+                
                 return cell
             } else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell
                 cell.collectionView.delegate = self
                 cell.collectionView.dataSource = self
                 cell.collectionView.tag = indexPath.row
-                //cell.collectionView.collectionViewLayout.collectionView?.delegate = self
                 return cell
             }
         }
@@ -221,10 +215,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     // MARK: Text Field
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        autocompleteTableView!.hidden = false
-        var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
-        
-        self.searchAutocompleteEntriesWithSubstring(substring)
+        if textField == self.searchBox {
+            autocompleteTableView.hidden = false
+            var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
+            
+            self.searchAutocompleteEntriesWithSubstring(substring)
+        }
         return true
     }
     
@@ -233,7 +229,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func textFieldShouldClear(textField: UITextField) -> Bool{
-        self.updateAutocomplete()
+        if textField == self.searchBox{
+            self.updateAutocomplete()
+        }
         return true
     }
     

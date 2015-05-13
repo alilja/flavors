@@ -39,15 +39,14 @@ class MenuModel{
     
     func getSharedFlavors(minShared: Int) -> [String: Int]{
         
-        // TO DO: combine this and the next step
         // get all flavors in menu
         var flavors = Array<String>()
+        println(self.foods)
         for food in self.foods{
             for flavor in food.flavors{
                 flavors.append(flavor)
             }
         }
-        
         // count them
         var counted_flavors = [String: Int]()
         for flavor in flavors{
@@ -66,20 +65,19 @@ class MenuModel{
     }
     
     func getFits() -> [FoodModel: Float]{
+        if self.foods.count == 1{
+            return [self.foods[0]: Float(1.0)]
+        }
+        
         var output = [FoodModel: Float]()
-        var shared_flavors = self.getSharedFlavors(2).keys.array
-        for food in self.foods{
-            var fit: Int = 0
-            for flavor in food.flavors{
-                if contains(shared_flavors, flavor){
-                    fit += 1
+        for this_food in self.foods{
+            var avg_fit: Float = 0.0
+            for target_food in self.foods{
+                if this_food != target_food{
+                    avg_fit += this_food.getSimilarity(target_food)
                 }
             }
-            if shared_flavors.count > 0{
-                output[food] = Float(fit) / Float(shared_flavors.count)
-            } else {
-                output[food] = Float(fit)
-            }
+            output[this_food] = avg_fit / Float(self.foods.count - 1)
         }
         return output
     }

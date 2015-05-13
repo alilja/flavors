@@ -26,8 +26,6 @@
 			<string>raisins</string>
 			<string>rice</string>
 			<string>strawberries</string>
-			<string>apples</string>
-			<string>apricots</string>
 			<string>bananas</string>
 			<string>barley</string>
 			<string>bass</string>
@@ -39,17 +37,11 @@
 			<string>celery</string>
 			<string>cherries</string>
 			<string>chicken</string>
-			<string>chocolate</string>
 			<string>crabs</string>
 			<string>crabs, soft-shell</string>
 			<string>currants</string>
 			<string>custards</string>
 			<string>dates</string>
-			<string>prunes</string>
-			<string>caramel</string>
-			<string>coconut</string>
-			<string>rice</string>
-			<string>plums</string>
 		</array>
 	</dict>
 	<key>anchovies</key>
@@ -86,12 +78,6 @@
 			<string>duck</string>
 			<string>eels</string>
 			<string>eggplant</string>
-			<string>eggs</string>
-			<string>onions</string>
-			<string>hard-boiled eggs</string>
-			<string>garlic</string>
-			<string>olives</string>
-			<string>parsley</string>
 		</array>
 	</dict>
 	<key>apples</key>
@@ -141,10 +127,9 @@
 			<string>molasses</string>
 			<string>nutmeg</string>
 			<string>nuts</string>
-			<string>almonds</string>
 			<string>pecans</string>
 			<string>oatmeal</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>pears</string>
 			<string>pepper</string>
 			<string>pignoli</string>
@@ -166,9 +151,7 @@
 			<string>walnuts</string>
 			<string>red wine</string>
 			<string>yogurt</string>
-			<string>almonds</string>
 			<string>beets</string>
-			<string>blackberries</string>
 			<string>blueberries</string>
 			<string>brussels sprouts</string>
 			<string>cabbage, cooked</string>
@@ -176,37 +159,11 @@
 			<string>cabbage, red</string>
 			<string>calves, liver</string>
 			<string>capon</string>
-			<string>chestnuts</string>
 			<string>chicken</string>
 			<string>chicory</string>
-			<string>cranberries</string>
 			<string>duck</string>
 			<string>endive</string>
 			<string>escarole</string>
-			<string>bacon</string>
-			<string>sauerkraut</string>
-			<string>vinegar</string>
-			<string>lemon madeira</string>
-			<string>cinnamon</string>
-			<string>pignoli</string>
-			<string>pears</string>
-			<string>honey</string>
-			<string>nuts</string>
-			<string>applejack</string>
-			<string>pecans</string>
-			<string>oranges</string>
-			<string>prunes</string>
-			<string>coriander</string>
-			<string>cider</string>
-			<string>cointreau</string>
-			<string>rosemary</string>
-			<string>pistachios</string>
-			<string>caramel</string>
-			<string>cloves</string>
-			<string>walnuts</string>
-			<string>cheese</string>
-			<string>cognac</string>
-			<string>praline</string>
 		</array>
 	</dict>
 	<key>apricots</key>
@@ -242,10 +199,11 @@
 			<string>kirsch</string>
 			<string>lamb</string>
 			<string>lemon</string>
-			<string>lime lingo berries</string>
+			<string>lime</string>
+			<string>lingo berries</string>
 			<string>maple syrup</string>
 			<string>nectarines</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>peaches</string>
 			<string>pineapple</string>
 			<string>pistachios</string>
@@ -256,34 +214,12 @@
 			<string>sesame</string>
 			<string>sour cream</string>
 			<string>strawberries</string>
-			<string>tarragon,</string>
-			<string>almonds</string>
+			<string>tarragon</string>
 			<string>bananas</string>
 			<string>blueberries</string>
-			<string>cherries</string>
 			<string>coconuts</string>
 			<string>dates</string>
 			<string>duck</string>
-			<string>lime lingo berries</string>
-			<string>raspberries</string>
-			<string>honey</string>
-			<string>lamb</string>
-			<string>tarragon,</string>
-			<string>sauternes</string>
-			<string>oranges</string>
-			<string>cointreau</string>
-			<string>pistachios</string>
-			<string>caramel</string>
-			<string>cognac</string>
-			<string>coconut</string>
-			<string>pineapple</string>
-			<string>peaches</string>
-			<string>rice</string>
-			<string>plums</string>
-			<string>sour cream</string>
-			<string>kirsch</string>
-			<string>ginger</string>
-			<string>sesame</string>
 		</array>
 	</dict>
 	<key>artichokes</key>
@@ -340,24 +276,6 @@
 			<string>white wine</string>
 			<string>bass</string>
 			<string>duck</string>
-			<string>fennel</string>
-			<string>bacon</string>
-			<string>sausage</string>
-			<string>bay leaves</string>
-			<string>white wine</string>
-			<string>onions</string>
-			<string>thyme</string>
-			<string>parmesan cheese</string>
-			<string>aioli</string>
-			<string>garlic</string>
-			<string>remoulade sauce</string>
-			<string>hollandaise sauce</string>
-			<string>salt</string>
-			<string>mornay sauce</string>
-			<string>goat cheese</string>
-			<string>cumin</string>
-			<string>bread crumbs</string>
-			<string>olive oil</string>
 		</array>
 	</dict>
 	<key>arugula</key>
@@ -428,7 +346,7 @@
 			<string>olive oil</string>
 			<string>onion</string>
 			<string>orange</string>
-			<string>panceta</string>
+			<string>pancetta</string>
 			<string>parmesan cheese</string>
 			<string>parsley</string>
 			<string>pepper</string>
@@ -439,7 +357,6 @@
 			<string>vinaigrette</string>
 			<string>kasha</string>
 			<string>chicken</string>
-			<string>eggs</string>
 		</array>
 	</dict>
 	<key>avocados</key>
@@ -472,9 +389,9 @@
 			<string>mangoes</string>
 			<string>mint</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>parsley</string>
-			<string>pineapples</string>
+			<string>pineapple</string>
 			<string>pistachios</string>
 			<string>salt</string>
 			<string>shrimp</string>
@@ -541,10 +458,10 @@
 			<string>malt</string>
 			<string>maple syrup</string>
 			<string>nuts</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>passion fruit</string>
 			<string>pecans</string>
-			<string>pineapples</string>
+			<string>pineapple</string>
 			<string>pralines</string>
 			<string>raspberries</string>
 			<string>rum</string>
@@ -554,45 +471,9 @@
 			<string>white sugar</string>
 			<string>vanilla</string>
 			<string>yogurt</string>
-			<string>apricots</string>
-			<string>blueberries</string>
-			<string>chicken</string>
-			<string>chocolate</string>
 			<string>chocolate, white</string>
 			<string>coconuts</string>
 			<string>custards</string>
-			<string>eggs</string>
-			<string>passion fruit</string>
-			<string>bacon</string>
-			<string>raspberries</string>
-			<string>cinnamon</string>
-			<string>lime</string>
-			<string>malt</string>
-			<string>honey</string>
-			<string>nuts</string>
-			<string>cardamom</string>
-			<string>mango</string>
-			<string>pecans</string>
-			<string>oranges</string>
-			<string>coriander</string>
-			<string>ice cream</string>
-			<string>alcohol</string>
-			<string>caramel</string>
-			<string>pralines</string>
-			<string>cognac</string>
-			<string>fruits</string>
-			<string>coconut</string>
-			<string>pineapple</string>
-			<string>armagnac</string>
-			<string>sour cream</string>
-			<string>calvados</string>
-			<string>yogurt</string>
-			<string>kirsch</string>
-			<string>cream cheese</string>
-			<string>ginger</string>
-			<string>vanilla</string>
-			<string>papaya</string>
-			<string>butter</string>
 		</array>
 	</dict>
 	<key>barley</key>
@@ -653,7 +534,7 @@
 			<string>mint</string>
 			<string>mushrooms</string>
 			<string>olive oil</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>peppers</string>
 			<string>potatoes</string>
 			<string>shallots</string>
@@ -732,11 +613,11 @@
 			<string>madeira</string>
 			<string>mint</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>peppers rice</string>
 			<string>salt pork</string>
 			<string>sour cream</string>
-			<string>tequila,</string>
+			<string>tequila</string>
 		</array>
 	</dict>
 	<key>fava beans</key>
@@ -931,19 +812,6 @@
 			<string>wine</string>
 			<string>red wine</string>
 			<string>avocados</string>
-			<string>carrots</string>
-			<string>burgundy</string>
-			<string>balsamic vinegar</string>
-			<string>onions</string>
-			<string>marrow</string>
-			<string>wine</string>
-			<string>orange</string>
-			<string>prunes</string>
-			<string>potatoes</string>
-			<string>chiles</string>
-			<string>shallots</string>
-			<string>madeira</string>
-			<string>red wine</string>
 		</array>
 	</dict>
 	<key>beef heart</key>
@@ -1051,7 +919,7 @@
 			<string>mustard</string>
 			<string>nutmeg</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>paprika</string>
 			<string>parsley</string>
 			<string>potatoes</string>
@@ -1069,29 +937,9 @@
 			<string>walnuts</string>
 			<string>walnut oil</string>
 			<string>watercress</string>
-			<string>apples</string>
 			<string>cabbage, cooked</string>
 			<string>corned beef</string>
-			<string>eggs</string>
 			<string>endive</string>
-			<string>mache</string>
-			<string>bechamel sauce</string>
-			<string>salt pork</string>
-			<string>prosciutto</string>
-			<string>bacon</string>
-			<string>walnut oil</string>
-			<string>tarragon</string>
-			<string>balsamic vinegar</string>
-			<string>onions</string>
-			<string>oranges</string>
-			<string>potatoes</string>
-			<string>allspice</string>
-			<string>cloves</string>
-			<string>walnuts</string>
-			<string>cheese</string>
-			<string>crème fraiche</string>
-			<string>shallots</string>
-			<string>watercress</string>
 		</array>
 	</dict>
 	<key>berries</key>
@@ -1113,12 +961,6 @@
 			<string>yogurt</string>
 			<string>chocolate, white</string>
 			<string>custards</string>
-			<string>sour cream</string>
-			<string>yogurt</string>
-			<string>maple syrup</string>
-			<string>framboise</string>
-			<string>brown sugar</string>
-			<string>cream</string>
 		</array>
 	</dict>
 	<key>blackberries</key>
@@ -1143,19 +985,18 @@
 			<string>rose geranium</string>
 			<string>strawberries</string>
 			<string>sugar</string>
-			<string>apples</string>
 			<string>chocolate, white</string>
 			<string>duck</string>
-			<string>rose geranium</string>
-			<string>raspberries</string>
-			<string>cinnamon</string>
-			<string>honey</string>
 		</array>
 	</dict>
 	<key>blueberries</key>
 	<dict>
 		<key>Technique</key>
-		<array/>
+		<array>
+			<string>bake</string>
+			<string>broil</string>
+			<string>grill</string>
+		</array>
 		<key>Seasons</key>
 		<array>
 			<string>summer</string>
@@ -1201,9 +1042,7 @@
 			<string>strawberries</string>
 			<string>sugar</string>
 			<string>thyme</string>
-			<string>yogurt bake</string>
-			<string>broil</string>
-			<string>grill</string>
+			<string>yogurt</string>
 			<string>bacon</string>
 			<string>basil</string>
 			<string>cabbage</string>
@@ -1373,9 +1212,6 @@
 			<string>veal gravy</string>
 			<string>vinegar</string>
 			<string>walnuts</string>
-			<string>chestnuts</string>
-			<string>pancetta</string>
-			<string>bacon</string>
 		</array>
 	</dict>
 	<key>kasha</key>
@@ -1449,7 +1285,7 @@
 			<string>horseradish</string>
 			<string>leeks</string>
 			<string>lemon</string>
-			<string>juniperberries</string>
+			<string>juniper berries</string>
 			<string>madeira</string>
 			<string>mustard</string>
 			<string>nutmeg</string>
@@ -1552,7 +1388,7 @@
 			<string>tarragon</string>
 			<string>thyme</string>
 			<string>tomato sauce</string>
-			<string>truffles</string>
+			<string>truffle</string>
 		</array>
 	</dict>
 	<key>calves, head</key>
@@ -1575,7 +1411,7 @@
 			<string>sherry</string>
 			<string>tomato sauce</string>
 			<string>vinaigrette</string>
-			<string>wine,</string>
+			<string>wine</string>
 		</array>
 	</dict>
 	<key>calves, liver</key>
@@ -1647,11 +1483,11 @@
 			<string>apples</string>
 			<string>garlic</string>
 			<string>mushrooms</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>rosemary</string>
 			<string>tarragon</string>
 			<string>thyme</string>
-			<string>truffles</string>
+			<string>truffle</string>
 		</array>
 	</dict>
 	<key>cardoons</key>
@@ -1679,7 +1515,7 @@
 			<string>olive oil</string>
 			<string>parmesan cheese</string>
 			<string>parley</string>
-			<string>white truffles</string>
+			<string>white truffle</string>
 			<string>vinaigrette</string>
 			<string>vinegar</string>
 		</array>
@@ -1743,7 +1579,7 @@
 			<string>olive oil</string>
 			<string>olives</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>paprika</string>
 			<string>parsley</string>
 			<string>peas</string>
@@ -1755,7 +1591,6 @@
 			<string>shallots</string>
 			<string>stock</string>
 			<string>bass</string>
-			<string>beef</string>
 			<string>brussels sprouts</string>
 			<string>cabbage, raw</string>
 			<string>chestnuts</string>
@@ -1763,21 +1598,6 @@
 			<string>corned beef</string>
 			<string>crabs, soft-shell</string>
 			<string>crayfish</string>
-			<string>bacon</string>
-			<string>cinnamon</string>
-			<string>pignoli</string>
-			<string>honey</string>
-			<string>onions</string>
-			<string>nuts</string>
-			<string>stock</string>
-			<string>oranges</string>
-			<string>potatoes</string>
-			<string>rosemary</string>
-			<string>parmesan cheese</string>
-			<string>cloves</string>
-			<string>walnuts</string>
-			<string>garlic</string>
-			<string>cheese</string>
 		</array>
 	</dict>
 	<key>catfish</key>
@@ -1853,7 +1673,7 @@
 			<string>mousseline sauce</string>
 			<string>mushrooms</string>
 			<string>mussels</string>
-			<string>nutmeg,</string>
+			<string>nutmeg</string>
 		</array>
 	</dict>
 	<key>caviar</key>
@@ -1879,15 +1699,6 @@
 			<string>vodka</string>
 			<string>cabbage, cooked</string>
 			<string>eggs</string>
-			<string>vodka</string>
-			<string>bread</string>
-			<string>potatoes</string>
-			<string>blini</string>
-			<string>shallots</string>
-			<string>toast</string>
-			<string>smoked salmon</string>
-			<string>sour cream</string>
-			<string>parsley</string>
 		</array>
 	</dict>
 	<key>celery</key>
@@ -1924,11 +1735,6 @@
 			<string>carrots</string>
 			<string>chestnuts</string>
 			<string>crabs</string>
-			<string>fennel</string>
-			<string>celery seeds</string>
-			<string>bechamel sauce</string>
-			<string>walnuts</string>
-			<string>hollandaise sauce</string>
 		</array>
 	</dict>
 	<key>celery root</key>
@@ -1976,9 +1782,6 @@
 			<string>white wine vinegar</string>
 			<string>walnuts</string>
 			<string>cabbage, raw</string>
-			<string>fennel</string>
-			<string>caraway seeds</string>
-			<string>bacon</string>
 		</array>
 	</dict>
 	<key>crepes</key>
@@ -2022,7 +1825,8 @@
 			<string>parmesan cheese</string>
 			<string>parsley</string>
 			<string>pasta</string>
-			<string>pepper potatoes</string>
+			<string>pepper</string>
+			<string>potatoes</string>
 			<string>poultry fat</string>
 			<string>risotto</string>
 			<string>rosemary</string>
@@ -2030,30 +1834,6 @@
 			<string>shallots</string>
 			<string>sour cream</string>
 			<string>brains</string>
-			<string>eggs</string>
-			<string>fennel</string>
-			<string>bacon</string>
-			<string>bay leaves</string>
-			<string>lemon thyme</string>
-			<string>foie gras</string>
-			<string>risotto</string>
-			<string>rosemary</string>
-			<string>parmesan cheese</string>
-			<string>fish</string>
-			<string>garlic</string>
-			<string>cheese</string>
-			<string>shallots</string>
-			<string>nutmeg</string>
-			<string>bread crumbs</string>
-			<string>sour cream</string>
-			<string>poultry fat</string>
-			<string>olive oil</string>
-			<string>olives</string>
-			<string>parsley</string>
-			<string>butter</string>
-			<string>gruyere cheese</string>
-			<string>pasta</string>
-			<string>paprika</string>
 		</array>
 	</dict>
 	<key>chanterelles</key>
@@ -2094,17 +1874,7 @@
 			<string>tarragon</string>
 			<string>veal</string>
 			<string>vinaigrette</string>
-			<string>chicken</string>
 			<string>corn</string>
-			<string>eggs</string>
-			<string>bechamel sauce</string>
-			<string>tarragon</string>
-			<string>rabbit</string>
-			<string>streak</string>
-			<string>fish</string>
-			<string>garlic</string>
-			<string>shallots</string>
-			<string>shellfish</string>
 		</array>
 	</dict>
 	<key>chard</key>
@@ -2169,31 +1939,11 @@
 			<string>vanilla</string>
 			<string>balsamic vinegar</string>
 			<string>zabaione</string>
-			<string>apricots</string>
 			<string>brains</string>
 			<string>chicken</string>
-			<string>chocolate</string>
 			<string>chocolate, white</string>
 			<string>currants</string>
-			<string>custards</string>
 			<string>duck</string>
-			<string>verbena</string>
-			<string>port</string>
-			<string>balsamic vinegar</string>
-			<string>red currants</string>
-			<string>nuts</string>
-			<string>ice cream</string>
-			<string>caramel</string>
-			<string>cognac</string>
-			<string>zabaione</string>
-			<string>mint</string>
-			<string>armagnac</string>
-			<string>peaches</string>
-			<string>plums</string>
-			<string>goat cheese</string>
-			<string>sour cream</string>
-			<string>kirsch</string>
-			<string>vanilla</string>
 		</array>
 	</dict>
 	<key>chestnuts</key>
@@ -2236,24 +1986,10 @@
 			<string>mushrooms</string>
 			<string>onions</string>
 			<string>orange</string>
-			<string>parsley,</string>
-			<string>apples</string>
-			<string>brussels sprouts</string>
+			<string>parsley</string>
 			<string>cabbage, cooked</string>
 			<string>cabbage, red</string>
-			<string>carrots</string>
-			<string>celery</string>
 			<string>chicken</string>
-			<string>chocolate</string>
-			<string>fennel</string>
-			<string>cinnamon</string>
-			<string>onions</string>
-			<string>orange</string>
-			<string>cloves</string>
-			<string>crème fraiche</string>
-			<string>cabbage</string>
-			<string>cognac</string>
-			<string>ginger</string>
 		</array>
 	</dict>
 	<key>chick peas</key>
@@ -2347,7 +2083,7 @@
 			<string>fontina cheese</string>
 			<string>garlic</string>
 			<string>ginger</string>
-			<string>go chi berries</string>
+			<string>gochi berries</string>
 			<string>grapes</string>
 			<string>herbs honey</string>
 			<string>horseradish</string>
@@ -2365,7 +2101,7 @@
 			<string>olive oil</string>
 			<string>olives</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>oregano</string>
 			<string>oysters</string>
 			<string>paprika</string>
@@ -2374,13 +2110,12 @@
 			<string>peas</string>
 			<string>pecans</string>
 			<string>pepper</string>
-			<string>pineapples</string>
+			<string>pineapple</string>
 			<string>plums</string>
 			<string>prunes</string>
 			<string>riesling</string>
 			<string>rosemary</string>
 			<string>savory</string>
-			<string>cream</string>
 			<string>soy sauce</string>
 			<string>star anise</string>
 			<string>stuffings</string>
@@ -2390,47 +2125,12 @@
 			<string>teriyaki sauce</string>
 			<string>thyme</string>
 			<string>tomatoes</string>
-			<string>truffles</string>
+			<string>truffle</string>
 			<string>vinegar</string>
 			<string>white wine vinegar</string>
 			<string>yogurt</string>
-			<string>apples</string>
-			<string>asparagus</string>
 			<string>bananas</string>
 			<string>chanterelles</string>
-			<string>escarole</string>
-			<string>fennel</string>
-			<string>sweet potatoes</string>
-			<string>bacon</string>
-			<string>tarragon</string>
-			<string>mussels</string>
-			<string>vinegar</string>
-			<string>five-spice powder</string>
-			<string>lime</string>
-			<string>onions</string>
-			<string>blood</string>
-			<string>oysters</string>
-			<string>pecans</string>
-			<string>oranges</string>
-			<string>prunes</string>
-			<string>foie gras</string>
-			<string>coriander</string>
-			<string>thyme</string>
-			<string>cider</string>
-			<string>rosemary</string>
-			<string>parmesan cheese</string>
-			<string>swiss cheese</string>
-			<string>grapes</string>
-			<string>garlic</string>
-			<string>cheese</string>
-			<string>cabbage</string>
-			<string>cognac</string>
-			<string>morels</string>
-			<string>coconut</string>
-			<string>star anise</string>
-			<string>mint</string>
-			<string>armagnac</string>
-			<string>madeira</string>
 		</array>
 	</dict>
 	<key>chicken livers</key>
@@ -2460,9 +2160,6 @@
 			<string>pepper salt</string>
 			<string>sour cream</string>
 			<string>eggs</string>
-			<string>bacon</string>
-			<string>pepper salt</string>
-			<string>onions</string>
 		</array>
 	</dict>
 	<key>chicory</key>
@@ -2516,7 +2213,9 @@
 			<string>ginger</string>
 			<string>lemon</string>
 			<string>liquors</string>
-			<string>malt maple mint</string>
+			<string>malt</string>
+			<string>maple</string>
+			<string>mint</string>
 			<string>mocha</string>
 			<string>nuts</string>
 			<string>hazelnuts</string>
@@ -2531,22 +2230,11 @@
 			<string>verbena</string>
 			<string>violet</string>
 			<string>walnuts</string>
-			<string>almonds</string>
-			<string>bananas</string>
-			<string>cherries</string>
 			<string>chestnuts</string>
 			<string>coconuts</string>
 			<string>custards</string>
 			<string>dates</string>
 			<string>duck</string>
-			<string>passion fruit</string>
-			<string>milk</string>
-			<string>verbena</string>
-			<string>malt maple mint</string>
-			<string>tea</string>
-			<string>liquors</string>
-			<string>raspberries</string>
-			<string>cinnamon</string>
 		</array>
 	</dict>
 	<key>chocolate, white</key>
@@ -2570,7 +2258,7 @@
 			<string>coconuts</string>
 			<string>hazelnuts</string>
 			<string>loganberries</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>raspberries</string>
 			<string>rum</string>
 			<string>violets</string>
@@ -2619,7 +2307,7 @@
 			<string>tarragon</string>
 			<string>tartar sauce</string>
 			<string>thyme</string>
-			<string>toamtoes</string>
+			<string>tomatoes</string>
 			<string>vinegar</string>
 			<string>white wine</string>
 			<string>worcestershire sauce</string>
@@ -2642,22 +2330,13 @@
 			<string>banana</string>
 			<string>lime</string>
 			<string>mango</string>
-			<string>passionfruit</string>
+			<string>passion fruit</string>
 			<string>pineapple</string>
 			<string>nuts</string>
 			<string>brazil nuts</string>
 			<string>cashew</string>
 			<string>macadamia</string>
-			<string>apricots</string>
-			<string>chocolate</string>
 			<string>chocolate, white</string>
-			<string>lime</string>
-			<string>nuts</string>
-			<string>mango</string>
-			<string>passionfruit</string>
-			<string>banana</string>
-			<string>pineapple</string>
-			<string>macadamia</string>
 		</array>
 	</dict>
 	<key>cod</key>
@@ -2689,7 +2368,8 @@
 			<string>fermented beans</string>
 			<string>black olives</string>
 			<string>butter</string>
-			<string>capers caraway seeds</string>
+			<string>capers</string>
+			<string>caraway seeds</string>
 			<string>champagne</string>
 			<string>chervil</string>
 			<string>coriander leaves</string>
@@ -2716,7 +2396,7 @@
 			<string>soy sauce</string>
 			<string>thyme</string>
 			<string>tomatoes</string>
-			<string>truffles</string>
+			<string>truffle</string>
 			<string>vinaigrette</string>
 			<string>vinegar</string>
 			<string>sherry vinegar</string>
@@ -2744,7 +2424,6 @@
 			<string>vanilla</string>
 			<string>chocolate</string>
 			<string>custards</string>
-			<string>cinnamon</string>
 		</array>
 	</dict>
 	<key>corn</key>
@@ -2789,30 +2468,9 @@
 			<string>sweet pepper</string>
 			<string>worcestershire sauce</string>
 			<string>beef</string>
-			<string>chanterelles</string>
 			<string>chicken</string>
 			<string>crabs</string>
 			<string>duck</string>
-			<string>bacon</string>
-			<string>lime</string>
-			<string>onions</string>
-			<string>parmesan cheese</string>
-			<string>chiles</string>
-			<string>sweet pepper</string>
-			<string>garlic</string>
-			<string>cheese</string>
-			<string>salt</string>
-			<string>worcestershire sauce</string>
-			<string>feta cheese</string>
-			<string>marjoram</string>
-			<string>basil</string>
-			<string>parsley</string>
-			<string>butter</string>
-			<string>cilantro</string>
-			<string>cayenne</string>
-			<string>chives</string>
-			<string>lovage</string>
-			<string>pepper</string>
 		</array>
 	</dict>
 	<key>corned beef</key>
@@ -2889,7 +2547,7 @@
 			<string>mustard</string>
 			<string>nutmeg</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>parsley</string>
 			<string>pepper</string>
 			<string>potatoes</string>
@@ -2902,7 +2560,7 @@
 			<string>thousand island dressing</string>
 			<string>tabasco sauce</string>
 			<string>tomatoes</string>
-			<string>black truffles</string>
+			<string>black truffle</string>
 			<string>vinaigrette</string>
 			<string>vinegar</string>
 			<string>white wine</string>
@@ -2966,19 +2624,12 @@
 			<string>apples</string>
 			<string>cinnamon</string>
 			<string>cloves</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>pears</string>
 			<string>sugar</string>
 			<string>walnuts</string>
-			<string>apples</string>
 			<string>chicken</string>
 			<string>duck</string>
-			<string>cinnamon</string>
-			<string>pears</string>
-			<string>oranges</string>
-			<string>cloves</string>
-			<string>walnuts</string>
-			<string>sugar</string>
 		</array>
 	</dict>
 	<key>crayfish</key>
@@ -3009,7 +2660,8 @@
 			<string>parmesan cheese</string>
 			<string>cognac</string>
 			<string>coriander</string>
-			<string>cream or milk</string>
+			<string>cream</string>
+			<string>milk</string>
 			<string>dill</string>
 			<string>garlic</string>
 			<string>hollandaise sauce</string>
@@ -3026,32 +2678,10 @@
 			<string>tarragon</string>
 			<string>thyme</string>
 			<string>tomatoes</string>
-			<string>truffles</string>
+			<string>truffle</string>
 			<string>vinegar</string>
 			<string>white wine</string>
-			<string>carrots</string>
 			<string>eels</string>
-			<string>tarragon</string>
-			<string>bay leaves</string>
-			<string>white wine</string>
-			<string>vinegar</string>
-			<string>onions</string>
-			<string>coriander</string>
-			<string>thyme</string>
-			<string>parmesan cheese</string>
-			<string>garlic</string>
-			<string>cheese</string>
-			<string>cream or milk</string>
-			<string>cognac</string>
-			<string>sherry</string>
-			<string>shallots</string>
-			<string>hollandaise sauce</string>
-			<string>nutmeg</string>
-			<string>bread crumbs</string>
-			<string>basil</string>
-			<string>parsley</string>
-			<string>tomatoes</string>
-			<string>butter</string>
 		</array>
 	</dict>
 	<key>cucumbers</key>
@@ -3125,9 +2755,6 @@
 			<string>apples</string>
 			<string>duck</string>
 			<string>escarole</string>
-			<string>raspberries</string>
-			<string>pears</string>
-			<string>prunes</string>
 		</array>
 	</dict>
 	<key>custards</key>
@@ -3152,12 +2779,13 @@
 			<string>cinnamon</string>
 			<string>coconut</string>
 			<string>coffee</string>
-			<string>cognac cointreau</string>
+			<string>cognac</string>
+			<string>cointreau</string>
 			<string>ginger</string>
 			<string>lemon</string>
 			<string>maple</string>
 			<string>marsala</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>passion fruit</string>
 			<string>pineapple</string>
 			<string>rice</string>
@@ -3165,13 +2793,6 @@
 			<string>strawberries</string>
 			<string>vanilla</string>
 			<string>cherries</string>
-			<string>chocolate</string>
-			<string>coffee</string>
-			<string>passion fruit</string>
-			<string>cinnamon</string>
-			<string>oranges</string>
-			<string>caramel</string>
-			<string>maple</string>
 		</array>
 	</dict>
 	<key>dandelion greens</key>
@@ -3222,14 +2843,6 @@
 			<string>vanilla</string>
 			<string>walnuts</string>
 			<string>apples</string>
-			<string>chocolate</string>
-			<string>bacon</string>
-			<string>cinnamon</string>
-			<string>nuts</string>
-			<string>orange</string>
-			<string>pecans</string>
-			<string>caramel</string>
-			<string>walnuts</string>
 		</array>
 	</dict>
 	<key>duck</key>
@@ -3253,7 +2866,7 @@
 			<string>artichokes</string>
 			<string>basil</string>
 			<string>blackberries</string>
-			<string>blood oranges</string>
+			<string>blood orange</string>
 			<string>bourbon</string>
 			<string>brandy</string>
 			<string>cabbage</string>
@@ -3292,7 +2905,7 @@
 			<string>olive oil</string>
 			<string>olives</string>
 			<string>onions</string>
-			<string>oranges</string>
+			<string>orange</string>
 			<string>paprika</string>
 			<string>parsley</string>
 			<string>peaches</string>
@@ -3443,32 +3056,6 @@
 			<string>zucchini</string>
 			<string>bass, striped</string>
 			<string>cod</string>
-			<string>mozzarella cheese</string>
-			<string>bechamel sauce</string>
-			<string>bacon</string>
-			<string>tarragon</string>
-			<string>vinegar</string>
-			<string>balsamic vinegar</string>
-			<string>pignoli</string>
-			<string>onions</string>
-			<string>lamb</string>
-			<string>pesto</string>
-			<string>thyme</string>
-			<string>rosemary</string>
-			<string>parmesan cheese</string>
-			<string>walnuts</string>
-			<string>aioli</string>
-			<string>garlic</string>
-			<string>cheese</string>
-			<string>mint</string>
-			<string>zucchini</string>
-			<string>shallots</string>
-			<string>salt</string>
-			<string>rice</string>
-			<string>goat cheese</string>
-			<string>cumin</string>
-			<string>bread crumbs</string>
-			<string>yogurt</string>
 		</array>
 	</dict>
 	<key>eggs</key>
@@ -3518,29 +3105,15 @@
 			<string>sorrel</string>
 			<string>spinach</string>
 			<string>tomato</string>
-			<string>truffles</string>
+			<string>truffle</string>
 			<string>watercress</string>
-			<string>anchovies</string>
-			<string>asparagus</string>
 			<string>bananas</string>
 			<string>beets</string>
 			<string>brains</string>
 			<string>kasha</string>
 			<string>crepes</string>
 			<string>chanterelles</string>
-			<string>chicken livers</string>
 			<string>escarole</string>
-			<string>bacon</string>
-			<string>croutons</string>
-			<string>crab</string>
-			<string>onions</string>
-			<string>tomato</string>
-			<string>bread</string>
-			<string>potatoes</string>
-			<string>parmesan cheese</string>
-			<string>cheese</string>
-			<string>spinach</string>
-			<string>morels</string>
 		</array>
 	</dict>
 	<key>endive</key>
@@ -3587,27 +3160,7 @@
 			<string>thyme vinaigrette</string>
 			<string>walnuts</string>
 			<string>watercress</string>
-			<string>apples</string>
-			<string>beets</string>
 			<string>chicken</string>
-			<string>figs</string>
-			<string>bacon</string>
-			<string>scallops</string>
-			<string>pears</string>
-			<string>kumquats</string>
-			<string>orange</string>
-			<string>parmesan cheese</string>
-			<string>smoked trout</string>
-			<string>walnuts</string>
-			<string>cheese</string>
-			<string>watercress</string>
-			<string>white beans</string>
-			<string>mornay sauce</string>
-			<string>sugar</string>
-			<string>smoked salmon</string>
-			<string>bread crumbs</string>
-			<string>butter</string>
-			<string>ham</string>
 		</array>
 	</dict>
 	<key>escarole</key>
@@ -3641,10 +3194,6 @@
 			<string>vinegar</string>
 			<string>walnuts</string>
 			<string>chicken</string>
-			<string>mozzarella cheese</string>
-			<string>bacon</string>
-			<string>vinegar</string>
-			<string>onions</string>
 		</array>
 	</dict>
 	<key>fennel</key>
@@ -3678,8 +3227,9 @@
 			<string>olive oil</string>
 			<string>olives</string>
 			<string>onions</string>
-			<string>oranges</string>
-			<string>pancetta parmesan cheese</string>
+			<string>orange</string>
+			<string>pancetta</string>
+			<string>parmesan cheese</string>
 			<string>peppers pernod</string>
 			<string>potatoes</string>
 			<string>sherry</string>
@@ -3692,23 +3242,9 @@
 			<string>beets</string>
 			<string>carrots</string>
 			<string>celery</string>
-			<string>celery root</string>
 			<string>crepes</string>
-			<string>chestnuts</string>
 			<string>chicken</string>
 			<string>cucumbers</string>
-			<string>pancetta parmesan cheese</string>
-			<string>hearts of palm</string>
-			<string>onions</string>
-			<string>oranges</string>
-			<string>coriander</string>
-			<string>thyme</string>
-			<string>potatoes</string>
-			<string>parmesan cheese</string>
-			<string>peppers pernod</string>
-			<string>garlic</string>
-			<string>cheese</string>
-			<string>sherry</string>
 		</array>
 	</dict>
 	<key>fiddlehead ferns</key>
@@ -3779,6 +3315,7 @@
 		<array>
 			<string>bananas</string>
 			<string>chocolate</string>
+			<string>coconuts</string>
 			<string>custards</string>
 		</array>
 	</dict>
@@ -3792,17 +3329,7 @@
 		<array>
 			<string>chocolate</string>
 			<string>cod</string>
-		</array>
-	</dict>
-	<key>lime lingo berries</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>apricots</string>
+			<string>crayfish</string>
 		</array>
 	</dict>
 	<key>celery seeds</key>
@@ -3836,10 +3363,12 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
+			<string>asparagus</string>
 			<string>fava beans</string>
 			<string>brussels sprouts</string>
 			<string>calves, liver</string>
 			<string>crabs, soft-shell</string>
+			<string>fennel</string>
 		</array>
 	</dict>
 	<key>mozzarella cheese</key>
@@ -3892,6 +3421,7 @@
 		<array>
 			<string>cabbage, cooked</string>
 			<string>celery root</string>
+			<string>cod</string>
 		</array>
 	</dict>
 	<key>turnips</key>
@@ -3944,7 +3474,7 @@
 			<string>endive</string>
 		</array>
 	</dict>
-	<key>malt maple mint</key>
+	<key>sesame oil</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -3952,7 +3482,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>chocolate</string>
+			<string>bean sprouts</string>
 		</array>
 	</dict>
 	<key>prosciutto</key>
@@ -3965,28 +3495,6 @@
 		<array>
 			<string>beets</string>
 			<string>cabbage, red</string>
-		</array>
-	</dict>
-	<key>pancetta parmesan cheese</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>fennel</string>
-		</array>
-	</dict>
-	<key>black truffles</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>crabs</string>
 		</array>
 	</dict>
 	<key>pork</key>
@@ -4122,6 +3630,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
+			<string>apricots</string>
 			<string>beets</string>
 			<string>calves, brains</string>
 			<string>calves, liver</string>
@@ -4213,17 +3722,6 @@
 		<key>Flavors</key>
 		<array>
 			<string>endive</string>
-		</array>
-	</dict>
-	<key>capers caraway seeds</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>cod</string>
 		</array>
 	</dict>
 	<key>croutons</key>
@@ -4321,17 +3819,6 @@
 			<string>eels</string>
 			<string>eggplant</string>
 			<string>escarole</string>
-		</array>
-	</dict>
-	<key>sesame oil</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>bean sprouts</string>
 		</array>
 	</dict>
 	<key>tartar sauce</key>
@@ -4453,6 +3940,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
+			<string>apricots</string>
 			<string>avocados</string>
 			<string>bananas</string>
 			<string>blueberries</string>
@@ -4516,17 +4004,6 @@
 			<string>endive</string>
 		</array>
 	</dict>
-	<key>blood oranges</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>duck</string>
-		</array>
-	</dict>
 	<key>crab</key>
 	<dict>
 		<key>Technique</key>
@@ -4561,17 +4038,6 @@
 			<string>celery root</string>
 		</array>
 	</dict>
-	<key>tequila,</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>beans, black</string>
-		</array>
-	</dict>
 	<key>rabbit</key>
 	<dict>
 		<key>Technique</key>
@@ -4594,17 +4060,6 @@
 			<string>chicken livers</string>
 		</array>
 	</dict>
-	<key>grill</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>bluefish</string>
-		</array>
-	</dict>
 	<key>malt</key>
 	<dict>
 		<key>Technique</key>
@@ -4614,6 +4069,7 @@
 		<key>Flavors</key>
 		<array>
 			<string>bananas</string>
+			<string>chocolate</string>
 		</array>
 	</dict>
 	<key>lemon thyme</key>
@@ -4780,17 +4236,6 @@
 			<string>dates</string>
 		</array>
 	</dict>
-	<key>tarragon,</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>apricots</string>
-		</array>
-	</dict>
 	<key>serrano chiles</key>
 	<dict>
 		<key>Technique</key>
@@ -4894,7 +4339,7 @@
 			<string>eggs</string>
 		</array>
 	</dict>
-	<key>yogurt bake</key>
+	<key>morels</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -4902,7 +4347,9 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>bluefish</string>
+			<string>asparagus</string>
+			<string>chicken</string>
+			<string>eggs</string>
 		</array>
 	</dict>
 	<key>mango</key>
@@ -4928,7 +4375,7 @@
 			<string>chicken</string>
 		</array>
 	</dict>
-	<key>wine</key>
+	<key>red onions</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -4936,11 +4383,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>beef</string>
-			<string>bluefish</string>
-			<string>cabbage, red</string>
-			<string>duck</string>
-			<string>eels</string>
+			<string>cucumbers</string>
 		</array>
 	</dict>
 	<key>applejack</key>
@@ -4974,13 +4417,29 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
+			<string>apples</string>
+			<string>apricots</string>
 			<string>asparagus</string>
+			<string>avocados</string>
+			<string>bananas</string>
+			<string>bass</string>
+			<string>beans, black</string>
 			<string>beef</string>
+			<string>beets</string>
 			<string>broccoli</string>
+			<string>capon</string>
+			<string>carrots</string>
 			<string>chestnuts</string>
+			<string>chicken</string>
 			<string>chocolate</string>
+			<string>chocolate, white</string>
+			<string>crabs</string>
+			<string>cranberries</string>
+			<string>custards</string>
 			<string>dates</string>
+			<string>duck</string>
 			<string>endive</string>
+			<string>fennel</string>
 		</array>
 	</dict>
 	<key>pesto</key>
@@ -5020,32 +4479,6 @@
 		<key>Flavors</key>
 		<array>
 			<string>bass</string>
-		</array>
-	</dict>
-	<key>oranges</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>apples</string>
-			<string>apricots</string>
-			<string>avocados</string>
-			<string>bananas</string>
-			<string>bass</string>
-			<string>beans, black</string>
-			<string>beets</string>
-			<string>capon</string>
-			<string>carrots</string>
-			<string>chicken</string>
-			<string>chocolate, white</string>
-			<string>crabs</string>
-			<string>cranberries</string>
-			<string>custards</string>
-			<string>duck</string>
-			<string>fennel</string>
 		</array>
 	</dict>
 	<key>prunes</key>
@@ -5156,7 +4589,7 @@
 			<string>fennel</string>
 		</array>
 	</dict>
-	<key>risotto</key>
+	<key>lettuce</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -5164,7 +4597,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>crepes</string>
+			<string>crabs</string>
 		</array>
 	</dict>
 	<key>potatoes</key>
@@ -5186,6 +4619,7 @@
 			<string>carrots</string>
 			<string>caviar</string>
 			<string>celery root</string>
+			<string>crepes</string>
 			<string>clams</string>
 			<string>cod</string>
 			<string>corned beef</string>
@@ -5218,6 +4652,7 @@
 			<string>apples</string>
 			<string>apricots</string>
 			<string>blueberries</string>
+			<string>custards</string>
 			<string>duck</string>
 		</array>
 	</dict>
@@ -5311,17 +4746,6 @@
 			<string>avocados</string>
 			<string>chocolate</string>
 			<string>duck</string>
-		</array>
-	</dict>
-	<key>wine,</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>calves, head</string>
 		</array>
 	</dict>
 	<key>ice cream</key>
@@ -5563,17 +4987,6 @@
 			<string>chicken</string>
 		</array>
 	</dict>
-	<key>passionfruit</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>coconuts</string>
-		</array>
-	</dict>
 	<key>red chiles</key>
 	<dict>
 		<key>Technique</key>
@@ -5637,6 +5050,17 @@
 			<string>fennel</string>
 		</array>
 	</dict>
+	<key>gochi berries</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>chicken</string>
+		</array>
+	</dict>
 	<key>cheese</key>
 	<dict>
 		<key>Technique</key>
@@ -5693,28 +5117,6 @@
 			<string>crabs</string>
 		</array>
 	</dict>
-	<key>juniperberries</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>cabbage, cooked</string>
-		</array>
-	</dict>
-	<key>cream or milk</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>crayfish</string>
-		</array>
-	</dict>
 	<key>cabbage</key>
 	<dict>
 		<key>Technique</key>
@@ -5740,6 +5142,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
+			<string>chocolate</string>
 			<string>custards</string>
 		</array>
 	</dict>
@@ -5790,6 +5193,7 @@
 			<string>coffee</string>
 			<string>crabs</string>
 			<string>crayfish</string>
+			<string>custards</string>
 			<string>duck</string>
 		</array>
 	</dict>
@@ -5846,19 +5250,6 @@
 		<key>Flavors</key>
 		<array>
 			<string>eels</string>
-		</array>
-	</dict>
-	<key>morels</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>asparagus</string>
-			<string>chicken</string>
-			<string>eggs</string>
 		</array>
 	</dict>
 	<key>zabaione</key>
@@ -6007,6 +5398,7 @@
 			<string>cherries</string>
 			<string>chick peas</string>
 			<string>chicken</string>
+			<string>chocolate</string>
 			<string>cucumbers</string>
 			<string>duck</string>
 			<string>eggplant</string>
@@ -6139,8 +5531,20 @@
 		<key>Flavors</key>
 		<array>
 			<string>bluefish</string>
+			<string>cabbage, cooked</string>
 			<string>cod</string>
 			<string>duck</string>
+		</array>
+	</dict>
+	<key>ratatouille</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>eggs</string>
 		</array>
 	</dict>
 	<key>jalapenos</key>
@@ -6165,6 +5569,17 @@
 			<string>endive</string>
 		</array>
 	</dict>
+	<key>black truffle</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>crabs</string>
+		</array>
+	</dict>
 	<key>pineapple</key>
 	<dict>
 		<key>Technique</key>
@@ -6174,14 +5589,16 @@
 		<key>Flavors</key>
 		<array>
 			<string>apricots</string>
+			<string>avocados</string>
 			<string>bananas</string>
 			<string>blueberries</string>
+			<string>chicken</string>
 			<string>coconuts</string>
 			<string>custards</string>
 			<string>duck</string>
 		</array>
 	</dict>
-	<key>red onions</key>
+	<key>wine</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -6189,7 +5606,12 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>cucumbers</string>
+			<string>beef</string>
+			<string>bluefish</string>
+			<string>cabbage, red</string>
+			<string>calves, head</string>
+			<string>duck</string>
+			<string>eels</string>
 		</array>
 	</dict>
 	<key>salt</key>
@@ -6227,7 +5649,7 @@
 			<string>duck</string>
 		</array>
 	</dict>
-	<key>white truffles</key>
+	<key>tequila</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -6235,7 +5657,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>cardoons</string>
+			<string>beans, black</string>
 		</array>
 	</dict>
 	<key>sage</key>
@@ -6285,17 +5707,6 @@
 			<string>chicken</string>
 			<string>chicken livers</string>
 			<string>crabs</string>
-		</array>
-	</dict>
-	<key>panceta</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>asparagus</string>
 		</array>
 	</dict>
 	<key>pernod</key>
@@ -6500,7 +5911,7 @@
 			<string>endive</string>
 		</array>
 	</dict>
-	<key>cheddar cheese</key>
+	<key>stuffings</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -6508,8 +5919,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>carrots</string>
-			<string>cauliflower</string>
+			<string>chicken</string>
 		</array>
 	</dict>
 	<key>eel blood</key>
@@ -6565,6 +5975,7 @@
 			<string>brussels sprouts</string>
 			<string>cabbage, cooked</string>
 			<string>carrots</string>
+			<string>cauliflower</string>
 			<string>celery</string>
 			<string>celery root</string>
 			<string>crepes</string>
@@ -6642,17 +6053,6 @@
 			<string>crepes</string>
 		</array>
 	</dict>
-	<key>go chi berries</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>chicken</string>
-		</array>
-	</dict>
 	<key>violet</key>
 	<dict>
 		<key>Technique</key>
@@ -6727,6 +6127,7 @@
 			<string>apples</string>
 			<string>bananas</string>
 			<string>berries</string>
+			<string>bluefish</string>
 			<string>chick peas</string>
 			<string>chicken</string>
 			<string>cucumbers</string>
@@ -6783,17 +6184,6 @@
 		<key>Flavors</key>
 		<array>
 			<string>carrots</string>
-		</array>
-	</dict>
-	<key>broil</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>bluefish</string>
 		</array>
 	</dict>
 	<key>barbecue sauce</key>
@@ -7160,6 +6550,17 @@
 			<string>cod</string>
 		</array>
 	</dict>
+	<key>white truffle</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>cardoons</string>
+		</array>
+	</dict>
 	<key>vanilla</key>
 	<dict>
 		<key>Technique</key>
@@ -7219,6 +6620,7 @@
 			<string>celery root</string>
 			<string>crepes</string>
 			<string>chanterelles</string>
+			<string>chestnuts</string>
 			<string>chick peas</string>
 			<string>chicken</string>
 			<string>chicken livers</string>
@@ -7318,7 +6720,7 @@
 			<string>cauliflower</string>
 		</array>
 	</dict>
-	<key>toamtoes</key>
+	<key>lingo berries</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -7326,7 +6728,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>clams</string>
+			<string>apricots</string>
 		</array>
 	</dict>
 	<key>tomatoes</key>
@@ -7345,6 +6747,7 @@
 			<string>beef ribs</string>
 			<string>chick peas</string>
 			<string>chicken</string>
+			<string>clams</string>
 			<string>cod</string>
 			<string>crabs</string>
 			<string>crabs, soft-shell</string>
@@ -7422,17 +6825,6 @@
 			<string>beets</string>
 		</array>
 	</dict>
-	<key>parsley,</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>chestnuts</string>
-		</array>
-	</dict>
 	<key>butter</key>
 	<dict>
 		<key>Technique</key>
@@ -7488,6 +6880,17 @@
 			<string>crabs</string>
 		</array>
 	</dict>
+	<key>blood orange</key>
+	<dict>
+		<key>Technique</key>
+		<array/>
+		<key>Seasons</key>
+		<array/>
+		<key>Flavors</key>
+		<array>
+			<string>duck</string>
+		</array>
+	</dict>
 	<key>veal</key>
 	<dict>
 		<key>Technique</key>
@@ -7524,17 +6927,6 @@
 			<string>fiddlehead ferns</string>
 		</array>
 	</dict>
-	<key>nutmeg,</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>cauliflower</string>
-		</array>
-	</dict>
 	<key>cheddar</key>
 	<dict>
 		<key>Technique</key>
@@ -7567,17 +6959,6 @@
 		<key>Flavors</key>
 		<array>
 			<string>beef</string>
-		</array>
-	</dict>
-	<key>lettuce</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>crabs</string>
 		</array>
 	</dict>
 	<key>pimiento</key>
@@ -7735,7 +7116,7 @@
 			<string>fennel</string>
 		</array>
 	</dict>
-	<key>lovage</key>
+	<key>red wine vinegar</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -7743,7 +7124,8 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>corn</string>
+			<string>cabbage, red</string>
+			<string>dandelion greens</string>
 		</array>
 	</dict>
 	<key>new potatoes</key>
@@ -7808,7 +7190,7 @@
 			<string>carrots</string>
 		</array>
 	</dict>
-	<key>red wine vinegar</key>
+	<key>lovage</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -7816,8 +7198,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>cabbage, red</string>
-			<string>dandelion greens</string>
+			<string>corn</string>
 		</array>
 	</dict>
 	<key>green peppers</key>
@@ -7856,7 +7237,7 @@
 			<string>berries</string>
 		</array>
 	</dict>
-	<key>ratatouille</key>
+	<key>risotto</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -7864,7 +7245,7 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>eggs</string>
+			<string>crepes</string>
 		</array>
 	</dict>
 	<key>plum sauce</key>
@@ -7956,6 +7337,12 @@
 		<key>Flavors</key>
 		<array>
 			<string>artichokes</string>
+			<string>calves, brains</string>
+			<string>capon</string>
+			<string>chicken</string>
+			<string>cod</string>
+			<string>crayfish</string>
+			<string>eggs</string>
 			<string>fennel</string>
 		</array>
 	</dict>
@@ -7988,6 +7375,7 @@
 			<string>cabbage, red</string>
 			<string>calves, brains</string>
 			<string>calves, liver</string>
+			<string>crepes</string>
 			<string>chanterelles</string>
 			<string>cherries</string>
 			<string>chicken</string>
@@ -8122,30 +7510,6 @@
 			<string>clams</string>
 			<string>crabs</string>
 			<string>duck</string>
-		</array>
-	</dict>
-	<key>cognac cointreau</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>custards</string>
-		</array>
-	</dict>
-	<key>pineapples</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>avocados</string>
-			<string>bananas</string>
-			<string>chicken</string>
 		</array>
 	</dict>
 	<key>mocha</key>
@@ -8399,7 +7763,7 @@
 			<string>chocolate</string>
 		</array>
 	</dict>
-	<key>stuffings</key>
+	<key>cheddar cheese</key>
 	<dict>
 		<key>Technique</key>
 		<array/>
@@ -8407,7 +7771,8 @@
 		<array/>
 		<key>Flavors</key>
 		<array>
-			<string>chicken</string>
+			<string>carrots</string>
+			<string>cauliflower</string>
 		</array>
 	</dict>
 	<key>paprika</key>
@@ -8560,6 +7925,7 @@
 			<string>coffee</string>
 			<string>corn</string>
 			<string>crabs</string>
+			<string>crayfish</string>
 			<string>cucumbers</string>
 			<string>currants</string>
 			<string>dates</string>
@@ -8729,22 +8095,6 @@
 			<string>apples</string>
 		</array>
 	</dict>
-	<key>truffles</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>calves, brains</string>
-			<string>capon</string>
-			<string>chicken</string>
-			<string>cod</string>
-			<string>crayfish</string>
-			<string>eggs</string>
-		</array>
-	</dict>
 	<key>achiote</key>
 	<dict>
 		<key>Technique</key>
@@ -8810,17 +8160,6 @@
 		<array>
 			<string>chicken</string>
 			<string>escarole</string>
-		</array>
-	</dict>
-	<key>pepper potatoes</key>
-	<dict>
-		<key>Technique</key>
-		<array/>
-		<key>Seasons</key>
-		<array/>
-		<key>Flavors</key>
-		<array>
-			<string>crepes</string>
 		</array>
 	</dict>
 	<key>peas</key>
@@ -8897,6 +8236,7 @@
 			<string>brains</string>
 			<string>calves, brains</string>
 			<string>catfish</string>
+			<string>cod</string>
 			<string>crabs, soft-shell</string>
 			<string>eggplant</string>
 			<string>eggs</string>

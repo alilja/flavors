@@ -21,4 +21,18 @@ class FoodModel: NSObject {
         self.technique = technique
         self.seasons = seasons
     }
+    
+    func getSimilarity(target: FoodModel) -> Float{
+        let my_set = Set(self.flavors)
+        let target_set = Set(target.flavors)
+        
+        var denom = 1
+        if my_set.count > target_set.count{
+            denom = target_set.count
+        } else if my_set.count < target_set.count{
+            denom = my_set.count
+        }
+        
+        return Float(my_set.intersect(target_set).count) / Float(denom)
+    }
 }
