@@ -23,7 +23,7 @@ class FoodModel: NSObject {
     }
     
     func getSimilarity(target: FoodModel) -> Float{
-        let my_set = Set(self.flavors)
+        let my_set = Set(self.flavors + [self.name])
         let target_set = Set(target.flavors)
         
         var denom = 1

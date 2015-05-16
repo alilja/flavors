@@ -69,7 +69,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func menuChanged(){
-        self.fits = menu.getFits()
+        let rawFits = menu.getFits()
+        let maxFit = maxElement(rawFits.values.array)
+        for (food, raw) in rawFits{
+            self.fits[food] = raw / maxFit
+        }
         self.sharedFlavors = menu.getSharedFlavors(2)
         let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
         collection.reloadData()
@@ -108,9 +112,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
                 let food = menu.foods[indexPath.row]
                 cell.foodLabel!.text = food.name
-                //menu.getFit(food)
-                cell.fitLabel!.text = String(format: "%.0f", self.fits[food]! * 100)
-                
+                //cell.fitLabel!.text = String(format: "%.0f", self.fits[food]! * 100)
+                cell.updateFit(self.fits[food]!)
                 return cell
             } else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell
