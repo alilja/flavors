@@ -61,7 +61,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
         
-        self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
+        //self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
     }
     
     override func didReceiveMemoryWarning() {
@@ -70,9 +70,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func menuChanged(){
         let rawFits = menu.getFits()
-        let maxFit = maxElement(rawFits.values.array)
-        for (food, raw) in rawFits{
-            self.fits[food] = raw / maxFit
+        if rawFits.values.array.count > 0{
+            let maxFit = maxElement(rawFits.values.array)
+            for (food, raw) in rawFits{
+                self.fits[food] = raw / maxFit
+            }
         }
         self.sharedFlavors = menu.getSharedFlavors(2)
         let collection = (mainTable.cellForRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 1)) as! FlavorCell).collectionView
@@ -114,6 +116,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 cell.foodLabel!.text = food.name
                 //cell.fitLabel!.text = String(format: "%.0f", self.fits[food]! * 100)
                 cell.updateFit(self.fits[food]!)
+                cell.selectionStyle = UITableViewCellSelectionStyle.None
                 return cell
             } else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell
@@ -152,11 +155,13 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if tableView == mainTable && indexPath.section == 1 {
-            return self.collectionSize + 10
+            if self.collectionSize > 0{
+                return self.collectionSize + 10
+            }
+            return 0            
         }
         return 44
     }
-    
     
     // MARK: Autocomplete List
     // add in-line completion; probably will need a second layer
@@ -166,6 +171,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     var autocompleteText = [String]()
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        println(indexPath.row)
         if tableView == autocompleteTableView{
             if indexPath.section == 0 {
                 let selectedCell : UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
@@ -173,6 +179,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 updateAutocomplete()
             }
         }
+        /*if tableView == mainTable{
+            if indexPath.section == 0{
+                self.navigationController?.pushViewController(D, animated: <#Bool#>)
+            }
+        }*/
     }
     
     func searchAutocompleteEntriesWithSubstring(substring: String){

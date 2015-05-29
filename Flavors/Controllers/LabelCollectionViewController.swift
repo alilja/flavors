@@ -41,9 +41,19 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell: LabelCell = collectionView.dequeueReusableCellWithReuseIdentifier("FlavorTag", forIndexPath: indexPath) as! LabelCell
+        
         cell.nameLabel!.text = getCellLabel(indexPath)
+        let foodKey = getFlavorArray()[indexPath.row] as! String
+        let food = food_db[foodKey]
+        cell.associatedFoodModel = food
+        
+        cell.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "cellTap"))
         return cell
         
+    }
+    
+    func cellTap(){
+        println("tapped")
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
@@ -57,6 +67,17 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
         return 5
+    }
+    
+    func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
+        println(indexPath.row)
+        let cell: LabelCell = collectionView.cellForItemAtIndexPath(indexPath) as! LabelCell
+        menu.add(cell.associatedFoodModel)
+        self.menuChanged()
+    }
+    
+    func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
     }
     
 }

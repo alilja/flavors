@@ -13,7 +13,7 @@ class FoodCell: UITableViewCell {
     @IBOutlet weak var foodLabel: UILabel!
     @IBOutlet weak var fitIndicator: UIView!
     
-    let fitColors = ["ED2A23", "DA572C", "C68F34", "919542", "9AB550", "7BB75E", "4EB96E"]
+    let fitColors = ["ED2A23", "DA572C", "C68F34", "CCCC27", "96AF51", "7BB75E", "4EB96E"]
     
     // from https://gist.github.com/arshad/de147c42d7b3063ef7bc
     func colorWithHexString (hex:String) -> UIColor {
@@ -40,7 +40,6 @@ class FoodCell: UITableViewCell {
     
     func updateFit(fit: Float){
         let index = Int(floor(fit * 6))
-        println("\(self.foodLabel!.text): \(index)")
         self.fitIndicator.backgroundColor = colorWithHexString(self.fitColors[index])
     }
     

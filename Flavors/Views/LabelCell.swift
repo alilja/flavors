@@ -11,5 +11,8 @@ import UIKit
 class LabelCell: UICollectionViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
-        
+    
+    var associatedFoodModel: FoodModel!
+    
+    
 }
