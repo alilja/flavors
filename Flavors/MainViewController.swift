@@ -61,7 +61,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
         
-        //self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
+        self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
     }
     
     override func didReceiveMemoryWarning() {

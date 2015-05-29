@@ -53,9 +53,11 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func cellTap(recognizer: UITapGestureRecognizer){
-        let cell = recognizer.view as! LabelCell
-        menu.add(cell.associatedFoodModel)
-        self.menuChanged()
+        let foodToAdd = (recognizer.view as! LabelCell).associatedFoodModel
+        if !contains(menu.foods, foodToAdd){
+            menu.add(foodToAdd)
+            self.menuChanged()
+        }
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
