@@ -38,15 +38,19 @@ class MenuModel{
     }
     
     func getSharedFlavors(minShared: Int) -> [String: Int]{
+        let names = Array(map(foods){ $0.name })
         
         // get all flavors in menu
         var flavors = Array<String>()
         println(self.foods)
         for food in self.foods{
             for flavor in food.flavors{
-                flavors.append(flavor)
+                if !contains(names, flavor){
+                    flavors.append(flavor)
+                }
             }
         }
+        
         // count them
         var counted_flavors = [String: Int]()
         for flavor in flavors{
