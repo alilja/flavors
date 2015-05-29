@@ -114,9 +114,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
                 let food = menu.foods[indexPath.row]
                 cell.foodLabel!.text = food.name
-                //cell.fitLabel!.text = String(format: "%.0f", self.fits[food]! * 100)
                 cell.updateFit(self.fits[food]!)
-                cell.selectionStyle = UITableViewCellSelectionStyle.None
                 return cell
             } else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("Flavors", forIndexPath: indexPath) as! FlavorCell
