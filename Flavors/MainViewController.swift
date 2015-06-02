@@ -35,6 +35,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var keyboardSize: CGSize!
     
+    var blurView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,6 +64,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
         
         self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
+        
+        self.blurView = UIVisualEffectView(effect: UIBlurEffect(style: .Light))
+        blurView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        blurView.frame = CGRect(x: self.autocompleteTableView.frame.origin.x, y: self.autocompleteTableView.frame.origin.y, width: self.view.frame.width, height: self.view.frame.height)
+        blurView.hidden = true
+        self.view.insertSubview(blurView, belowSubview: autocompleteTableView)
     }
     
     override func didReceiveMemoryWarning() {
@@ -114,6 +122,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
                 let food = menu.foods[indexPath.row]
                 cell.foodLabel!.text = food.name
+                println(self.fits)
                 cell.updateFit(self.fits[food]!)
                 return cell
             } else {
@@ -209,6 +218,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func updateAutocomplete(){
         autocompleteTableView.hidden = true
+        blurView.hidden = true
         if searchBox.text != "" && contains(food_db.keys.array, searchBox.text){
             let foodToAdd:FoodModel = food_db[searchBox.text]!
             if !contains(menu.foods, foodToAdd){
@@ -229,6 +239,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         if textField == self.searchBox {
             autocompleteTableView.hidden = false
+            blurView.hidden = false
             var substring = (self.searchBox.text as NSString).stringByReplacingCharactersInRange(range, withString: string)
             
             self.searchAutocompleteEntriesWithSubstring(substring)

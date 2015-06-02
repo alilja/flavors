@@ -9,6 +9,8 @@
 import Foundation
 
 class MenuModel{
+    var foodNames = [String]()
+    
     private var _foods: Array<FoodModel>
     var foods: Array<FoodModel> {
         get {
@@ -19,6 +21,7 @@ class MenuModel{
             for food in self._foods{
                 food.menu = self
             }
+            self.foodNames = Array(map(self._foods){ $0.name })
         }
     }
     
@@ -37,18 +40,22 @@ class MenuModel{
         self.add([newFood])
     }
     
+    
     func getSharedFlavors(minShared: Int) -> [String: Int]{
-        let names = Array(map(foods){ $0.name })
         
         // get all flavors in menu
         var flavors = Array<String>()
         println(self.foods)
         for food in self.foods{
             for flavor in food.flavors{
-                if !contains(names, flavor){
+                if !contains(self.foodNames, flavor){
                     flavors.append(flavor)
                 }
             }
+        }
+        
+        if flavors.count == 0{
+            return ["": 0]
         }
         
         // count them
