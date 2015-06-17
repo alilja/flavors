@@ -141,6 +141,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 cell.collectionView.delegate = self
                 cell.collectionView.dataSource = self
                 cell.collectionView.tag = indexPath.row
+                cell.backgroundColor = UIColor.clearColor()
                 return cell
             }
         }

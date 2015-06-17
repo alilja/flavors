@@ -20,8 +20,8 @@ class FlavorCell: UITableViewCell {
         self.collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: UICollectionViewLeftAlignedLayout())
         let cellNib = UINib(nibName: "LabelCell", bundle: nil)
         self.collectionView.registerNib(cellNib, forCellWithReuseIdentifier: "FlavorTag")
-        self.collectionView.backgroundColor = UIColor.whiteColor()
-        self.collectionView.contentInset = UIEdgeInsetsMake(5, 5, 0, 10)
+        self.collectionView.backgroundColor = UIColor.clearColor()
+        self.collectionView.contentInset = UIEdgeInsetsMake(10, 10, 0, 10)
         self.collectionView.scrollEnabled = false
         
         self.contentView.addSubview(self.collectionView)

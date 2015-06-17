@@ -33,9 +33,21 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         return "\(count!) \(flavor)"
     }
     
+    func getCellBackgroundColor(indexPath: NSIndexPath) -> CGFloat {
+        if menu.foods.count == 1 {
+            return 1.0
+        }
+        let maxCount = self.sharedFlavors[getFlavorArray()[0] as! String]
+        let count = self.sharedFlavors[getFlavorArray()[indexPath.row] as! String]
+        return CGFloat(count!)/CGFloat(maxCount!)
+    }
+    
     // MARK: CollectionView
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if menu.foods.count == 0{
+            return 0
+        }
         return getFlavorArray().count
     }
     
@@ -43,6 +55,16 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         let cell: LabelCell = collectionView.dequeueReusableCellWithReuseIdentifier("FlavorTag", forIndexPath: indexPath) as! LabelCell
         
         cell.nameLabel!.text = getCellLabel(indexPath)
+        cell.layer.cornerRadius = self.sizingCell.nameLabel.intrinsicContentSize().height
+        cell.layer.masksToBounds = true
+        let white = getCellBackgroundColor(indexPath)
+        cell.backgroundColor = UIColor(white: white, alpha: 1.0)
+        if white <= 0.5 {
+            cell.nameLabel!.textColor = UIColor.whiteColor()
+        } else {
+            cell.nameLabel!.textColor = UIColor.blackColor()
+        }
+        
         let foodKey = getFlavorArray()[indexPath.row] as! String
         let food = food_db[foodKey]
         cell.associatedFoodModel = food
@@ -65,7 +87,7 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
 
         var size = self.sizingCell.nameLabel.intrinsicContentSize()
         size.height *= 2
-        size.width = size.width * 1.2 + 5
+        size.width = size.width * 1.2 + 7
         return size
     }
     

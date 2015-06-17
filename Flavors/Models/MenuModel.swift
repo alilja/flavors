@@ -92,26 +92,4 @@ class MenuModel{
         }
         return output
     }
-    /*
-    func getNormalizedFits() -> [FoodModel: Float]{
-        var output = [FoodModel: Float]()
-        var max: Float = 99999.9
-        var min: Float = 0.0
-        for food in self.foods{
-            var fit = self.getFit(food)
-            if fit > max {
-                max = fit
-            }
-            if fit < min{
-                min = fit
-            }
-            output[food] = fit
-        }
-        
-        for (food, fit) in output {
-            output[food] = (fit - min) / (max - min)
-        }
-        
-        return output
-    }*/
 }
