@@ -63,13 +63,25 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
         
-        self.mainTable.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
+        // Keyboard clearing
+        //self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("hideKeyboard")))
         
-        self.blurView = UIVisualEffectView(effect: UIBlurEffect(style: .Light))
+        // Blur below autocomplete table
+        self.blurView = UIVisualEffectView(effect: UIBlurEffect(style: .Dark))
         blurView.setTranslatesAutoresizingMaskIntoConstraints(false)
         blurView.frame = CGRect(x: self.autocompleteTableView.frame.origin.x, y: self.autocompleteTableView.frame.origin.y, width: self.view.frame.width, height: self.view.frame.height)
         blurView.hidden = true
         self.view.insertSubview(blurView, belowSubview: autocompleteTableView)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated);
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated);
+        super.viewWillDisappear(animated)
     }
     
     override func didReceiveMemoryWarning() {
@@ -122,7 +134,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
                 let food = menu.foods[indexPath.row]
                 cell.foodLabel!.text = food.name
-                println(self.fits)
                 cell.updateFit(self.fits[food]!)
                 return cell
             } else {
@@ -178,7 +189,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     var autocompleteText = [String]()
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        println(indexPath.row)
         if tableView == autocompleteTableView{
             if indexPath.section == 0 {
                 let selectedCell : UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
@@ -186,11 +196,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 updateAutocomplete()
             }
         }
-        /*if tableView == mainTable{
+        if tableView == mainTable{
             if indexPath.section == 0{
-                self.navigationController?.pushViewController(D, animated: <#Bool#>)
+                println(indexPath.row)
+                performSegueWithIdentifier("ShowDetailView", sender: nil)
             }
-        }*/
+        }
     }
     
     func searchAutocompleteEntriesWithSubstring(substring: String){
@@ -285,6 +296,16 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.keyboardSize = CGSize(width: 0, height: 0)
     }
     
+    // MARK: Segues
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowDetailView"{
+            if let destination = segue.destinationViewController as? FoodDetailViewController {
+                if let selectedFoodIndex = mainTable.indexPathForSelectedRow()?.row {
+                    destination.associatedFoodModel = self.menu.foods[selectedFoodIndex]
+                }
+            }
+        }
+    }
 }
 
 

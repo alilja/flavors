@@ -22,7 +22,7 @@
 		492AD8BE1AE83CEC00789082 /* LabelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8BD1AE83CEC00789082 /* LabelCollectionViewController.swift */; };
 		492AD8C01AE83D4D00789082 /* LabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AD8BF1AE83D4D00789082 /* LabelCell.xib */; };
 		492AD8C21AE83E7900789082 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD8C11AE83E7900789082 /* LabelCell.swift */; };
-		49BF7E0A1B0AB2180006FAD3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF7E091B0AB2180006FAD3 /* DetailViewController.swift */; };
+		49847CC91B3215F400E959D7 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49847CC81B3215F400E959D7 /* FoodDetailViewController.swift */; };
 		49C8C3141B016FAC0030E9FB /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8C3131B016FAC0030E9FB /* UICollectionViewLeftAlignedLayout.m */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +57,7 @@
 		492AD8BD1AE83CEC00789082 /* LabelCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelCollectionViewController.swift; path = Controllers/LabelCollectionViewController.swift; sourceTree = "<group>"; };
 		492AD8BF1AE83D4D00789082 /* LabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabelCell.xib; path = Views/LabelCell.xib; sourceTree = "<group>"; };
 		492AD8C11AE83E7900789082 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelCell.swift; path = Views/LabelCell.swift; sourceTree = "<group>"; };
-		49BF7E091B0AB2180006FAD3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controllers/DetailViewController.swift; sourceTree = "<group>"; };
+		49847CC81B3215F400E959D7 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodDetailViewController.swift; path = Controllers/FoodDetailViewController.swift; sourceTree = "<group>"; };
 		49C8C3101B016F100030E9FB /* Flavors-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Flavors-Bridging-Header.h"; path = "Flavors/Resources/Flavors-Bridging-Header.h"; sourceTree = "<group>"; };
 		49C8C3121B016FAC0030E9FB /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
 		49C8C3131B016FAC0030E9FB /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 			children = (
 				492AD8841AE2E0C800789082 /* MainViewController.swift */,
 				492AD8BD1AE83CEC00789082 /* LabelCollectionViewController.swift */,
-				49BF7E091B0AB2180006FAD3 /* DetailViewController.swift */,
+				49847CC81B3215F400E959D7 /* FoodDetailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -313,12 +313,12 @@
 			files = (
 				492AD8AB1AE2EA4E00789082 /* MenuModel.swift in Sources */,
 				492AD8A91AE2EA3500789082 /* FoodModel.swift in Sources */,
+				49847CC91B3215F400E959D7 /* FoodDetailViewController.swift in Sources */,
 				492AD8C21AE83E7900789082 /* LabelCell.swift in Sources */,
 				492AD8B31AE45B7500789082 /* FoodCell.swift in Sources */,
 				492AD8B81AE4605200789082 /* FlavorCell.swift in Sources */,
 				492AD8851AE2E0C800789082 /* MainViewController.swift in Sources */,
 				492AD8BE1AE83CEC00789082 /* LabelCollectionViewController.swift in Sources */,
-				49BF7E0A1B0AB2180006FAD3 /* DetailViewController.swift in Sources */,
 				49C8C3141B016FAC0030E9FB /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				492AD8831AE2E0C800789082 /* AppDelegate.swift in Sources */,
 			);

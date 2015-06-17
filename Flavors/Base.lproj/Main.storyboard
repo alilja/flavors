@@ -27,7 +27,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5HK-5a-fN4" kind="show" id="YTF-08-3up"/>
+                                            <segue destination="5HK-5a-fN4" kind="show" identifier="ShowDetailView" id="RiM-fi-zSe"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -54,7 +54,7 @@
                                     <action selector="addFood:" destination="2Xy-MY-TWe" eventType="touchUpInside" id="UYN-te-pwf"/>
                                 </connections>
                             </button>
-                            <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Y8U-iJ-kBO">
+                            <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Y8U-iJ-kBO">
                                 <rect key="frame" x="0.0" y="87" width="600" height="513"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -72,18 +72,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="trailing" secondItem="Ulw-76-g9i" secondAttribute="trailing" id="0BM-26-jxD"/>
                             <constraint firstItem="Ulw-76-g9i" firstAttribute="top" secondItem="j0A-W3-Evl" secondAttribute="bottom" constant="24" id="6ZL-EP-dQo"/>
                             <constraint firstItem="Ulw-76-g9i" firstAttribute="bottom" secondItem="Oyj-DU-fzY" secondAttribute="top" id="HW8-QO-f19"/>
                             <constraint firstItem="j0A-W3-Evl" firstAttribute="leading" secondItem="iQ4-Jw-Wj2" secondAttribute="leadingMargin" constant="10" id="HsN-7Q-rDS"/>
                             <constraint firstItem="j79-hi-81o" firstAttribute="leading" secondItem="j0A-W3-Evl" secondAttribute="trailing" constant="16" id="VYP-o9-Y3x"/>
                             <constraint firstItem="Oyj-DU-fzY" firstAttribute="top" secondItem="Ulw-76-g9i" secondAttribute="bottom" id="X4B-HG-6RQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="j79-hi-81o" secondAttribute="trailing" constant="6" id="Xg0-qf-Ly5"/>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="top" secondItem="Ulw-76-g9i" secondAttribute="top" id="g21-lq-a1g"/>
                             <constraint firstItem="j0A-W3-Evl" firstAttribute="top" secondItem="7Qt-Yg-UBe" secondAttribute="bottom" constant="13" id="ioR-Zl-Fp1"/>
                             <constraint firstItem="j0A-W3-Evl" firstAttribute="centerY" secondItem="j79-hi-81o" secondAttribute="centerY" id="jHz-Wr-9pU"/>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="bottom" secondItem="Oyj-DU-fzY" secondAttribute="top" id="jyI-Cb-ReD"/>
                             <constraint firstAttribute="trailing" secondItem="Ulw-76-g9i" secondAttribute="trailing" id="kLA-Gk-etw"/>
                             <constraint firstItem="Ulw-76-g9i" firstAttribute="leading" secondItem="iQ4-Jw-Wj2" secondAttribute="leading" id="uUt-EI-yD1"/>
+                            <constraint firstItem="Y8U-iJ-kBO" firstAttribute="leading" secondItem="Ulw-76-g9i" secondAttribute="leading" id="ute-RR-CP7"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="qsG-Wr-uKg"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -97,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="1207" y="331"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Food Detail View Controller-->
         <scene sceneID="PYb-q2-dtM">
             <objects>
-                <viewController id="5HK-5a-fN4" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController id="5HK-5a-fN4" customClass="FoodDetailViewController" customModule="Flavors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M7E-j8-KDe"/>
                         <viewControllerLayoutGuide type="bottom" id="Ac5-7e-uZE"/>
@@ -119,7 +124,8 @@
         <!--Navigation Controller-->
         <scene sceneID="aif-eZ-Pw1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="dFZ-86-zeu" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rS8-EQ-Fc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dFZ-86-zeu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AnZ-Wd-GHC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -130,7 +136,6 @@
                         <segue destination="2Xy-MY-TWe" kind="relationship" relationship="rootViewController" id="VPc-cj-ZYB"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rS8-EQ-Fc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="409" y="331"/>
         </scene>
