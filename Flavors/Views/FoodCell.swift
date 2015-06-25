@@ -12,6 +12,7 @@ class FoodCell: UITableViewCell {
 
     @IBOutlet weak var foodLabel: UILabel!
     @IBOutlet weak var fitIndicator: UIView!
+    @IBOutlet weak var matchingFlavorsLabel: UILabel!
     
     let fitColors = ["ED2A23", "DA572C", "C68F34", "CCCC27", "96AF51", "7BB75E", "4EB96E"]
     
@@ -39,7 +40,11 @@ class FoodCell: UITableViewCell {
     }
     
     func updateFit(fit: Float){
-        let index = Int(floor(fit * 6))
+        var verified_fit = fit;
+        if fit.isNaN{
+            verified_fit = 0.0
+        }
+        let index = Int(floor(verified_fit * 6))
         self.fitIndicator.backgroundColor = colorWithHexString(self.fitColors[index])
     }
     

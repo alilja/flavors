@@ -42,10 +42,8 @@ class MenuModel{
     
     
     func getSharedFlavors(minShared: Int) -> [String: Int]{
-        
         // get all flavors in menu
         var flavors = Array<String>()
-        println(self.foods)
         for food in self.foods{
             for flavor in food.flavors{
                 if !contains(self.foodNames, flavor){
@@ -74,6 +72,12 @@ class MenuModel{
         
         return shared
     }
+    
+    func getSharedFoodFlavors(food: FoodModel, minShared: Int) -> [String]{
+        let shared = Set(getSharedFlavors(minShared).keys)
+        return Array(shared.intersect(Set(food.flavors)))
+    }
+    
     
     func getFits() -> [FoodModel: Float]{
         if self.foods.count == 1{

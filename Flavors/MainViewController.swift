@@ -134,6 +134,13 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                 let cell = tableView.dequeueReusableCellWithIdentifier("Food") as! FoodCell
                 let food = menu.foods[indexPath.row]
                 cell.foodLabel!.text = food.name
+                if menu.foods.count > 1{
+                    let sharedCount = count(menu.getSharedFoodFlavors(food, minShared: 2))
+                    cell.matchingFlavorsLabel!.text = "\(sharedCount) shared flavors"
+                } else {
+                    let flavorCount = count(food.flavors)
+                    cell.matchingFlavorsLabel!.text = "\(flavorCount) matching flavors"
+                }
                 cell.updateFit(self.fits[food]!)
                 return cell
             } else {
@@ -199,7 +206,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         if tableView == mainTable{
             if indexPath.section == 0{
-                println(indexPath.row)
                 performSegueWithIdentifier("ShowDetailView", sender: nil)
             }
         }

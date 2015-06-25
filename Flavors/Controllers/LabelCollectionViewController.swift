@@ -96,7 +96,6 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-        println(indexPath.row)
         let cell: LabelCell = collectionView.cellForItemAtIndexPath(indexPath) as! LabelCell
         menu.add(cell.associatedFoodModel)
         self.menuChanged()
